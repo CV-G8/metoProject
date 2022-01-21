@@ -1,0 +1,50 @@
+{
+  "_from": "@mesh-3d/meteolib-wdv@1.0.7",
+  "_id": "@mesh-3d/meteolib-wdv@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-LVnbnnmJmCI4vxjtRt5reVUNU8w=",
+  "_location": "/@mesh-3d/meteolib-wdv",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@mesh-3d/meteolib-wdv@1.0.7",
+    "name": "@mesh-3d/meteolib-wdv",
+    "escapedName": "@mesh-3d%2fmeteolib-wdv",
+    "scope": "@mesh-3d",
+    "rawSpec": "1.0.7",
+    "saveSpec": null,
+    "fetchSpec": "1.0.7"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/",
+    "/@mesh-3d/weather-dv"
+  ],
+  "_resolved": "http://registry.mesh-3d.com/@mesh-3d/meteolib-wdv/download/@mesh-3d/meteolib-wdv-1.0.7.tgz",
+  "_shasum": "2d59db9e7989982238bf18ed46de6b79550d53cc",
+  "_spec": "@mesh-3d/meteolib-wdv@1.0.7",
+  "_where": "C:\\Users\\yfq\\Desktop\\气象项目\\metoProject",
+  "author": {
+    "name": "Mesh-3D.com",
+    "url": "https://wwww.mesh-3d.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "气象项目常用类库MeteoLib精简版",
+  "devDependencies": {
+    "@mesh-3d/meteolib": "^2.2.3"
+  },
+  "main": "./dist/MeteoLib.js",
+  "maintainers": [
+    {
+      "name": "weixiuyong"
+    }
+  ],
+  "name": "@mesh-3d/meteolib-wdv",
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "types": "./dist/MeteoLib.d.ts",
+  "version": "1.0.7"
+}

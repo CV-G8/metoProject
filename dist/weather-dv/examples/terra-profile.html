@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherDV</title>
+    <link rel="stylesheet" href="../node_modules/@mesh-3d/cesium/Build/Cesium/Widgets/widgets.css">
+    <link rel="stylesheet" href="../node_modules/@mesh-3d/engine-ui/assets/common.css">
+    <style>
+        html,
+        body,
+        #app {
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            min-width: unset;
+            background-color: #4d4d4d;
+        }
+
+        .me-footer {
+            color: rgb(165, 165, 165);
+        }
+
+        .legend-container {
+            position: absolute;
+            z-index: 9;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .me-aside.is-right .me-card{
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="file" hidden=true id="hidden-file-input">
+    <me-container id="app" style="display: none;" v-show="show" theme="dark">
+        <me-header>
+            <me-header-title app-name="GIS工具——地形剖面分析"
+                app-logo="../node_modules/@mesh-3d/engine-ui/assets/images/logo-top.png">
+            </me-header-title>
+        </me-header>
+        <me-main>
+            <me-container direction="vertical">
+                <me-main class="map-container">
+                    <div class="legend-container"></div>
+                </me-main>
+                <me-aside align="right" style="width: 500px;">
+                    <me-card label="参数设置" expand="true">
+                        <me-card-row label="采样间距">
+                            <me-input type="number" v-model="interval" :units="units"></me-input>
+                        </me-card-row>
+                        <me-card-row label="连续分析">
+                            <me-button-group v-model="continueSample"
+                                :options="[{label:'是',value:true},{label:'否',value:false}]"></me-button-group>
+                        </me-card-row>
+                    </me-card>
+                    <me-card>
+                        <me-card-row style="text-align: center;">
+                            <me-button :enabled="!sampling" type="primary" @click="sample">开始</me-button>
+                            <me-button :enabled="sampling" @click="cancel">结束</me-button>
+                        </me-card-row>
+                    </me-card>
+                    <me-progress style="height: 27px;position: relative;" type="mask" :value="progress"></me-progress>
+                    <me-card label="地形剖面图" expand=true>
+                        <me-card-row label="起点">
+                            {{startPoint?startPoint.longitude+',':''}}
+                            {{startPoint?startPoint.latitude:''}}
+                        </me-card-row>
+                        <me-card-row label="终点">
+                            {{stopPoint?stopPoint.longitude+',':''}}
+                            {{stopPoint?stopPoint.latitude:''}}
+                        </me-card-row>
+                        <me-terra-profile :dataset="terrainProfile"></me-terra-profile>
+                    </me-card>
+                    <me-card label="框选地形">
+                        <me-card-row>
+                            <me-button @click="areaSample">开始</me-button>
+                        </me-card-row>
+                        <me-viewer3js style="height: 300px;" :config="viewer3js" @ready="onViewer3jsReady"></me-viewer3js>
+                    </me-card>
+                    
+                </me-aside>
+            </me-container>
+        </me-main>
+        <me-footer>
+            版权所有©️贵州三维网格信息技术有限公司
+        </me-footer>
+    </me-container>
+    <script src="../node_modules/@mesh-3d/cesium/Build/Cesium/Cesium.js"></script>
+    <script src="../node_modules/@mesh-3d/meteolib/appConfig.js"></script>
+    <script src="../node_modules/@mesh-3d/meteolib-wdv/dist/MeteoLib.js"></script>
+    <script src="./terra-profile.js" type="module"></script>
+</body>
+
+</html>

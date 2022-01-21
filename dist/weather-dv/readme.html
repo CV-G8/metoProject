@@ -1,0 +1,730 @@
+<!DOCTYPE html><html><head>
+      <title>readme</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/xiuyongwei/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.6.1/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="%E6%B0%94%E8%B1%A1%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96">&#x6C14;&#x8C61;&#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;</h1>
+
+<h3 class="mume-header" id="%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E8%AF%B7%E5%8B%BF%E5%A4%96%E4%BC%A0"><em>&#x5185;&#x90E8;&#x8D44;&#x6599;&#xFF0C;&#x8BF7;&#x52FF;&#x5916;&#x4F20;</em></h3>
+
+<h2 class="mume-header" id="1-%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86">1&#x3001;&#x6570;&#x636E;&#x91C7;&#x96C6;</h2>
+
+<p>&#x5168;&#x56FD;&#x6C14;&#x8C61;&#x5185;&#x7F51;&#x6570;&#x636E;&#x6E90;&#x4E3B;&#x8981;&#x6709;&#xFF1A;<code>Micaps</code>&#x3001;<code>CIMISS</code>&#x3001;<code>SWAN</code>&#x7B49;&#x3002;&#x968F;&#x7740;&#x5404;&#x5730;&#x5927;&#x6570;&#x636E;&#x5E73;&#x53F0;&#x7684;&#x5EFA;&#x8BBE;&#x5B8C;&#x5584;&#xFF0C;&#x4E5F;&#x51FA;&#x73B0;&#x4E86;&#x66F4;&#x591A;&#x7684;&#x5927;&#x6570;&#x636E;&#x4E91;&#x5E73;&#x53F0;&#x7C7B;&#x7684;&#x6570;&#x636E;&#x6E90;&#xFF0C;&#x4F46;&#x662F;&#x6570;&#x636E;&#x683C;&#x5F0F;&#x53D8;&#x5316;&#x4E0D;&#x5927;&#xFF0C;&#x4ECD;&#x4EE5;<code>Micaps</code>&#x548C;<code>CIMISS</code>&#x539F;&#x6765;&#x5B58;&#x50A8;&#x7684;&#x6570;&#x636E;&#x683C;&#x5F0F;&#x4E3A;&#x4E3B;&#x3002;</p>
+<p><code>Micaps</code>&#x7ECF;&#x8FC7;&#x5C06;&#x8FD1;20&#x5E74;&#x7684;&#x53D1;&#x5C55;&#xFF0C;&#x683C;&#x5F0F;&#x4ECE;&#x539F;&#x6765;&#x7684;&#x5341;&#x51E0;&#x79CD;&#x9010;&#x6E10;&#x8D8B;&#x4E8E;&#x7EDF;&#x4E00;&#xFF1B;<code>CIMISS</code>&#x4E3B;&#x8981;&#x662F;&#x7EDF;&#x4E00;&#x7AD9;&#x70B9;&#x548C;&#x6587;&#x4EF6;&#x578B;&#x6570;&#x636E;&#x7684;&#x5B58;&#x50A8;&#x7ED3;&#x6784;&#xFF0C;&#x5E76;&#x6CA1;&#x6709;&#x5B9A;&#x4E49;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x683C;&#x5F0F;&#xFF0C;&#x5BF9;&#x4E8E;&#x6587;&#x4EF6;&#x7C7B;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x5982;&#x536B;&#x661F;&#x4E91;&#x56FE;&#x4E00;&#x4E8C;&#x7EA7;&#x4EA7;&#x54C1;&#x3001;&#x5929;&#x6C14;&#x96F7;&#x8FBE;&#x57FA;&#x6570;&#x636E;&#x548C;&#x4EA7;&#x54C1;&#x3001;&#x6570;&#x503C;&#x6A21;&#x5F0F;&#x7B49;&#x6570;&#x636E;&#x6587;&#x4EF6;&#xFF0C;&#x8FD8;&#x6CA1;&#x6709;&#x7EDF;&#x4E00;&#xFF0C;&#x4ECD;&#x9700;&#x8981;&#x719F;&#x6089;&#x5404;&#x7C7B;&#x4EA7;&#x54C1;&#x7684;&#x5B58;&#x50A8;&#x683C;&#x5F0F;&#x624D;&#x80FD;&#x6B63;&#x786E;&#x89E3;&#x6790;&#x3002;</p>
+<h3 class="mume-header" id="11-micaps%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86">1.1&#x3001;Micaps&#x6570;&#x636E;&#x91C7;&#x96C6;</h3>
+
+<p>&#x4F7F;&#x7528;<code>Node.js</code>&#x5F00;&#x53D1;&#xFF0C;&#x81EA;&#x52A8;&#x8FD0;&#x884C;&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x7684;&#x670D;&#x52A1;&#xFF0C;&#x8FDB;&#x7A0B;&#x7BA1;&#x7406;&#x91C7;&#x7528;<code>pm2</code>&#xFF0C;&#x91C7;&#x96C6;&#x6838;&#x5FC3;&#x529F;&#x80FD;&#x7531;<a href="http://apps.mesh-3d.com/List/MeteoLib/doc/MeteoLib.Data.Micaps.GDSClient.html">Mesh3D.Data.Micaps.GDSClient</a>&#x63D0;&#x4F9B;&#x3002;</p>
+<h4 class="mume-header" id="111-gdsclient%E6%9C%8D%E5%8A%A1%E5%8F%82%E6%95%B0%E8%AE%BE%E7%BD%AE">1.1.1&#x3001;GDSClient&#x670D;&#x52A1;&#x53C2;&#x6570;&#x8BBE;&#x7F6E;</h4>
+
+<p>&#x8BBE;&#x7F6E;&#x672C;&#x5730;<code>Micaps</code>GDS&#x670D;&#x52A1;IP&#x548C;&#x7AEF;&#x53E3;&#x3002;&#x5404;&#x5730;&#x670D;&#x52A1;&#x5668;IP&#x5730;&#x5740;&#xFF1A;</p>
+<ul>
+<li>&#x8D35;&#x5DDE;&#xFF1A;10.203.7.73</li>
+<li>&#x65B0;&#x7586;&#xFF1A;172.23.163.73</li>
+<li>&#x8FBD;&#x5B81;&#xFF1A;10.86.26.153</li>
+</ul>
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-var">var</span> <span class="token maybe-class-name">GDSClient</span><span class="token operator">=</span><span class="token maybe-class-name">MeteoLib</span><span class="token punctuation">.</span><span class="token property-access"><span class="token maybe-class-name">Data</span></span><span class="token punctuation">.</span><span class="token property-access"><span class="token maybe-class-name">Micaps</span></span><span class="token punctuation">.</span><span class="token property-access"><span class="token maybe-class-name">GDSClient</span></span><span class="token punctuation">;</span>
+<span class="token maybe-class-name">GDSClient</span><span class="token punctuation">.</span><span class="token property-access">config</span><span class="token punctuation">.</span><span class="token property-access">gdsServerIp</span> <span class="token operator">=</span> <span class="token string">&quot;10.86.26.153&quot;</span><span class="token punctuation">;</span>
+<span class="token maybe-class-name">GDSClient</span><span class="token punctuation">.</span><span class="token property-access">config</span><span class="token punctuation">.</span><span class="token property-access">gdsServerPort</span> <span class="token operator">=</span> <span class="token string">&quot;8080&quot;</span><span class="token punctuation">;</span>
+</pre><h4 class="mume-header" id="112-%E5%88%9B%E5%BB%BAgdsclient%E5%AF%B9%E8%B1%A1">1.1.2&#x3001;&#x521B;&#x5EFA;GDSClient&#x5BF9;&#x8C61;</h4>
+
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-var">var</span> gdsClient <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">GDSClient</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">//1&#x3001;&#x5728;&#x524D;&#x7AEF;&#x76F4;&#x63A5;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x548C;&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x6570;&#x636E;&#xFF0C;&#x9700;&#x8981;&#x670D;&#x52A1;&#x7AEF;&#x4EE3;&#x7406;&#xFF0C;&#x89E3;&#x51B3;&#x8DE8;&#x57DF;&#x95EE;&#x9898;</span>
+    <span class="token comment">//2&#x3001;&#x670D;&#x52A1;&#x7AEF;&#x91C7;&#x96C6;&#x4E0D;&#x9700;&#x8981;</span>
+    proxy<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token function-variable function">getUrl</span><span class="token operator">:</span> <span class="token keyword keyword-function">function</span> <span class="token punctuation">(</span><span class="token parameter">srcUrl</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword control-flow keyword-return">return</span> appConfig<span class="token punctuation">.</span><span class="token constant">DATASERVER_URL</span> <span class="token operator">+</span> <span class="token string">&quot;/proxy/&quot;</span> <span class="token operator">+</span> srcUrl<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</pre><h4 class="mume-header" id="113-%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E5%88%97%E8%A1%A8">1.1.3&#x3001;&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x5217;&#x8868;</h4>
+
+<p>&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x65B9;&#x6CD5;<code>getFileList</code>&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x4E3A;&#x6570;&#x636E;&#x76EE;&#x5F55;&#xFF0C;&#x5404;&#x7C7B;&#x4EA7;&#x54C1;&#x6570;&#x636E;&#x76EE;&#x5F55;&#x53C2;&#x89C1;<a href="http://apps.mesh-3d.com/List/MeteoLib/docs/micaps/MICAPS4%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%A7%E5%93%81%E6%B8%85%E5%8D%95-%E7%9C%81%E7%BA%A7201805.pdf">&#x300A;docs/MICAPS4&#x5206;&#x5E03;&#x5F0F;&#x6570;&#x636E;&#x5E93;&#x4EA7;&#x54C1;&#x6E05;&#x5355;-&#x7701;&#x7EA7;201805.pdf&#x300B;</a>&#x3002;</p>
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"> gdsClient<span class="token punctuation">.</span><span class="token method function property-access">getFileList</span><span class="token punctuation">(</span><span class="token string">&quot;SATELLITE/FY2/L1/IR1/EQUAL&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token keyword keyword-function">function</span><span class="token punctuation">(</span><span class="token parameter">mapResult</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+     <span class="token comment">//&#x9519;&#x8BEF;&#x4EE3;&#x7801;</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>mapResult<span class="token punctuation">.</span><span class="token property-access">errorCode</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">//&#x9519;&#x8BEF;&#x4FE1;&#x606F;</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>mapResult<span class="token punctuation">.</span><span class="token property-access">errorMessage</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">//&#x6587;&#x4EF6;&#x5217;&#x8868;&#xFF1A;{fileName,fileSize}[]</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>mapResult<span class="token punctuation">.</span><span class="token property-access">data</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</pre><p>&#x4EE5;&#x793A;&#x4F8B;&#x4E2D;&#x7684;&#x76EE;&#x5F55;&#x4E3A;&#x4F8B;&#xFF1A;<code>SATELLITE/FY2/L1/IR1/EQUAL</code></p>
+<ul>
+<li><code>SATELLITE</code> &#x6570;&#x636E;&#x5927;&#x7C7B;&#x4E3A;&#x536B;&#x661F;&#x6570;&#x636E;</li>
+<li><code>FY2</code> &#x536B;&#x661F;&#x540D;&#x79F0;&#x4E3A;FY2</li>
+<li><code>L1</code> &#x4EA7;&#x54C1;&#x7EA7;&#x522B;&#x4E3A;&#x4E00;&#x7EA7;</li>
+<li><code>IR1</code> &#x901A;&#x9053;&#x4E3A;&#x7EA2;&#x5916;1</li>
+<li><code>EQUAL</code> &#x6295;&#x5F71;&#x65B9;&#x5F0F;&#x4E3A;&#x7B49;&#x7ECF;&#x7EAC;&#x5EA6;&#x6295;&#x5F71;</li>
+</ul>
+<h4 class="mume-header" id="114-%E8%8E%B7%E5%8F%96%E6%9C%80%E6%96%B0%E6%97%B6%E6%AC%A1%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6%E5%90%8D">1.1.4&#x3001;&#x83B7;&#x53D6;&#x6700;&#x65B0;&#x65F6;&#x6B21;&#x6570;&#x636E;&#x6587;&#x4EF6;&#x540D;</h4>
+
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"> gdsClient<span class="token punctuation">.</span><span class="token method function property-access">getLatestDataName</span><span class="token punctuation">(</span><span class="token string">&quot;ECMWF_HR/TMP/850&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;*.024&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token keyword keyword-function">function</span> <span class="token punctuation">(</span><span class="token parameter">strResult</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">//&#x6253;&#x5370;&#x6587;&#x4EF6;&#x540D;</span>
+    <span class="token keyword keyword-var">var</span> fileName<span class="token operator">=</span>strResult<span class="token punctuation">.</span><span class="token property-access">data</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>strResult<span class="token punctuation">.</span><span class="token property-access">data</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h4 class="mume-header" id="115-%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E4%BA%8C%E8%BF%9B%E5%88%B6">1.1.5&#x3001;&#x83B7;&#x53D6;&#x6570;&#x636E;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#xFF08;&#x4E8C;&#x8FDB;&#x5236;&#xFF09;</h4>
+
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-var">var</span> fileName<span class="token operator">=</span> strResult<span class="token punctuation">.</span><span class="token property-access">data</span><span class="token punctuation">;</span>
+gdsClient<span class="token punctuation">.</span><span class="token method function property-access">getData</span><span class="token punctuation">(</span><span class="token string">&quot;ECMWF_HR/TMP/850&quot;</span><span class="token punctuation">,</span>fileName<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token keyword keyword-function">function</span> <span class="token punctuation">(</span><span class="token parameter">bytesResult</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">//&#x4FDD;&#x5B58;&#x6587;&#x4EF6;&#x5230;&#x786C;&#x76D8;</span>
+    fs<span class="token punctuation">.</span><span class="token method function property-access">writeFileSync</span><span class="token punctuation">(</span>fileName<span class="token punctuation">,</span>bytesResult<span class="token punctuation">.</span><span class="token property-access">data</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h2 class="mume-header" id="2-%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90">2&#x3001;&#x6570;&#x636E;&#x89E3;&#x6790;</h2>
+
+<h3 class="mume-header" id="21-%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96">2.1&#x3001;&#x6587;&#x4EF6;&#x8BFB;&#x53D6;</h3>
+
+<h4 class="mume-header" id="211-%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6">2.1.1&#x3001;&#x672C;&#x5730;&#x6587;&#x4EF6;</h4>
+
+<p>&#x8BFB;&#x53D6;&#x901A;&#x8FC7;<code>input</code>&#x6253;&#x5F00;&#x7684;&#x672C;&#x5730;&#x6587;&#x4EF6;&#xFF0C;&#x4F7F;&#x7528;<a href="http://apps.mesh-3d.com/List/MeteoLib/doc/MeteoLib.Util.FileSystem.html">MeteoLib.Util.FileSystem</a>&#x3002;</p>
+<h5 class="mume-header" id="%E8%AF%BB%E5%8F%96%E4%BA%8C%E8%BF%9B%E5%88%B6">&#x8BFB;&#x53D6;&#x4E8C;&#x8FDB;&#x5236;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript"><span class="token keyword keyword-const">const</span> fs <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">MeteoLib<span class="token punctuation">.</span>Util<span class="token punctuation">.</span>FileSystem</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-var">var</span> file <span class="token operator">=</span> inputEl<span class="token punctuation">.</span><span class="token property-access">file</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+fs<span class="token punctuation">.</span><span class="token method function property-access">readFile</span><span class="token punctuation">(</span>file<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token parameter">buf</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">//&#x5F00;&#x59CB;&#x5904;&#x7406;&#x6587;&#x4EF6;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h5 class="mume-header" id="%E8%AF%BB%E5%8F%96%E6%96%87%E6%9C%AC">&#x8BFB;&#x53D6;&#x6587;&#x672C;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript"><span class="token keyword keyword-const">const</span> fs <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">MeteoLib<span class="token punctuation">.</span>Util<span class="token punctuation">.</span>FileSystem</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-var">var</span> file <span class="token operator">=</span> inputEl<span class="token punctuation">.</span><span class="token property-access">file</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+fs<span class="token punctuation">.</span><span class="token method function property-access">readFile</span><span class="token punctuation">(</span>file<span class="token punctuation">,</span><span class="token string">&apos;text&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token parameter">text</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">//&#x5F00;&#x59CB;&#x5904;&#x7406;&#x6587;&#x4EF6;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h4 class="mume-header" id="212-%E7%BD%91%E7%BB%9C%E6%96%87%E4%BB%B6">2.1.2&#x3001;&#x7F51;&#x7EDC;&#x6587;&#x4EF6;</h4>
+
+<p>&#x8BFB;&#x53D6;&#x901A;&#x8FC7;&#x901A;&#x8FC7;&#x670D;&#x52A1;&#x7AEF;&#x53D1;&#x5E03;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x4F7F;&#x7528;<a href="http://apps.mesh-3d.com/List/MeteoLib/doc/MeteoLib.Util.HttpFileSystem.html">MeteoLib.Util.HttpFileSystem</a>&#x3002;</p>
+<h5 class="mume-header" id="%E8%AE%BE%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%8F%82%E6%95%B0">&#x8BBE;&#x7F6E;&#x670D;&#x52A1;&#x53C2;&#x6570;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript"><span class="token keyword keyword-var">var</span> hfs <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">MeteoLib<span class="token punctuation">.</span>Util<span class="token punctuation">.</span>HttpFileSystem</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    config<span class="token operator">:</span> <span class="token punctuation">{</span>
+        baseUrl<span class="token operator">:</span> <span class="token string">&apos;39.107.107.142:18880/hfs&apos;</span><span class="token punctuation">,</span>
+        auth<span class="token operator">:</span> <span class="token punctuation">{</span>
+            uid<span class="token operator">:</span> <span class="token string">&apos;admin&apos;</span><span class="token punctuation">,</span>
+            pwd<span class="token operator">:</span> <span class="token string">&apos;Adnin@123456&apos;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h5 class="mume-header" id="%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%88%97%E8%A1%A8">&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x5939;&#x5217;&#x8868;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript">hfs<span class="token punctuation">.</span><span class="token method function property-access">getDirectoryList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token keyword keyword-function">function</span> <span class="token punctuation">(</span><span class="token parameter">dirList</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>dirList<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h5 class="mume-header" id="%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E5%88%97%E8%A1%A8">&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x5217;&#x8868;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript">hfs<span class="token punctuation">.</span><span class="token method function property-access">getFiles</span><span class="token punctuation">(</span>dir<span class="token punctuation">,</span><span class="token string">&apos;SATELLITE/FY4A/L1/CHINA/C002&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token keyword keyword-function">function</span> <span class="token punctuation">(</span><span class="token parameter">fileList</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>fileList<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h5 class="mume-header" id="%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5">&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript"><span class="token keyword keyword-var">var</span> fileUrl <span class="token operator">=</span> hfs<span class="token punctuation">.</span><span class="token method function property-access">getFileUrl</span><span class="token punctuation">(</span>fileList<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</pre><h5 class="mume-header" id="%E8%AF%BB%E5%8F%96%E4%BA%8C%E8%BF%9B%E5%88%B6-1">&#x8BFB;&#x53D6;&#x4E8C;&#x8FDB;&#x5236;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript">hfs<span class="token punctuation">.</span><span class="token method function property-access">readFile</span><span class="token punctuation">(</span>fileList<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token parameter">buf</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">//&#x5F00;&#x59CB;&#x5904;&#x7406;&#x6587;&#x4EF6;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h5 class="mume-header" id="%E8%AF%BB%E5%8F%96%E6%96%87%E6%9C%AC-1">&#x8BFB;&#x53D6;&#x6587;&#x672C;</h5>
+
+<pre data-role="codeBlock" data-info="js" class="language-javascript">fs<span class="token punctuation">.</span><span class="token method function property-access">readFile</span><span class="token punctuation">(</span>fileList<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">&apos;text&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token parameter">text</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">//&#x5F00;&#x59CB;&#x5904;&#x7406;&#x6587;&#x4EF6;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+</pre><h3 class="mume-header" id="22-micaps%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90">2.2&#x3001;Micaps&#x7AD9;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;</h3>
+
+<p>&#x7AD9;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;&#x4F7F;&#x7528;<a href="http://apps.mesh-3d.com/List/MeteoLib/doc/MeteoLib.Data.Micaps.StationData.html">MeteoLib.Data.Micaps.StationData</a>&#x3002;</p>
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-var">var</span> fileUrl<span class="token operator">=</span><span class="token string">&apos;./20181127152000.000&apos;</span>
+<span class="token keyword keyword-var">var</span> stationData <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">MeteoLib<span class="token punctuation">.</span>Data<span class="token punctuation">.</span>Micaps<span class="token punctuation">.</span>StationData</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword control-flow keyword-if">if</span> <span class="token punctuation">(</span>stationData<span class="token punctuation">.</span><span class="token method function property-access">loadByteArray</span><span class="token punctuation">(</span>buf<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>stationData<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><h4 class="mume-header" id="221-%E6%95%B4%E4%BD%93%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">2.2.1&#x3001;&#x6574;&#x4F53;&#x6570;&#x636E;&#x7ED3;&#x6784;</h4>
+
+<p><img src="assets/images/micaps%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90%E7%BB%93%E6%9E%9C.png" alt="Micaps&#x4E8C;&#x8FDB;&#x5236;&#x7AD9;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;&#x7ED3;&#x679C;"></p>
+<h4 class="mume-header" id="222-%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">2.2.2&#x3001;&#x7AD9;&#x70B9;&#x6570;&#x636E;&#x7ED3;&#x6784;</h4>
+
+<p><img src="assets/images/micaps%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90%E7%BB%93%E6%9E%9C2.png" alt="Micaps&#x4E8C;&#x8FDB;&#x5236;&#x7AD9;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;&#x7ED3;&#x679C;2"></p>
+<h4 class="mume-header" id="223-%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E7%BC%96%E7%A0%81">2.2.3&#x3001;&#x7AD9;&#x70B9;&#x6570;&#x636E;&#x7F16;&#x7801;</h4>
+
+<ul>
+<li>&#x5730;&#x7406;&#x4FE1;&#x606F;&#x7C7B;1-200&#xFF1A;
+<ul>
+<li><code>1</code> &#x7ECF;&#x5EA6;</li>
+<li><code>2</code> &#x7EAC;&#x5EA6;</li>
+<li><code>3</code> &#x6D4B;&#x7AD9;&#x9AD8;&#x5EA6;</li>
+</ul>
+</li>
+<li>&#x98CE;&#x5411;&#x98CE;&#x901F;&#x7C7B;201-400&#xFF1A;
+<ul>
+<li><code>209</code> 2&#x5206;&#x949F;&#x5E73;&#x5747;&#x98CE;&#x5411;</li>
+<li><code>211</code> 2&#x5206;&#x949F;&#x5E73;&#x5747;&#x98CE;&#x901F;</li>
+</ul>
+</li>
+<li>&#x6C14;&#x538B;&#x7C7B;401-600&#xFF1A;
+<ul>
+<li><code>413</code> &#x6C14;&#x538B;</li>
+</ul>
+</li>
+</ul>
+<p>&#x8BE6;&#x7EC6;&#x53C2;&#x6570;&#x89E3;&#x91CA;&#x53CA;&#x7AD9;&#x70B9;&#x6570;&#x636E;&#x7F16;&#x7801;&#x53C2;&#x89C1;&#x6587;&#x6863;<a href="http://apps.mesh-3d.com/List/MeteoLib/doc/MeteoLib.Data.Micaps.StationData.html">MeteoLib.Data.Micaps.StationData</a>&#x3002;</p>
+<h3 class="mume-header" id="23-micaps%E6%A0%BC%E7%82%B9%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90">2.3&#x3001;Micaps&#x683C;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;</h3>
+
+<p>&#x683C;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;&#x4F7F;&#x7528;<a href="http://apps.mesh-3d.com/List/MeteoLib/doc/MeteoLib.Data.Micaps.GridData.html">MeteoLib.Data.Micaps.GridData</a>&#x3002;</p>
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-var">var</span> fileUrl<span class="token operator">=</span><span class="token string">&apos;./18112708.000&apos;</span>
+<span class="token keyword keyword-var">var</span> gridData <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">MeteoLib<span class="token punctuation">.</span>Data<span class="token punctuation">.</span>Micaps<span class="token punctuation">.</span>GridData</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword control-flow keyword-if">if</span> <span class="token punctuation">(</span>gridData<span class="token punctuation">.</span><span class="token method function property-access">loadByteArray</span><span class="token punctuation">(</span>buf<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>gridData<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><h4 class="mume-header" id="231-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">2.3.1&#x3001;&#x6570;&#x636E;&#x7ED3;&#x6784;</h4>
+
+<p><img src="assets/images/micaps%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%A0%BC%E7%82%B9%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90%E7%BB%93%E6%9E%9C.png" alt="Micaps&#x4E8C;&#x8FDB;&#x5236;&#x683C;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;&#x7ED3;&#x679C;"></p>
+<h4 class="mume-header" id="231-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%A3%8E%E5%9C%BA">2.3.1&#x3001;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF08;&#x98CE;&#x573A;&#xFF09;</h4>
+
+<p><img src="assets/images/micaps%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%A0%BC%E7%82%B9%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90%E7%BB%93%E6%9E%9C_%E9%A3%8E%E5%9C%BA.png" alt="Micaps&#x4E8C;&#x8FDB;&#x5236;&#x683C;&#x70B9;&#x6570;&#x636E;&#x89E3;&#x6790;&#x7ED3;&#x679C;"></p>
+<h2 class="mume-header" id="3-%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA">3&#x3001;&#x6570;&#x636E;&#x5C55;&#x793A;</h2>
+
+<h3 class="mume-header" id="31-%E8%89%B2%E6%96%91%E5%9B%BE%E7%BB%98%E5%88%B6">3.1&#x3001;&#x8272;&#x6591;&#x56FE;&#x7ED8;&#x5236;</h3>
+
+<p>&#x6838;&#x5FC3;&#x529F;&#x80FD;&#x7531;<a href="http://apps.mesh-3d.com/List/MeteoLib/doc/MeteoLib.Render.RasterImageGenerator.html">MeteoLib.Render.RasterImageGenerator</a>&#x63D0;&#x4F9B;&#xFF0C;&#x6B64;&#x7C7B;&#x53EF;&#x4EE5;&#x540C;&#x65F6;&#x6D4F;&#x89C8;&#x5668;&#x548C;<code>Node.js</code>&#x73AF;&#x5883;&#x8FD0;&#x884C;&#x3002;</p>
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-var">var</span> rasterImageGenerator<span class="token operator">=</span><span class="token keyword keyword-new">new</span> <span class="token class-name">MeteoLib<span class="token punctuation">.</span>Render<span class="token punctuation">.</span>RasterImageGenerator</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">//&#x8C03;&#x8272;&#x677F;/&#x56FE;&#x4F8B;</span>
+    colorMap<span class="token operator">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">[</span><span class="token number">0.99</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">129</span><span class="token punctuation">,</span> <span class="token number">195</span><span class="token punctuation">,</span> <span class="token number">207</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&quot;1-9mm&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token number">9.99</span><span class="token punctuation">,</span> <span class="token number">24</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">94</span><span class="token punctuation">,</span> <span class="token number">98</span><span class="token punctuation">,</span> <span class="token number">185</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&quot;10-24mm&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token number">24.99</span><span class="token punctuation">,</span> <span class="token number">49</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">227</span><span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token number">235</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&quot;25-49mm&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token number">49.99</span><span class="token punctuation">,</span> <span class="token number">99</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">129</span><span class="token punctuation">,</span> <span class="token number">116</span><span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&quot;50-99mm&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token number">99.99</span><span class="token punctuation">,</span> <span class="token known-class-name class-name">Number</span><span class="token punctuation">.</span><span class="token constant">MAX_VALUE</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">241</span><span class="token punctuation">,</span> <span class="token number">28</span><span class="token punctuation">,</span> <span class="token number">76</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&quot;&#x2265;100mm&quot;</span><span class="token punctuation">]</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//4*3&#x683C;&#x70B9;&#x6570;&#x636E;</span>
+<span class="token keyword keyword-var">var</span> data<span class="token operator">=</span><span class="token punctuation">[</span>
+    <span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span>
+    <span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span>
+    <span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">11</span>
+<span class="token punctuation">]</span>
+<span class="token keyword keyword-var">var</span> width<span class="token operator">=</span><span class="token number">4</span><span class="token punctuation">,</span>height<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-var">var</span> canvas<span class="token operator">=</span>rasterImageGenerator<span class="token punctuation">.</span><span class="token method function property-access">generate</span><span class="token punctuation">(</span>data<span class="token punctuation">,</span>width<span class="token punctuation">,</span>height<span class="token punctuation">)</span>
+</pre><h3 class="mume-header" id="32-%E5%9F%BA%E4%BA%8E%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%B0%E6%8D%AE%E6%98%BE%E7%A4%BA%E5%9B%BE%E5%B1%82%E5%9F%BA%E7%A1%80%E7%B1%BBihfsfilelayer">3.2 &#x57FA;&#x4E8E;&#x6587;&#x4EF6;&#x7684;&#x6570;&#x636E;&#x663E;&#x793A;&#x56FE;&#x5C42;&#x57FA;&#x7840;&#x7C7B;&#xFF1A;IHfsFileLayer</h3>
+
+<p>&#x5B9A;&#x4E49;hfs&#x6587;&#x4EF6;&#x6570;&#x636E;&#x56FE;&#x5C42;&#x63A5;&#x53E3;&#xFF0C;&#x5B9E;&#x73B0;&#x57FA;&#x672C;&#x7684;&#x52A0;&#x8F7D;&#x6D41;&#x7A0B;&#x3002;</p>
+<h4 class="mume-header" id="%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0fileloader-options">&#x6784;&#x9020;&#x51FD;&#x6570;(<code>fileLoader</code>, <code>options</code>)</h4>
+
+<ul>
+<li><code>fileLoader</code>&#xFF1A;&#x6587;&#x4EF6;&#x52A0;&#x8F7D;&#x5668;&#xFF0C;&#x7EDF;&#x4E00;&#x7BA1;&#x7406;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x5237;&#x65B0;&#x3001;&#x6587;&#x4EF6;&#x8BFB;&#x53D6;</li>
+<li><code>options</code>:&#x6587;&#x4EF6;&#x6570;&#x636E;&#x5143;&#x4FE1;&#x606F;
+<ul>
+<li><code>dir</code>: <code>string</code> &#x6570;&#x636E;&#x6839;&#x76EE;&#x5F55;&#x540D;&#x79F0;&#xFF0C;&#x6620;&#x5C04;&#x5230;&#x670D;&#x52A1;&#x7AEF;&#x4E00;&#x4E2A;&#x5177;&#x4F53;&#x7684;&#x7269;&#x7406;&#x8DEF;&#x5F84;&#x3002;</li>
+<li><code>path</code>: <code>string</code> &#x6570;&#x636E;&#x76EE;&#x5F55;&#x76F8;&#x5BF9;&#x4E8E;&#x6839;&#x76EE;&#x5F55;&#x7684;&#x8DEF;&#x5F84;&#x3002;</li>
+<li><code>zIndex</code>: <code>number</code> &#x56FE;&#x5C42;&#x987A;&#x5E8F;&#xFF0C;&#x503C;&#x6700;&#x5927;&#x8868;&#x793A;&#x56FE;&#x5C42;&#x5904;&#x4E8E;&#x6700;&#x4E0A;&#x5C42;&#x3002;</li>
+<li><code>ext</code>: <code>string</code> &#x53EF;&#x9009;&#x3002;&#x6570;&#x636E;&#x6587;&#x4EF6;&#x540E;&#x7F00;&#x3002;</li>
+<li><code>fromDb</code>:<code>boolean</code> &#x53EF;&#x9009;&#x3002;true&#x5219;&#x4ECE;&#x5165;&#x5E93;&#x7ED3;&#x679C;&#x4E2D;&#x67E5;&#x8BE2;&#xFF0C;false&#x5219;&#x76F4;&#x63A5;&#x4ECE;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x4E2D;&#x8BFB;&#x53D6;&#x3002;</li>
+<li><code>timeRegex</code>: <code>string</code> &#x53EF;&#x9009;&#x3002;&#x6587;&#x4EF6;&#x540D;&#x7684;&#x65F6;&#x95F4;&#x683C;&#x5F0F;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;&#x201C;yyyyMMddhhmmss&#x201D;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h4 class="mume-header" id="%E9%80%9A%E7%94%A8%E5%B1%9E%E6%80%A7">&#x901A;&#x7528;&#x5C5E;&#x6027;</h4>
+
+<ul>
+<li><code>fileList</code>: FileInfo[] <code>&#x83B7;&#x53D6;</code>&#x6587;&#x4EF6;&#x5217;&#x8868;</li>
+<li><code>timeList</code>: Date[] <code>&#x83B7;&#x53D6;</code>&#x65F6;&#x95F4;&#x5217;&#x8868;</li>
+<li><code>latestTime</code>: Date <code>&#x83B7;&#x53D6;</code>&#x6700;&#x65B0;&#x65F6;&#x6B21;&#x65F6;&#x95F4;</li>
+<li><code>currentTime</code>: Date <code>&#x83B7;&#x53D6;</code>&#x6216;<code>&#x8BBE;&#x7F6E;</code>&#x7CFB;&#x7EDF;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#xFF0C;&#x901A;&#x77E5;&#x66F4;&#x65B0;&#x56FE;&#x5C42;</li>
+<li><code>currentFile</code>: FileInfo &#x83B7;&#x53D6;&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x4FE1;&#x606F;</li>
+<li><code>ready</code>: boolean <code>&#x83B7;&#x53D6;</code>&#x6587;&#x4EF6;&#x52A0;&#x8F7D;&#x72B6;&#x6001;&#xFF0C;true&#x8868;&#x793A;&#x5F53;&#x524D;&#x65F6;&#x6B21;&#x6570;&#x636E;&#x52A0;&#x8F7D;&#x5B8C;&#x6210;&#xFF0C;false&#x8868;&#x793A;&#x672A;&#x52A0;&#x8F7D;&#x6216;&#x8005;&#x52A0;&#x8F7D;&#x4E2D;</li>
+<li><code>options</code>: object &#x540C;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x7684;options</li>
+<li><code>colorMap</code>: any[] <code>&#x83B7;&#x53D6;</code>&#x5F53;&#x524D;&#x56FE;&#x5C42;&#x6240;&#x7528;&#x7684;&#x8C03;&#x8272;&#x677F;&#x5BF9;&#x8C61;&#xFF0C;ready&#x4E3A;false&#x65F6;&#x8FD4;&#x56DE;undefined</li>
+<li><code>rectangle</code>: Cesium.Rectangle <code>&#x83B7;&#x53D6;</code>&#x56FE;&#x5C42;&#x56DB;&#x81F3;&#x8303;&#x56F4;</li>
+</ul>
+<h4 class="mume-header" id="%E9%80%9A%E7%94%A8%E6%96%B9%E6%B3%95">&#x901A;&#x7528;&#x65B9;&#x6CD5;</h4>
+
+<ul>
+<li><code>updateList</code>(<code>startTime</code>, <code>endTime</code>): <code>Promise&lt;this&gt;</code> &#x66F4;&#x65B0;&#x6587;&#x4EF6;&#x5217;&#x8868;&#xFF0C;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x6309;&#x6307;&#x5B9A;&#x65F6;&#x6BB5;&#x67E5;&#x8BE2;&#xFF0C;&#x5982;&#x672A;&#x6307;&#x5B9A;&#x65F6;&#x6BB5;&#x5219;&#x67E5;&#x8BE2;&#x5168;&#x90E8;
+<ul>
+<li><code>startTime</code>&#xFF1A;&#x53EF;&#x9009;&#x3002;&#x65F6;&#x95F4;&#x5BF9;&#x8C61;&#x6216;&#x8005;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x67E5;&#x8BE2;&#x65F6;&#x6BB5;&#x7684;&#x8D77;&#x59CB;&#x65F6;&#x95F4;</li>
+<li><code>endTime</code>&#xFF1A;&#x53EF;&#x9009;&#x3002;&#x65F6;&#x95F4;&#x5BF9;&#x8C61;&#x6216;&#x8005;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x67E5;&#x8BE2;&#x65F6;&#x6BB5;&#x7684;&#x7ED3;&#x675F;&#x65F6;&#x95F4;</li>
+<li>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5F02;&#x6B65;&#x64CD;&#x4F5C;&#x5BF9;&#x8C61;</li>
+</ul>
+</li>
+<li><code>load</code>(<code>earth</code>): <code>Promise&lt;this&gt;</code> &#x52A0;&#x8F7D;&#x56FE;&#x5C42;&#xFF0C;&#x6DFB;&#x52A0;&#x5230;&#x5730;&#x7403;&#x5BF9;&#x8C61;&#x56FE;&#x5C42;&#x5217;&#x8868;&#xFF0C;&#x540C;&#x65F6;&#x4F7F;&#x5F97;&#x56FE;&#x5C42;&#x83B7;&#x53D6;&#x5230;&#x5730;&#x7403;&#x5BF9;&#x8C61;&#xFF0C;&#x6B63;&#x5F0F;&#x5F00;&#x59CB;&#x6309;&#x9ED8;&#x8BA4;&#x53C2;&#x6570;&#x52A0;&#x8F7D;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x3002;</li>
+</ul>
+<h4 class="mume-header" id="%E5%AD%90%E7%B1%BB%E9%9C%80%E8%A6%81%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%96%B9%E6%B3%95%E5%92%8C%E5%B1%9E%E6%80%A7">&#x5B50;&#x7C7B;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x7684;&#x65B9;&#x6CD5;&#x548C;&#x5C5E;&#x6027;</h4>
+
+<ul>
+<li><code>channelPath</code> :&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>options.path</code>&#x7684;&#x503C;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x5B50;&#x7C7B;&#x91CD;&#x5199;&#x8BFB;&#x5199;&#x5668;&#xFF0C;&#x6839;&#x636E;&#x8981;&#x7D20;&#x3001;&#x5C42;&#x6B21;&#x7B49;&#x5F85;&#x8FD4;&#x56DE;&#x6700;&#x7EC8;&#x7684;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#x3002;</li>
+<li><code>show</code>:&#x53EF;&#x5728;&#x5B50;&#x7C7B;&#x4E2D;&#x91CD;&#x5199;&#x8BFB;&#x5199;&#x5668;&#xFF0C;&#x5B9E;&#x73B0;&#x5177;&#x4F53;&#x53EF;&#x89C6;&#x5316;&#x56FE;&#x5C42;&#x5BF9;&#x8C61;&#xFF08;&#x5982;ImageryLayer&#x3001;Entity&#xFF09;&#x7B49;&#x7684;&#x663E;&#x9690;&#x3002;</li>
+<li><code>updateLayer(layer)</code>&#xFF1A;&#x5B50;&#x7C7B;&#x4E2D;&#x5B9E;&#x73B0;&#xFF0C;&#x52A0;&#x8F7D;&#x5E94;&#x6587;&#x4EF6;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x89C6;&#x5316;&#x5BF9;&#x8C61;&#x7684;&#x521B;&#x5EFA;&#x3001;&#x6DFB;&#x52A0;&#x5230;&#x573A;&#x666F;&#x529F;&#x80FD;&#x3002;&#x5F53;<code>currentTime</code>&#x6539;&#x53D8;&#x65F6;&#xFF0C;&#x81EA;&#x52A8;&#x8C03;&#x7528;&#x6B64;&#x65B9;&#x6CD5;</li>
+<li><code>unload(earth)</code>&#xFF1A;&#x5B50;&#x7C7B;&#x4E2D;&#x5B9E;&#x73B0;&#xFF0C;&#x5378;&#x8F7D;&#x56FE;&#x5C42;&#xFF0C;&#x91CA;&#x653E;&#x6587;&#x4EF6;&#x6570;&#x636E;&#xFF0C;&#x79FB;&#x9664;&#x53EF;&#x89C6;&#x5316;&#x5BF9;&#x8C61;&#x7B49;&#x529F;&#x80FD;&#x3002;</li>
+<li><code>onError(err)</code>&#xFF1A;&#x53EF;&#x4EE5;&#x5728;&#x5B50;&#x7C7B;&#x4E2D;&#x5B9E;&#x73B0;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x4F7F;&#x7528;&#x65F6;&#x5B9E;&#x73B0;&#xFF0C;&#x7528;&#x4E8E;&#x63A5;&#x6536;&#x3001;&#x5904;&#x7406;&#x5185;&#x90E8;&#x4EA7;&#x751F;&#x7684;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#x3002;</li>
+<li><code>onListUpdate(layer)</code>&#xFF1A;&#x53EF;&#x4EE5;&#x5728;&#x5B50;&#x7C7B;&#x4E2D;&#x5B9E;&#x73B0;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x4F7F;&#x7528;&#x65F6;&#x5B9E;&#x73B0;&#xFF0C;&#x5F53;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#xFF0C;&#x81EA;&#x52A8;&#x8C03;&#x7528;&#x3002;</li>
+</ul>
+<h4 class="mume-header" id="%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B">&#x5E94;&#x7528;&#x793A;&#x4F8B;</h4>
+
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-var">var</span> layer <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">IHfsFileLayer</span><span class="token punctuation">(</span>hfsLoader<span class="token punctuation">,</span><span class="token punctuation">{</span>
+    dir<span class="token operator">:</span> <span class="token string">&apos;GZData&apos;</span><span class="token punctuation">,</span>
+    path<span class="token operator">:</span> <span class="token string">&quot;ECMWF_LR/TMP/850&quot;</span><span class="token punctuation">,</span>
+    ext<span class="token operator">:</span> <span class="token string">&apos;*.000&apos;</span><span class="token punctuation">,</span>
+    timeRegex<span class="token operator">:</span> <span class="token string">&apos;yyyyMMddhh&apos;</span><span class="token punctuation">,</span>
+    zIndex<span class="token operator">:</span> <span class="token number">4</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+layer<span class="token punctuation">.</span><span class="token method function property-access">load</span><span class="token punctuation">(</span>earth<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    layer<span class="token punctuation">.</span><span class="token property-access">currentTime</span> <span class="token operator">=</span> layer<span class="token punctuation">.</span><span class="token property-access">latestTime</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre><h3 class="mume-header" id="33-%E6%95%B0%E5%80%BC%E6%A8%A1%E5%BC%8F%E5%9B%BE%E5%B1%82-micapseclayer">3.3 &#x6570;&#x503C;&#x6A21;&#x5F0F;&#x56FE;&#x5C42;: MicapsECLayer</h3>
+
+<ul>
+<li><code>element</code>:   &#x8981;&#x7D20;</li>
+<li><code>level</code>:   &#x5C42;&#x6B21;</li>
+<li><code>forecastTime</code>:  &#x9884;&#x62A5;&#x65F6;&#x95F4;</li>
+<li><code>showIsoLine</code>: &#x662F;&#x5426;&#x663E;&#x793A;&#x7B49;&#x503C;&#x7EBF;</li>
+<li><code>fill</code>: &#x662F;&#x5426;&#x663E;&#x793A;&#x8272;&#x6591;&#x56FE;/&#x586B;&#x5145;&#x989C;&#x8272;</li>
+<li><code>interpolate</code>:true&#x5219;&#x8272;&#x6591;&#x56FE;&#x57FA;&#x4E8E;&#x63D2;&#x503C;&#x7ED3;&#x679C;&#x6570;&#x636E;&#x96C6;&#x7ED8;&#x5236;&#xFF08;&#x7ED3;&#x679C;&#x4E0E;&#x7B49;&#x503C;&#x7EBF;&#x76F8;&#x543B;&#x5408;&#xFF09;&#xFF0C;false&#x5219;&#x4F7F;&#x7528;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7ED8;&#x5236;&#xFF08;&#x539F;&#x59CB;&#x5206;&#x8FA8;&#x7387;&#x8F83;&#x4F4E;&#xFF0C;&#x6240;&#x4EE5;&#x9A6C;&#x8D5B;&#x514B;&#x6BD4;&#x8F83;&#x4E25;&#x91CD;&#xFF09;</li>
+</ul>
+<h3 class="mume-header" id="34-%E5%8D%AB%E6%98%9F%E4%BA%91%E5%9B%BE%E5%9B%BE%E5%B1%82-satecloudlayer">3.4 &#x536B;&#x661F;&#x4E91;&#x56FE;&#x56FE;&#x5C42;: SateCloudLayer</h3>
+
+<ul>
+<li><code>channel</code>: <code>&#x4E91;&#x56FE;&#x901A;&#x9053;</code>
+<ul>
+<li>&#x53EF;&#x89C1;&#x5149;&#xFF1A;C002</li>
+<li>&#x7EA2;&#x5916;&#xFF1A;C012</li>
+<li>&#x6C34;&#x6C7D;&#xFF1A;C008</li>
+</ul>
+</li>
+</ul>
+<h3 class="mume-header" id="35-pup%E5%8D%95%E7%AB%99%E9%9B%B7%E8%BE%BE%E4%BA%A7%E5%93%81%E5%9B%BE%E5%B1%82-pupradarlayer">3.5 PUP&#x5355;&#x7AD9;&#x96F7;&#x8FBE;&#x4EA7;&#x54C1;&#x56FE;&#x5C42;: PUPRadarLayer</h3>
+
+<ul>
+<li><code>station</code>: &#x96F7;&#x8FBE;&#x7AD9;&#x70B9;&#x540D;&#x79F0;</li>
+<li><code>prodCode</code>: &#x4EA7;&#x54C1;&#x4EE3;&#x7801;
+<ul>
+<li>&#x7EC4;&#x5408;&#x53CD;&#x5C04;&#x7387;&#xFF1A; <code>CR/38</code></li>
+<li>&#x56DE;&#x6CE2;&#x9876;&#x9AD8;&#xFF1A;<code>ET/41</code></li>
+<li>&#x6DB2;&#x6001;&#x542B;&#x6C34;&#x91CF;&#xFF1A;<code>VIL/57</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="mume-header" id="36-swan%E9%9B%B7%E8%BE%BE%E6%8B%BC%E5%9B%BE%E5%9B%BE%E5%B1%82-swanradarlayer">3.6 SWAN&#x96F7;&#x8FBE;&#x62FC;&#x56FE;&#x56FE;&#x5C42;: SwanRadarLayer</h3>
+
+<ul>
+<li><code>levelCount</code>: &#x83B7;&#x53D6;&#x62FC;&#x56FE;&#x603B;&#x5C42;&#x6570;</li>
+<li><code>level</code>: &#x83B7;&#x53D6;&#x6216;&#x8BBE;&#x7F6E;&#x5C42;&#x6B21;&#x7D22;&#x5F15;</li>
+</ul>
+<h3 class="mume-header" id="37-%E9%AB%98%E7%A9%BA%E5%A1%AB%E5%9B%BE%E5%9B%BE%E5%B1%82%E5%9B%BE%E5%B1%82-micapsupairlayer">3.7 &#x9AD8;&#x7A7A;&#x586B;&#x56FE;&#x56FE;&#x5C42;&#x56FE;&#x5C42;: MicapsUpAirLayer</h3>
+
+<ul>
+<li><code>symbolSize</code>:&#x7B26;&#x53F7;&#x56FE;&#x7247;&#x5927;&#x5C0F;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>80</code></li>
+<li><code>windSymbolType</code>: &apos;  &#x98CE;&#x5411;&#x7B26;&#x53F7;&#x7C7B;&#x578B;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;&#x98CE;&#x7FBD;/&#x98CE;&#x5411;&#x6746;
+<ul>
+<li><code>windShaft</code> &#xFF1A; &#x98CE;&#x7FBD;</li>
+<li><code>arrow</code> &#xFF1A; &#x7BAD;&#x5934;</li>
+</ul>
+</li>
+<li><code>windSymbolSize</code>:&#x98CE;&#x5411;&#x7B26;&#x53F7;&#x5927;&#x5C0F;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;32</li>
+</ul>
+<h3 class="mume-header" id="38-%E5%9C%B0%E9%9D%A2%E7%9B%91%E6%B5%8B%E8%A6%81%E7%B4%A0%E5%9B%BE%E5%B1%82-surflayer">3.8 &#x5730;&#x9762;&#x76D1;&#x6D4B;&#x8981;&#x7D20;&#x56FE;&#x5C42;: SurfLayer</h3>
+
+<ul>
+<li>
+<p><code>element</code>:   &#x8981;&#x7D20;</p>
+<ul>
+<li>&#x964D;&#x6C34;&#x8981;&#x7D20;&#xFF1A;
+<ul>
+<li>MAX_PRE_1h &#xFF1A;1&#x5C0F;&#x65F6;&#x6700;&#x5927;&#x964D;&#x6C34;&#x91CF;</li>
+<li>PRE_1h &#xFF1A;1&#x5C0F;&#x65F6;&#x964D;&#x6C34;&#x91CF;</li>
+<li>PRE_3h &#xFF1A;3&#x5C0F;&#x65F6;&#x964D;&#x6C34;&#x91CF;</li>
+<li>PRE_6h &#xFF1A;6&#x5C0F;&#x65F6;&#x964D;&#x6C34;&#x91CF;</li>
+<li>PRE_24h &#xFF1A;24&#x5C0F;&#x65F6;&#x964D;&#x6C34;&#x91CF;</li>
+</ul>
+</li>
+<li>&#x5176;&#x4ED6;&#x8981;&#x7D20;&#xFF1A;
+<ul>
+<li>TEM &#xFF1A;&#x6C14;&#x6E29;</li>
+<li>RHU &#xFF1A;&#x76F8;&#x5BF9;&#x6E7F;&#x5EA6;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>textField</code>: &#x6807;&#x6CE8;&#x6587;&#x672C;&#x6240;&#x7528;&#x7684;&#x5B57;&#x6BB5;</p>
+<ul>
+<li>&#x7AD9;&#x53F7;&#xFF1A; <code>Station_Id_C</code></li>
+<li>&#x7AD9;&#x540D;&#xFF1A; <code>Station_Name</code></li>
+</ul>
+</li>
+<li>
+<p><code>showIsoLine</code>: &#x662F;&#x5426;&#x663E;&#x793A;&#x7B49;&#x503C;&#x7EBF;</p>
+</li>
+<li>
+<p><code>fill</code>: &#x662F;&#x5426;&#x663E;&#x793A;&#x8272;&#x6591;&#x56FE;/&#x586B;&#x5145;&#x989C;&#x8272;</p>
+</li>
+<li>
+<p><code>showPoint</code>: &#x662F;&#x5426;&#x663E;&#x793A;&#x6563;&#x70B9;</p>
+</li>
+<li>
+<p><code>showText</code>: &#x662F;&#x5426;&#x663E;&#x793A;&#x6807;&#x6CE8;&#x6587;&#x672C;&#x7684;&#x9644;&#x52A0;&#x90E8;&#x5206;&#xFF0C;&#x5373;&#x7AD9;&#x540D;&#x6216;&#x8005;&#x7AD9;&#x53F7;&#x90E8;&#x5206;</p>
+</li>
+<li>
+<p><code>showValue</code>: &#x662F;&#x5426;&#x6807;&#x6CE8;&#x663E;&#x793A;&#x8981;&#x7D20;&#x7684;&#x6570;&#x503C;</p>
+</li>
+</ul>
+<h3 class="mume-header" id="3n-%E7%BB%BC%E5%90%88%E5%AE%9E%E4%BE%8B">3.n &#x7EFC;&#x5408;&#x5B9E;&#x4F8B;</h3>
+
+<h4 class="mume-header" id="%E7%A1%AE%E8%AE%A4npm-registry%E4%B8%BA%E5%85%AC%E5%8F%B8%E7%A7%81%E6%9C%89%E8%8A%82%E7%82%B9">&#x786E;&#x8BA4;npm registry&#x4E3A;&#x516C;&#x53F8;&#x79C1;&#x6709;&#x8282;&#x70B9;</h4>
+
+<pre data-role="codeBlock" data-info="shell" class="language-shell"><span class="token function">npm</span> config get registry
+</pre><p>&#x7ED3;&#x679C;&#x8F93;&#x51FA;&#x5982;&#x4E0B;&#x4FE1;&#x606F;&#x5219;&#x8868;&#x660E;&#x5DF2;&#x7ECF;&#x8BBE;&#x7F6E;&#x5B8C;&#x6210;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="log" class="language-log"><span class="token url">http://registry.mesh-3d.com/</span>
+</pre><p>&#x5426;&#x5219;&#xFF0C;&#x8FDB;&#x4E00;&#x6B65;&#x8BBE;&#x7F6E;registry&#x4E3A;&#x516C;&#x53F8;&#x79C1;&#x6709;&#x8282;&#x70B9;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="shell" class="language-shell"><span class="token function">npm</span> config get registry http://registry.mesh-3d.com
+</pre><p>&#x5207;&#x6362;&#x8282;&#x70B9;&#x540E;&#x9700;&#x8981;&#x767B;&#x5F55;&#xFF08;&#x4F1A;&#x81EA;&#x52A8;&#x6CE8;&#x518C;&#xFF09;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="shell" class="language-shell"><span class="token function">npm</span> login
+</pre><p>&#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;&#x3001;&#x90AE;&#x7BB1;&#x3001;&#x5BC6;&#x7801;&#x7B49;&#x5B8C;&#x6210;&#x767B;&#x5F55;&#x6216;&#x8005;&#x6CE8;&#x518C;&#x3002;</p>
+<h4 class="mume-header" id="npm%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E5%8C%85">npm&#x5B89;&#x88C5;&#x4F9D;&#x8D56;&#x5305;&#xFF1A;</h4>
+
+<pre data-role="codeBlock" data-info="shell" class="language-shell"><span class="token function">npm</span> i @mesh-3d/cesium
+<span class="token function">npm</span> i @mesh-3d/meteolib-wdv
+<span class="token function">npm</span> i @mesh-3d/weather-dv
+<span class="token function">npm</span> i cesiumvectortile
+</pre><h4 class="mume-header" id="html%E5%BC%95%E7%94%A8js%E6%96%87%E4%BB%B6">html&#x5F15;&#x7528;js&#x6587;&#x4EF6;&#xFF1A;</h4>
+
+<pre data-role="codeBlock" data-info="html" class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>../node_modules/@mesh-3d/cesium/Build/Cesium/Cesium.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span> 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>../node_modules/cesiumvectortile/dist/CesiumVectorTile.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>../node_modules/@mesh-3d/meteolib-wdv/dist/MeteoLib.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span> 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>../node_modules/@mesh-3d/weather-dv/dist/WeatherDV.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</pre><h4 class="mume-header" id="%E5%88%9B%E5%BB%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%9B%BE%E5%B1%82">&#x521B;&#x5EFA;&#x53EF;&#x89C6;&#x5316;&#x56FE;&#x5C42;</h4>
+
+<pre data-role="codeBlock" data-info="JavaScript" class="language-javascript"><span class="token keyword keyword-const">const</span> <span class="token punctuation">{</span>
+    <span class="token maybe-class-name">HfsFileLoader</span><span class="token punctuation">,</span> <span class="token maybe-class-name">SateCloudLayer</span><span class="token punctuation">,</span>
+    <span class="token maybe-class-name">MicapsECLayer</span><span class="token punctuation">,</span> <span class="token maybe-class-name">PUPRadarLayer</span><span class="token punctuation">,</span> 
+    <span class="token maybe-class-name">SwanRadarLayer</span><span class="token punctuation">,</span><span class="token maybe-class-name">MicapsUpAirLayer</span><span class="token punctuation">,</span><span class="token maybe-class-name">SurfLayer</span><span class="token punctuation">,</span>
+    <span class="token maybe-class-name">Earth</span>
+<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token maybe-class-name">WeatherDV</span><span class="token punctuation">;</span>
+  
+<span class="token keyword keyword-const">const</span> <span class="token punctuation">{</span> <span class="token maybe-class-name">RasterImageGenerator</span> <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token maybe-class-name">MeteoLib</span><span class="token punctuation">;</span>
+<span class="token maybe-class-name">RasterImageGenerator</span><span class="token punctuation">.</span><span class="token method function property-access">registerAll</span><span class="token punctuation">(</span><span class="token string">&apos;../assets/pal/&apos;</span><span class="token punctuation">)</span>
+
+<span class="token keyword keyword-var">var</span> viewer<span class="token punctuation">,</span> awxLayer<span class="token punctuation">,</span> earth<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-var">var</span> hfsLoader <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">HfsFileLoader</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    baseUrl<span class="token operator">:</span> <span class="token string">&apos;http://39.107.107.142:18880/hfs&apos;</span><span class="token punctuation">,</span>
+    auth<span class="token operator">:</span> <span class="token punctuation">{</span>
+        uid<span class="token operator">:</span> <span class="token string">&apos;admin&apos;</span><span class="token punctuation">,</span>
+        pwd<span class="token operator">:</span> <span class="token string">&apos;Adnin@123456&apos;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword keyword-var">var</span> mapContainer <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementsByClassName</span><span class="token punctuation">(</span><span class="token string">&apos;map-container&apos;</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+
+earth <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Earth</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    container<span class="token operator">:</span> mapContainer<span class="token punctuation">,</span>
+    creditContainer<span class="token operator">:</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">&apos;div&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    timeline<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    animation<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    infoBox<span class="token operator">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">//ec&#x6570;&#x503C;&#x6A21;&#x5F0F;</span>
+<span class="token keyword keyword-var">var</span> ecLayer <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">MicapsECLayer</span><span class="token punctuation">(</span>hfsLoader<span class="token punctuation">)</span>
+ecLayer<span class="token punctuation">.</span><span class="token method function property-access">load</span><span class="token punctuation">(</span>earth<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    ecLayer<span class="token punctuation">.</span><span class="token property-access">currentTime</span> <span class="token operator">=</span> ecLayer<span class="token punctuation">.</span><span class="token property-access">latestTime</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//&#x536B;&#x661F;&#x4E91;&#x56FE;</span>
+<span class="token keyword keyword-var">var</span> sateLayer <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">SateCloudLayer</span><span class="token punctuation">(</span>hfsLoader<span class="token punctuation">)</span>
+sateLayer<span class="token punctuation">.</span><span class="token method function property-access">load</span><span class="token punctuation">(</span>earth<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    sateLayer<span class="token punctuation">.</span><span class="token property-access">currentTime</span> <span class="token operator">=</span> sateLayer<span class="token punctuation">.</span><span class="token property-access">latestTime</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//pup&#x5355;&#x7AD9;&#x96F7;&#x8FBE;&#x4EA7;&#x54C1;</span>
+<span class="token keyword keyword-var">var</span> pupRadarLayer <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">PUPRadarLayer</span><span class="token punctuation">(</span>hfsLoader<span class="token punctuation">)</span>
+pupRadarLayer<span class="token punctuation">.</span><span class="token method function property-access">load</span><span class="token punctuation">(</span>earth<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    pupRadarLayer<span class="token punctuation">.</span><span class="token property-access">currentTime</span> <span class="token operator">=</span> pupRadarLayer<span class="token punctuation">.</span><span class="token property-access">latestTime</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//&#x96F7;&#x8FBE;&#x62FC;&#x56FE;</span>
+<span class="token keyword keyword-var">var</span> swanRadarLayer <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">SwanRadarLayer</span><span class="token punctuation">(</span>hfsLoader<span class="token punctuation">)</span>
+swanRadarLayer<span class="token punctuation">.</span><span class="token method function property-access">load</span><span class="token punctuation">(</span>earth<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    swanRadarLayer<span class="token punctuation">.</span><span class="token property-access">currentTime</span> <span class="token operator">=</span> swanRadarLayer<span class="token punctuation">.</span><span class="token property-access">latestTime</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//&#x9AD8;&#x7A7A;&#x586B;&#x56FE;</span>
+<span class="token keyword keyword-var">var</span> micapsUpAirLayer <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">MicapsUpAirLayer</span><span class="token punctuation">(</span>hfsLoader<span class="token punctuation">)</span>
+micapsUpAirLayer<span class="token punctuation">.</span><span class="token method function property-access">load</span><span class="token punctuation">(</span>earth<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    micapsUpAirLayer<span class="token punctuation">.</span><span class="token property-access">currentTime</span> <span class="token operator">=</span> micapsUpAirLayer<span class="token punctuation">.</span><span class="token property-access">latestTime</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//&#x5730;&#x9762;&#x76D1;&#x6D4B;</span>
+<span class="token keyword keyword-var">var</span> surfLayer <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">SurfLayer</span><span class="token punctuation">(</span><span class="token keyword keyword-new">new</span> <span class="token class-name">HfsFileLoader</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    baseUrl<span class="token operator">:</span> <span class="token string">&apos;http://192.168.0.8:18099/hfs&apos;</span><span class="token punctuation">,</span>
+    auth<span class="token operator">:</span> <span class="token punctuation">{</span>
+        uid<span class="token operator">:</span> <span class="token string">&apos;admin&apos;</span><span class="token punctuation">,</span>
+        pwd<span class="token operator">:</span> <span class="token string">&apos;Adnin@123456&apos;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+surfLayer<span class="token punctuation">.</span><span class="token method function property-access">load</span><span class="token punctuation">(</span>earth<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=&gt;</span> <span class="token punctuation">{</span>
+    surfLayer<span class="token punctuation">.</span><span class="token property-access">currentTime</span> <span class="token operator">=</span> surfLayer<span class="token punctuation">.</span><span class="token property-access">latestTime</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</pre>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

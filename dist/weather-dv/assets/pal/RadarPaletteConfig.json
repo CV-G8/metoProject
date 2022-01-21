@@ -1,0 +1,60 @@
+﻿//PUP雷达调色板配置文件
+[
+  {
+    "name": "组合反射率",
+    "children": [
+      {
+        name: 'CR-38',
+        dataName: '组合反射率',
+        palattePath: 'Assets/pal/PUP产品-组合反射率-381.xml',
+        selectColorByIndex: false,
+        palatteReverse: false
+      },
+      {
+        name: 'R-38',
+        dataName: '组合反射率',
+        palattePath: 'Assets/pal/Light/R-38.xml',
+        selectColorByIndex: true,
+        palatteReverse: false
+      },
+      {
+        name: 'R-37',
+        dataName: '组合反射率',
+        palattePath: 'Assets/pal/Light/R-37.xml',
+        selectColorByIndex: true,
+        palatteReverse: false
+      },
+      {
+        name: 'R-19',
+        dataName: '组合反射率',
+        palattePath: 'Assets/pal/Light/R-19.xml',
+        selectColorByIndex: true,
+        palatteReverse: false
+      }
+    ]
+  },
+  {
+    "name": "回波顶高",
+    "children": [
+      {
+        name: 'ET-41',
+        dataName: '回波顶高-41',
+        palattePath: 'Assets/pal/PUP产品-回波顶高-411.xml',
+        selectColorByIndex: false,
+        palatteReverse: true
+      }
+    ]
+  },
+  {
+    "name": "垂直积分液态水含量",
+    "children": [
+      {
+        name: 'VIL-57',
+        dataName: '垂直积分液态含水量-57',
+        palattePath: 'Assets/pal/PUP产品-垂直积分液态含水量-571.xml',
+        selectColorByIndex: false,
+        palatteReverse: true
+      }
+    ]
+  } 
+]

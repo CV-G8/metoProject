@@ -1,0 +1,94 @@
+﻿//卫星云图调色板配置文件
+[
+  {
+    "name": "红外",
+    "children": [
+      {
+        name: 'I-01',
+        palattePath: 'Assets/pal/FY4A-L1-CH11-CH14.xml',
+        selectColorByIndex: true,
+        palatteReverse: true
+      },
+      {
+        name: 'i-01_ir1_final',
+        palattePath: 'Assets/pal/Light/i-01_ir1_final.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'I-R4',
+        palattePath: 'Assets/pal/Light/I-R4.xml',
+        selectColorByIndex: true
+      }
+    ]
+  },
+  {
+    "name": "水汽",
+    "children": [
+      {
+        name: 'W-01',
+        palattePath: 'Assets/pal/FY4A-L1-CH9-CH10.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'W-01—old',
+        palattePath: 'Assets/pal/Light/W-01—old.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'W-02',
+        palattePath: 'Assets/pal/W-02.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'W-GOES',
+        palattePath: 'Assets/pal/Light/W-GOES.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'W-ZY',
+        palattePath: 'Assets/pal/Light/W-ZY.xml',
+        selectColorByIndex: true
+      } 
+    ]
+  },
+  {
+    "name": "可见光",
+    "children": [
+      {
+        name: 'V-01',
+        palattePath: 'Assets/pal/FY4A-L1-CH1-CH6.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'V-02',
+        palattePath: 'Assets/pal/Light/V-02.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'V-03',
+        palattePath: 'Assets/pal/Light/V-03.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'V-04',
+        palattePath: 'Assets/pal/Light/V-04.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'V-05',
+        palattePath: 'Assets/pal/Light/V-05.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'V-06',
+        palattePath: 'Assets/pal/Light/V-07.xml',
+        selectColorByIndex: true
+      },
+      {
+        name: 'V-08',
+        palattePath: 'Assets/pal/Light/V-08.xml',
+        selectColorByIndex: true
+      }
+    ]
+  }
+]

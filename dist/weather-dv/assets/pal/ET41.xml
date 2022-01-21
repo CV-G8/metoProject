@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<palette name="ETcolortable" valuedefined="true" entrystyle="Default">
+  <entry value="-5.00" rgba="0,51,255,0" />
+  <entry value="0.00" rgba="0,255,255,255" />
+  <entry value="2.00" rgba="0,204,204,255" />
+  <entry value="3.00" rgba="0,153,102,255" />
+  <entry value="5.00" rgba="0,153,51,255" />
+  <entry value="8.00" rgba="0,204,51,255" />
+  <entry value="9.00" rgba="0,204,0,255" />
+  <entry value="11.00" rgba="0,255,0,255" />
+  <entry value="12.00" rgba="255,255,51,255" />
+  <entry value="14.00" rgba="255,255,0,255" />
+  <entry value="15.00" rgba="255,204,0,255" />
+  <entry value="16.00" rgba="255,153,0,255" />
+  <entry value="17.00" rgba="255,102,0,255" />
+  <entry value="18.00" rgba="255,51,0,255" />
+  <entry value="20.00" rgba="204,0,0,255" />
+</palette>

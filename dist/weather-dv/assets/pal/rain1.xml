@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<palette name="rain" valuedefined="true" entrystyle="Default">
+  <entry value="0.00" rgba="100,0,100,255" />
+  <entry value="5.00" rgba="150,0,150,255" />
+  <entry value="10.00" rgba="191,0,191,255" />
+  <entry value="15.00" rgba="195,6,216,255" />
+  <entry value="20.00" rgba="72,40,201,255" />
+  <entry value="25.00" rgba="29,68,226,255" />
+  <entry value="30.00" rgba="0,123,232,255" />
+  <entry value="35.00" rgba="0,150,158,255" />
+  <entry value="40.00" rgba="0,178,98,255" />
+  <entry value="45.00" rgba="0,214,10,255" />
+  <entry value="50.00" rgba="100,255,0,255" />
+  <entry value="55.00" rgba="140,255,0,255" />
+  <entry value="60.00" rgba="174,255,0,255" />
+  <entry value="65.00" rgba="212,255,0,255" />
+  <entry value="70.00" rgba="246,255,0,255" />
+  <entry value="75.00" rgba="255,225,0,255" />
+  <entry value="80.00" rgba="255,187,0,255" />
+  <entry value="85.00" rgba="255,157,0,255" />
+  <entry value="90.00" rgba="255,136,0,255" />
+  <entry value="95.00" rgba="255,89,0,255" />
+  <entry value="100.00" rgba="255,25,0,255" />
+</palette>

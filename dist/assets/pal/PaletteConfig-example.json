@@ -1,0 +1,41 @@
+﻿[
+  {
+    "name": "红外",
+    "children": [
+      {
+        name: "1",
+        selectColorByIndex: true,
+        palattePath: "",
+        palatteReverse: false,
+        quality: 1,
+        colorMap: []
+      }
+    ]
+  },
+  {
+    "name": "水汽"
+    "children": [
+      {
+        name: "1",
+        selectColorByIndex: true,
+        palattePath: "",
+        palatteReverse: false,
+        quality: 1,
+        colorMap: []
+      }
+    ]
+  },
+  {
+    "name": "可见光"
+    "children": [
+      {
+        name: "1",
+        selectColorByIndex: true,
+        palattePath: "",
+        palatteReverse: false,
+        quality: 1,
+        colorMap: []
+      }
+    ]
+  }
+]

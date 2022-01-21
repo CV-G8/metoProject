@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\hello"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "metoProject"
+	}
+}

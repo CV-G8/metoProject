@@ -1,0 +1,70 @@
+{
+  "name": "meteo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mesh-3d/core": "^1.2.0",
+    "@mesh-3d/earth": "^1.0.3",
+    "@mesh-3d/meteolib-wdv": "^1.1.0",
+    "@mesh-3d/three": "^0.131.1232",
+    "@mesh-3d/weather-dv": "^1.2.7",
+    "@turf/along": "^6.5.0",
+    "@turf/bbox-clip": "^6.5.0",
+    "@types/cesium": "^1.70.0",
+    "cesium": "^1.86.1",
+    "cesiumvectortile": "^1.2.2",
+    "compression-webpack-plugin": "^5.0.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.2.1",
+    "element-ui": "^2.15.6",
+    "json-loader": "^0.5.7",
+    "node-pre-gyp": "^0.17.0",
+    "node-sass": "^4.14.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "image-webpack-loader": "^8.0.1",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "http://git.mesh-3d.com:18088/metoProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

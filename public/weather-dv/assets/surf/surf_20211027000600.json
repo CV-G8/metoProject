@@ -1,0 +1,3667 @@
+{
+    "DS": [
+        {
+            "Station_Name": "鄂托克前旗校准站",
+            "Station_Id_C": "C8730",
+            "Lon": 107.61,
+            "Lat": 38.15,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克旗校准站",
+            "Station_Id_C": "C8529",
+            "Lon": 107.78,
+            "Lat": 39.13,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "伊克乌素",
+            "Station_Id_C": "C3400",
+            "Lon": 107.38,
+            "Lat": 38.32,
+            "MAX_PRE_1h": 6.5
+        },
+        {
+            "Station_Name": "杭锦旗独贵塔拉镇袁家圪楞气象观测站",
+            "Station_Id_C": "C3382",
+            "Lon": 109.19,
+            "Lat": 39.96,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "锡尼镇西郊",
+            "Station_Id_C": "C3381",
+            "Lon": 108.71,
+            "Lat": 39.83,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏里格种苗基地",
+            "Station_Id_C": "C3311",
+            "Lon": 108.75,
+            "Lat": 38.47,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "北区",
+            "Station_Id_C": "C3305",
+            "Lon": 109.73,
+            "Lat": 39.66,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "温家塔",
+            "Station_Id_C": "C3291",
+            "Lon": 110.07,
+            "Lat": 39.23,
+            "MAX_PRE_1h": 5.3
+        },
+        {
+            "Station_Name": "寸草塔",
+            "Station_Id_C": "C3288",
+            "Lon": 110.08,
+            "Lat": 39.42,
+            "MAX_PRE_1h": 13.6
+        },
+        {
+            "Station_Name": "巴图塔",
+            "Station_Id_C": "C3286",
+            "Lon": 110.04,
+            "Lat": 39.49,
+            "MAX_PRE_1h": 22.9
+        },
+        {
+            "Station_Name": "达拉特旗展旦召苏木朝脑沟气象观测站",
+            "Station_Id_C": "C3247",
+            "Lon": 109.9,
+            "Lat": 39.99,
+            "MAX_PRE_1h": 26.3
+        },
+        {
+            "Station_Name": "达拉特旗树林召镇纳林沟门车站气象观测站",
+            "Station_Id_C": "C3246",
+            "Lon": 109.91,
+            "Lat": 40.13,
+            "MAX_PRE_1h": 1.7
+        },
+        {
+            "Station_Name": "达拉特旗展旦召苏木赛乌素气象观测站",
+            "Station_Id_C": "C3245",
+            "Lon": 109.61,
+            "Lat": 39.95,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "伊金霍洛旗纳林陶亥镇榆树沟气象观测站",
+            "Station_Id_C": "C3293",
+            "Lon": 110.03,
+            "Lat": 39.59,
+            "MAX_PRE_1h": 21.2
+        },
+        {
+            "Station_Name": "西出口",
+            "Station_Id_C": "C3241",
+            "Lon": 109.94,
+            "Lat": 40.41,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "盐店村",
+            "Station_Id_C": "C3236",
+            "Lon": 110.34,
+            "Lat": 40.03,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "新民渠村",
+            "Station_Id_C": "C3235",
+            "Lon": 110.15,
+            "Lat": 40.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "王马驹圪卜",
+            "Station_Id_C": "C3233",
+            "Lon": 109.76,
+            "Lat": 40.35,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌兰水库",
+            "Station_Id_C": "C3232",
+            "Lon": 109.26,
+            "Lat": 40.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "东胜区鹿苑公园气象观测站",
+            "Station_Id_C": "C3207",
+            "Lon": 109.97,
+            "Lat": 39.83,
+            "MAX_PRE_1h": 22.5
+        },
+        {
+            "Station_Name": "刘家壕",
+            "Station_Id_C": "C3206",
+            "Lon": 110.03,
+            "Lat": 39.75,
+            "MAX_PRE_1h": 43.5
+        },
+        {
+            "Station_Name": "折家湾",
+            "Station_Id_C": "C3204",
+            "Lon": 109.24,
+            "Lat": 39.79,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苗家圪台",
+            "Station_Id_C": "C3201",
+            "Lon": 109.6,
+            "Lat": 39.93,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克旗棋盘井镇楚鲁拜气象观测站",
+            "Station_Id_C": "C3174",
+            "Lon": 107.22,
+            "Lat": 39.63,
+            "MAX_PRE_1h": 1
+        },
+        {
+            "Station_Name": "伊金霍洛旗校准站",
+            "Station_Id_C": "C8545",
+            "Lon": 109.39,
+            "Lat": 39.35,
+            "MAX_PRE_1h": 1.4
+        },
+        {
+            "Station_Name": "鄂托克旗苏米图苏木大额尔和图气象观测站",
+            "Station_Id_C": "C3173",
+            "Lon": 108.07,
+            "Lat": 38.75,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "水镜湖",
+            "Station_Id_C": "C3162",
+            "Lon": 110.65,
+            "Lat": 40.06,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "折家梁村",
+            "Station_Id_C": "C3161",
+            "Lon": 109.46,
+            "Lat": 39.87,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "九城宫四社",
+            "Station_Id_C": "C3160",
+            "Lon": 109.77,
+            "Lat": 39.8,
+            "MAX_PRE_1h": 7.6
+        },
+        {
+            "Station_Name": "柳青梁",
+            "Station_Id_C": "C3157",
+            "Lon": 111.36,
+            "Lat": 39.8,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "任三窑子",
+            "Station_Id_C": "C3156",
+            "Lon": 110.76,
+            "Lat": 39.87,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "伏路",
+            "Station_Id_C": "C3155",
+            "Lon": 110.92,
+            "Lat": 39.57,
+            "MAX_PRE_1h": 1.6
+        },
+        {
+            "Station_Name": "大圐圙梁",
+            "Station_Id_C": "C3153",
+            "Lon": 111.27,
+            "Lat": 39.45,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "布尔洞沟",
+            "Station_Id_C": "C3151",
+            "Lon": 110.7,
+            "Lat": 39.56,
+            "MAX_PRE_1h": 13.5
+        },
+        {
+            "Station_Name": "阿尔寨",
+            "Station_Id_C": "C3148",
+            "Lon": 107.29,
+            "Lat": 39.84,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "达拉特旗展旦召苏木小布拉格气象观测站",
+            "Station_Id_C": "C3243",
+            "Lon": 109.83,
+            "Lat": 39.93,
+            "MAX_PRE_1h": 1.6
+        },
+        {
+            "Station_Name": "哈日色日",
+            "Station_Id_C": "C3142",
+            "Lon": 107.7,
+            "Lat": 38.06,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沙章图",
+            "Station_Id_C": "C3140",
+            "Lon": 106.61,
+            "Lat": 38.35,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "昂素新牧区",
+            "Station_Id_C": "C3138",
+            "Lon": 108.23,
+            "Lat": 38.24,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "大场则",
+            "Station_Id_C": "C3133",
+            "Lon": 108.46,
+            "Lat": 37.71,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "城川",
+            "Station_Id_C": "C3130",
+            "Lon": 108.29,
+            "Lat": 37.69,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "赛乌素镇",
+            "Station_Id_C": "C3129",
+            "Lon": 107.28,
+            "Lat": 39.12,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "棋盘井镇",
+            "Station_Id_C": "C3127",
+            "Lon": 107.19,
+            "Lat": 39.39,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "高家塔",
+            "Station_Id_C": "C3289",
+            "Lon": 110,
+            "Lat": 39.65,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "罗家湾",
+            "Station_Id_C": "C3126",
+            "Lon": 108.75,
+            "Lat": 39.32,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "蒙西镇",
+            "Station_Id_C": "C3125",
+            "Lon": 106.8,
+            "Lat": 39.86,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "敖伦其日嘎",
+            "Station_Id_C": "C3123",
+            "Lon": 107.99,
+            "Lat": 39.53,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "查汗淖",
+            "Station_Id_C": "C3122",
+            "Lon": 108.07,
+            "Lat": 39.33,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克旗阿尔巴斯苏木脑高岱气象观测测站",
+            "Station_Id_C": "C3120",
+            "Lon": 107.75,
+            "Lat": 39.27,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "木肯淖",
+            "Station_Id_C": "C3119",
+            "Lon": 108.74,
+            "Lat": 39.35,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克旗苏米图苏木查汗敖包气象观测站",
+            "Station_Id_C": "C3118",
+            "Lon": 108.25,
+            "Lat": 38.9,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "大路校准站",
+            "Station_Id_C": "C8553",
+            "Lon": 111.23,
+            "Lat": 40.1,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "旧阿尔巴斯",
+            "Station_Id_C": "C3116",
+            "Lon": 107.14,
+            "Lat": 39.5,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "考考赖",
+            "Station_Id_C": "C3287",
+            "Lon": 110.09,
+            "Lat": 39.5,
+            "MAX_PRE_1h": 26.9
+        },
+        {
+            "Station_Name": "蒙西新民村",
+            "Station_Id_C": "C3115",
+            "Lon": 106.83,
+            "Lat": 39.93,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "三北羊场",
+            "Station_Id_C": "C3113",
+            "Lon": 107.27,
+            "Lat": 39.07,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "公其日嘎",
+            "Station_Id_C": "C3110",
+            "Lon": 107.65,
+            "Lat": 39.84,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌吉尔风电场",
+            "Station_Id_C": "C3109",
+            "Lon": 107.07,
+            "Lat": 40.22,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌定补拉",
+            "Station_Id_C": "C3106",
+            "Lon": 109.1,
+            "Lat": 39.94,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "榆林子村",
+            "Station_Id_C": "C3147",
+            "Lon": 110.28,
+            "Lat": 40.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "浩绕柴登木",
+            "Station_Id_C": "C3105",
+            "Lon": 108.51,
+            "Lat": 39.86,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "麻迷图",
+            "Station_Id_C": "C3104",
+            "Lon": 107.26,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "建设",
+            "Station_Id_C": "C3103",
+            "Lon": 107.07,
+            "Lat": 40.32,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音恩格尔",
+            "Station_Id_C": "C3102",
+            "Lon": 107.18,
+            "Lat": 40.21,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "茅不拉孔兑",
+            "Station_Id_C": "C3100",
+            "Lon": 108.99,
+            "Lat": 40.19,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "神光响沙",
+            "Station_Id_C": "C3099",
+            "Lon": 108.65,
+            "Lat": 40.46,
+            "MAX_PRE_1h": 5.7
+        },
+        {
+            "Station_Name": "杭锦淖尔",
+            "Station_Id_C": "C3097",
+            "Lon": 108.92,
+            "Lat": 40.49,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼和木独",
+            "Station_Id_C": "C3096",
+            "Lon": 107.3,
+            "Lat": 40.6,
+            "MAX_PRE_1h": 0.9
+        },
+        {
+            "Station_Name": "亚什图",
+            "Station_Id_C": "C3095",
+            "Lon": 108.6,
+            "Lat": 39.68,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "杭锦旗巴拉贡气象观测站",
+            "Station_Id_C": "C3091",
+            "Lon": 107.05,
+            "Lat": 40.27,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "敖楞补拉格",
+            "Station_Id_C": "C3108",
+            "Lon": 108.26,
+            "Lat": 39.9,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "杭锦旗独贵塔拉镇乌兰木独气象观测站",
+            "Station_Id_C": "C3090",
+            "Lon": 108.84,
+            "Lat": 40.51,
+            "MAX_PRE_1h": 2
+        },
+        {
+            "Station_Name": "乌审旗无定河镇巴图湾气象观测站",
+            "Station_Id_C": "C3089",
+            "Lon": 108.78,
+            "Lat": 37.95,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "黄陶勒盖",
+            "Station_Id_C": "C3085",
+            "Lon": 109.27,
+            "Lat": 38.63,
+            "MAX_PRE_1h": 33.5
+        },
+        {
+            "Station_Name": "无定河镇",
+            "Station_Id_C": "C3084",
+            "Lon": 108.84,
+            "Lat": 38.14,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴彦希里",
+            "Station_Id_C": "C3083",
+            "Lon": 108.94,
+            "Lat": 38.89,
+            "MAX_PRE_1h": 1.3
+        },
+        {
+            "Station_Name": "呼和陶勒盖",
+            "Station_Id_C": "C3082",
+            "Lon": 108.73,
+            "Lat": 38.94,
+            "MAX_PRE_1h": 2.3
+        },
+        {
+            "Station_Name": "鄂托克旗木肯淖镇沙井气象观测站",
+            "Station_Id_C": "C3114",
+            "Lon": 108.42,
+            "Lat": 39.43,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼吉尔特",
+            "Station_Id_C": "C3080",
+            "Lon": 109.51,
+            "Lat": 38.87,
+            "MAX_PRE_1h": 4.9
+        },
+        {
+            "Station_Name": "昌煌",
+            "Station_Id_C": "C3079",
+            "Lon": 108.57,
+            "Lat": 37.81,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "萨如拉",
+            "Station_Id_C": "C3074",
+            "Lon": 108.57,
+            "Lat": 38.68,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音柴达木",
+            "Station_Id_C": "C3073",
+            "Lon": 108.97,
+            "Lat": 38.38,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏力德苏木",
+            "Station_Id_C": "C3071",
+            "Lon": 108.57,
+            "Lat": 38.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌兰什巴台",
+            "Station_Id_C": "C3070",
+            "Lon": 109.46,
+            "Lat": 39.12,
+            "MAX_PRE_1h": 10.1
+        },
+        {
+            "Station_Name": "尔勒户沟",
+            "Station_Id_C": "C3068",
+            "Lon": 109.17,
+            "Lat": 39.65,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "苏布尔嘎村",
+            "Station_Id_C": "C3066",
+            "Lon": 109.35,
+            "Lat": 39.67,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏泊尔嘎镇",
+            "Station_Id_C": "C3062",
+            "Lon": 109.43,
+            "Lat": 39.57,
+            "MAX_PRE_1h": 9.6
+        },
+        {
+            "Station_Name": "沙圪堵",
+            "Station_Id_C": "C3060",
+            "Lon": 110.86,
+            "Lat": 39.69,
+            "MAX_PRE_1h": 0.8
+        },
+        {
+            "Station_Name": "乌兰木伦镇",
+            "Station_Id_C": "C3059",
+            "Lon": 110.18,
+            "Lat": 39.28,
+            "MAX_PRE_1h": 0.6
+        },
+        {
+            "Station_Name": "成陵旅游区",
+            "Station_Id_C": "C3058",
+            "Lon": 109.8,
+            "Lat": 39.35,
+            "MAX_PRE_1h": 1.4
+        },
+        {
+            "Station_Name": "布连乡",
+            "Station_Id_C": "C3057",
+            "Lon": 109.97,
+            "Lat": 39.32,
+            "MAX_PRE_1h": 1.8
+        },
+        {
+            "Station_Name": "台格苏木",
+            "Station_Id_C": "C3056",
+            "Lon": 109.68,
+            "Lat": 39.12,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "千里沟",
+            "Station_Id_C": "C3117",
+            "Lon": 107.01,
+            "Lat": 39.79,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌审旗校准站",
+            "Station_Id_C": "C8644",
+            "Lon": 108.72,
+            "Lat": 38.66,
+            "MAX_PRE_1h": 6.1
+        },
+        {
+            "Station_Name": "柳林",
+            "Station_Id_C": "C3053",
+            "Lon": 109.7,
+            "Lat": 40.45,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "昭君镇",
+            "Station_Id_C": "C3051",
+            "Lon": 109.6,
+            "Lat": 40.45,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "王爱召镇",
+            "Station_Id_C": "C3049",
+            "Lon": 110.25,
+            "Lat": 40.35,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "白泥井镇",
+            "Station_Id_C": "C3048",
+            "Lon": 110.35,
+            "Lat": 40.3,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "东柳沟",
+            "Station_Id_C": "C3046",
+            "Lon": 110.49,
+            "Lat": 40.02,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "巴彦希里嘎查",
+            "Station_Id_C": "C3144",
+            "Lon": 108.01,
+            "Lat": 37.87,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "壕庆河",
+            "Station_Id_C": "C3043",
+            "Lon": 110.01,
+            "Lat": 39.99,
+            "MAX_PRE_1h": 10.1
+        },
+        {
+            "Station_Name": "西柳沟",
+            "Station_Id_C": "C3042",
+            "Lon": 109.6,
+            "Lat": 39.99,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "麻地梁",
+            "Station_Id_C": "C3154",
+            "Lon": 111.24,
+            "Lat": 39.51,
+            "MAX_PRE_1h": 2.9
+        },
+        {
+            "Station_Name": "黑赖沟",
+            "Station_Id_C": "C3041",
+            "Lon": 109.35,
+            "Lat": 40.07,
+            "MAX_PRE_1h": 2.7
+        },
+        {
+            "Station_Name": "万通农牧业基地",
+            "Station_Id_C": "C3230",
+            "Lon": 110.46,
+            "Lat": 40.3,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "李家塔",
+            "Station_Id_C": "C3284",
+            "Lon": 110.09,
+            "Lat": 39.39,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "布日嘎斯太沟",
+            "Station_Id_C": "C3040",
+            "Lon": 109.15,
+            "Lat": 40.15,
+            "MAX_PRE_1h": 2.8
+        },
+        {
+            "Station_Name": "查干希布图",
+            "Station_Id_C": "C3087",
+            "Lon": 109.23,
+            "Lat": 38.92,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "包乐浩晓",
+            "Station_Id_C": "C3111",
+            "Lon": 107.73,
+            "Lat": 38.88,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音敖包",
+            "Station_Id_C": "C3149",
+            "Lon": 107.55,
+            "Lat": 39.58,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "中和西镇",
+            "Station_Id_C": "C3036",
+            "Lon": 109.14,
+            "Lat": 40.49,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "秦直道",
+            "Station_Id_C": "C3030",
+            "Lon": 109.7,
+            "Lat": 39.85,
+            "MAX_PRE_1h": 5.8
+        },
+        {
+            "Station_Name": "铁西森林公园",
+            "Station_Id_C": "C3029",
+            "Lon": 109.93,
+            "Lat": 39.82,
+            "MAX_PRE_1h": 14.7
+        },
+        {
+            "Station_Name": "万利镇",
+            "Station_Id_C": "C3027",
+            "Lon": 109.95,
+            "Lat": 39.9,
+            "MAX_PRE_1h": 14.6
+        },
+        {
+            "Station_Name": "东胜区泊江海镇侉子壕气象观测站",
+            "Station_Id_C": "C3209",
+            "Lon": 109.47,
+            "Lat": 39.89,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "装备制造基地",
+            "Station_Id_C": "C3026",
+            "Lon": 109.85,
+            "Lat": 39.7,
+            "MAX_PRE_1h": 14.6
+        },
+        {
+            "Station_Name": "巴彦敖包",
+            "Station_Id_C": "C3022",
+            "Lon": 109.24,
+            "Lat": 39.87,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "特拉壕",
+            "Station_Id_C": "C3021",
+            "Lon": 110.09,
+            "Lat": 39.79,
+            "MAX_PRE_1h": 16.4
+        },
+        {
+            "Station_Name": "柴登村",
+            "Station_Id_C": "C3020",
+            "Lon": 109.55,
+            "Lat": 39.87,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "大路峁",
+            "Station_Id_C": "C3017",
+            "Lon": 110.62,
+            "Lat": 39.52,
+            "MAX_PRE_1h": 14.7
+        },
+        {
+            "Station_Name": "羊市塔村",
+            "Station_Id_C": "C3016",
+            "Lon": 110.62,
+            "Lat": 39.34,
+            "MAX_PRE_1h": 6.4
+        },
+        {
+            "Station_Name": "十二连城",
+            "Station_Id_C": "C3014",
+            "Lon": 110.97,
+            "Lat": 40.19,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "大路镇",
+            "Station_Id_C": "C3012",
+            "Lon": 111.38,
+            "Lat": 40.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "泊江海",
+            "Station_Id_C": "C3024",
+            "Lon": 109.44,
+            "Lat": 39.58,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "魏家峁",
+            "Station_Id_C": "C3010",
+            "Lon": 111.36,
+            "Lat": 39.57,
+            "MAX_PRE_1h": 0.5
+        },
+        {
+            "Station_Name": "准格尔召镇",
+            "Station_Id_C": "C3008",
+            "Lon": 110.2,
+            "Lat": 39.7,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "长滩",
+            "Station_Id_C": "C3004",
+            "Lon": 111.13,
+            "Lat": 39.62,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "西营子",
+            "Station_Id_C": "C3003",
+            "Lon": 110.68,
+            "Lat": 39.65,
+            "MAX_PRE_1h": 2
+        },
+        {
+            "Station_Name": "窑沟",
+            "Station_Id_C": "C3002",
+            "Lon": 111.33,
+            "Lat": 39.89,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "大塔新村",
+            "Station_Id_C": "C3005",
+            "Lon": 111.22,
+            "Lat": 39.71,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "准格尔旗龙口气象观测站",
+            "Station_Id_C": "C3001",
+            "Lon": 111.2,
+            "Lat": 39.43,
+            "MAX_PRE_1h": 0.5
+        },
+        {
+            "Station_Name": "乌审旗",
+            "Station_Id_C": "53644",
+            "Lon": 108.83,
+            "Lat": 38.6,
+            "MAX_PRE_1h": 8
+        },
+        {
+            "Station_Name": "准格尔旗",
+            "Station_Id_C": "53553",
+            "Lon": 111.22,
+            "Lat": 39.87,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "巴音乌素",
+            "Station_Id_C": "C3093",
+            "Lon": 108.44,
+            "Lat": 40.16,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌审召",
+            "Station_Id_C": "53547",
+            "Lon": 109.03,
+            "Lat": 39.1,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "西柳沟大桥",
+            "Station_Id_C": "C3238",
+            "Lon": 109.77,
+            "Lat": 40.31,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "伊金霍洛旗",
+            "Station_Id_C": "53545",
+            "Lon": 109.71,
+            "Lat": 39.56,
+            "MAX_PRE_1h": 0.5
+        },
+        {
+            "Station_Name": "土右旗气候校准站",
+            "Station_Id_C": "C8455",
+            "Lon": 110.53,
+            "Lat": 40.43,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巨合滩",
+            "Station_Id_C": "C3159",
+            "Lon": 111.15,
+            "Lat": 40.2,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "张家营子",
+            "Station_Id_C": "C4127",
+            "Lon": 109.72,
+            "Lat": 40.68,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "石拐二矿",
+            "Station_Id_C": "C4126",
+            "Lon": 110.3,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "东河车站",
+            "Station_Id_C": "C4124",
+            "Lon": 110.02,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "查干陶勒盖",
+            "Station_Id_C": "C3170",
+            "Lon": 108.41,
+            "Lat": 39.1,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏泊汉草原",
+            "Station_Id_C": "C3292",
+            "Lon": 109.31,
+            "Lat": 39.67,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "伊克乌素",
+            "Station_Id_C": "53522",
+            "Lon": 107.83,
+            "Lat": 40.05,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "二道川",
+            "Station_Id_C": "C3136",
+            "Lon": 107.58,
+            "Lat": 37.93,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "召潭",
+            "Station_Id_C": "C4121",
+            "Lon": 109.84,
+            "Lat": 40.61,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "二脑包",
+            "Station_Id_C": "C4119",
+            "Lon": 110.44,
+            "Lat": 40.93,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "史家营子",
+            "Station_Id_C": "C4118",
+            "Lon": 109.95,
+            "Lat": 41.25,
+            "MAX_PRE_1h": 1.1
+        },
+        {
+            "Station_Name": "伊金霍洛旗乌兰木伦镇瓷窑湾车站气象观测站",
+            "Station_Id_C": "C3294",
+            "Lon": 110.19,
+            "Lat": 39.35,
+            "MAX_PRE_1h": 17.9
+        },
+        {
+            "Station_Name": "协和义",
+            "Station_Id_C": "C4117",
+            "Lon": 109.97,
+            "Lat": 41.05,
+            "MAX_PRE_1h": 1.9
+        },
+        {
+            "Station_Name": "腮忽洞村",
+            "Station_Id_C": "C4116",
+            "Lon": 110.53,
+            "Lat": 41.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "九华",
+            "Station_Id_C": "C4115",
+            "Lon": 110.48,
+            "Lat": 41.65,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "三道河",
+            "Station_Id_C": "C4113",
+            "Lon": 111.04,
+            "Lat": 40.35,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "五俱牛",
+            "Station_Id_C": "C4111",
+            "Lon": 110.51,
+            "Lat": 40.4,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "杭锦旗校准站",
+            "Station_Id_C": "C8533",
+            "Lon": 108.7,
+            "Lat": 39.88,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "李五营",
+            "Station_Id_C": "C4108",
+            "Lon": 110.27,
+            "Lat": 40.5,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "浩勒报吉",
+            "Station_Id_C": "C3072",
+            "Lon": 109,
+            "Lat": 39.32,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "马留村",
+            "Station_Id_C": "C4107",
+            "Lon": 110.45,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "漫赖",
+            "Station_Id_C": "C3031",
+            "Lon": 109.47,
+            "Lat": 39.8,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "西黑岱",
+            "Station_Id_C": "C3019",
+            "Lon": 111.05,
+            "Lat": 39.88,
+            "MAX_PRE_1h": 1
+        },
+        {
+            "Station_Name": "土默特右旗九峰山管委会三道坝气象观测站",
+            "Station_Id_C": "C4102",
+            "Lon": 110.52,
+            "Lat": 40.71,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "石拐三岔口",
+            "Station_Id_C": "C4100",
+            "Lon": 110.24,
+            "Lat": 40.84,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "脑包沟村",
+            "Station_Id_C": "C4097",
+            "Lon": 110.4,
+            "Lat": 40.67,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "石拐柳树",
+            "Station_Id_C": "C4095",
+            "Lon": 110.19,
+            "Lat": 40.71,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "新民堡",
+            "Station_Id_C": "C3146",
+            "Lon": 110.27,
+            "Lat": 40.2,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "纳日松镇",
+            "Station_Id_C": "C3009",
+            "Lon": 110.48,
+            "Lat": 39.48,
+            "MAX_PRE_1h": 4.6
+        },
+        {
+            "Station_Name": "恩格贝镇",
+            "Station_Id_C": "C3047",
+            "Lon": 109.3,
+            "Lat": 40.43,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "打拉亥",
+            "Station_Id_C": "C4092",
+            "Lon": 109.68,
+            "Lat": 40.62,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "噔口村",
+            "Station_Id_C": "C4091",
+            "Lon": 110.19,
+            "Lat": 40.55,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "西边墙",
+            "Station_Id_C": "C4090",
+            "Lon": 110,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "吉嘎斯太镇",
+            "Station_Id_C": "C3037",
+            "Lon": 110.55,
+            "Lat": 40.31,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "天龙生态园",
+            "Station_Id_C": "C4094",
+            "Lon": 109.84,
+            "Lat": 40.73,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "赖壕沟",
+            "Station_Id_C": "C4085",
+            "Lon": 110.08,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "大德亨",
+            "Station_Id_C": "C4084",
+            "Lon": 110.08,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沙河镇",
+            "Station_Id_C": "C4081",
+            "Lon": 109.96,
+            "Lat": 40.61,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "兴胜镇",
+            "Station_Id_C": "C4079",
+            "Lon": 110.02,
+            "Lat": 40.61,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "朝脑沟",
+            "Station_Id_C": "C3202",
+            "Lon": 109.96,
+            "Lat": 40,
+            "MAX_PRE_1h": 12.8
+        },
+        {
+            "Station_Name": "三城仁壕",
+            "Station_Id_C": "C4075",
+            "Lon": 110.23,
+            "Lat": 40.93,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "阿尔巴斯苏木",
+            "Station_Id_C": "C3124",
+            "Lon": 107.39,
+            "Lat": 38.89,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "点力素太村",
+            "Station_Id_C": "C4073",
+            "Lon": 109.82,
+            "Lat": 41.24,
+            "MAX_PRE_1h": 0.8
+        },
+        {
+            "Station_Name": "东孔兑",
+            "Station_Id_C": "C3152",
+            "Lon": 111.21,
+            "Lat": 39.92,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "福城元滩",
+            "Station_Id_C": "C4066",
+            "Lon": 110.29,
+            "Lat": 41.1,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "公德城",
+            "Station_Id_C": "C4109",
+            "Lon": 110.93,
+            "Lat": 40.29,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "康巴什政府",
+            "Station_Id_C": "C3303",
+            "Lon": 109.86,
+            "Lat": 39.61,
+            "MAX_PRE_1h": 1.1
+        },
+        {
+            "Station_Name": "土默特右旗九峰山管委会水泉煤矿气象观测站",
+            "Station_Id_C": "C4103",
+            "Lon": 110.6,
+            "Lat": 40.69,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "丁家渠",
+            "Station_Id_C": "C3290",
+            "Lon": 110.32,
+            "Lat": 39.38,
+            "MAX_PRE_1h": 11.4
+        },
+        {
+            "Station_Name": "二楞滩",
+            "Station_Id_C": "C4065",
+            "Lon": 110.72,
+            "Lat": 41.5,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "五当召庙",
+            "Station_Id_C": "C4099",
+            "Lon": 110.32,
+            "Lat": 40.78,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "清水湾",
+            "Station_Id_C": "C4062",
+            "Lon": 110.45,
+            "Lat": 41.48,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "昭河四队",
+            "Station_Id_C": "C4061",
+            "Lon": 111.32,
+            "Lat": 41.34,
+            "MAX_PRE_1h": 23.9
+        },
+        {
+            "Station_Name": "准格尔召庙",
+            "Station_Id_C": "C3011",
+            "Lon": 110.14,
+            "Lat": 39.6,
+            "MAX_PRE_1h": 28.3
+        },
+        {
+            "Station_Name": "石门景区",
+            "Station_Id_C": "C4058",
+            "Lon": 109.79,
+            "Lat": 40.75,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "达尔罕苏木",
+            "Station_Id_C": "C4055",
+            "Lon": 110.76,
+            "Lat": 41.94,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "美岱召镇",
+            "Station_Id_C": "C4050",
+            "Lon": 110.75,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "阿嘎如泰",
+            "Station_Id_C": "C4045",
+            "Lon": 109.6,
+            "Lat": 40.67,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "打不素",
+            "Station_Id_C": "C4086",
+            "Lon": 109.53,
+            "Lat": 40.55,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "公沟村",
+            "Station_Id_C": "C3150",
+            "Lon": 110.31,
+            "Lat": 39.68,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "九峰山管委会",
+            "Station_Id_C": "C4041",
+            "Lon": 110.68,
+            "Lat": 40.71,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "准格尔旗暖水乡圪秋沟村气象观测站",
+            "Station_Id_C": "C3163",
+            "Lon": 110.61,
+            "Lat": 39.78,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "双龙",
+            "Station_Id_C": "C4040",
+            "Lon": 110.96,
+            "Lat": 40.41,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "银号镇",
+            "Station_Id_C": "C4039",
+            "Lon": 110.33,
+            "Lat": 41.11,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "下湿壕镇",
+            "Station_Id_C": "C4038",
+            "Lon": 110.33,
+            "Lat": 40.91,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌克镇",
+            "Station_Id_C": "C4037",
+            "Lon": 110.54,
+            "Lat": 41.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "小文公乡",
+            "Station_Id_C": "C4035",
+            "Lon": 111.3,
+            "Lat": 41.6,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "都荣草原",
+            "Station_Id_C": "C4030",
+            "Lon": 110.51,
+            "Lat": 42.26,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "坝梁",
+            "Station_Id_C": "C4027",
+            "Lon": 109.76,
+            "Lat": 41.09,
+            "MAX_PRE_1h": 3.4
+        },
+        {
+            "Station_Name": "怀朔镇 ",
+            "Station_Id_C": "C4029",
+            "Lon": 110.32,
+            "Lat": 41.29,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沟门镇",
+            "Station_Id_C": "C4025",
+            "Lon": 110.53,
+            "Lat": 40.62,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "小石拐",
+            "Station_Id_C": "C4067",
+            "Lon": 110.36,
+            "Lat": 41.27,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "忽鸡沟",
+            "Station_Id_C": "C4023",
+            "Lon": 110.08,
+            "Lat": 40.85,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "布寨嘎查",
+            "Station_Id_C": "C3086",
+            "Lon": 108.8,
+            "Lat": 38.73,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "西营盘",
+            "Station_Id_C": "C4032",
+            "Lon": 111.4,
+            "Lat": 41.42,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "金山镇",
+            "Station_Id_C": "C4021",
+            "Lon": 110.06,
+            "Lat": 41.01,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "民生渠",
+            "Station_Id_C": "C4018",
+            "Lon": 110.55,
+            "Lat": 40.51,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "毛岱",
+            "Station_Id_C": "C4016",
+            "Lon": 110.8,
+            "Lat": 40.46,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "朝脑梁",
+            "Station_Id_C": "C3034",
+            "Lon": 110.27,
+            "Lat": 39.81,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌兰",
+            "Station_Id_C": "C4015",
+            "Lon": 110.32,
+            "Lat": 41.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "桃林",
+            "Station_Id_C": "C3282",
+            "Lon": 109.57,
+            "Lat": 39.45,
+            "MAX_PRE_1h": 5.7
+        },
+        {
+            "Station_Name": "石拐腮大坝",
+            "Station_Id_C": "C4101",
+            "Lon": 110.24,
+            "Lat": 40.72,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "老石拐区",
+            "Station_Id_C": "C4096",
+            "Lon": 110.27,
+            "Lat": 40.67,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "哈日根图",
+            "Station_Id_C": "C3143",
+            "Lon": 108.24,
+            "Lat": 38.16,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "明沙淖乡2",
+            "Station_Id_C": "C4014",
+            "Lon": 110.38,
+            "Lat": 40.51,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "沟门镇",
+            "Station_Id_C": "C4013",
+            "Lon": 110.52,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "海子乡",
+            "Station_Id_C": "C4011",
+            "Lon": 110.66,
+            "Lat": 40.41,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "黑赖沟一号大桥",
+            "Station_Id_C": "C3237",
+            "Lon": 109.48,
+            "Lat": 40.38,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "昆都仑区",
+            "Station_Id_C": "C4007",
+            "Lon": 109.81,
+            "Lat": 40.64,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "昆河镇",
+            "Station_Id_C": "C4006",
+            "Lon": 109.81,
+            "Lat": 40.62,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "兴胜镇",
+            "Station_Id_C": "C4005",
+            "Lon": 109.97,
+            "Lat": 40.66,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "哈什拉川",
+            "Station_Id_C": "C3044",
+            "Lon": 110.34,
+            "Lat": 39.89,
+            "MAX_PRE_1h": 0.5
+        },
+        {
+            "Station_Name": "赵家店村委会",
+            "Station_Id_C": "C4076",
+            "Lon": 109.87,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "兴顺西镇",
+            "Station_Id_C": "C4056",
+            "Lon": 109.98,
+            "Lat": 41.28,
+            "MAX_PRE_1h": 1.8
+        },
+        {
+            "Station_Name": "海子乡2",
+            "Station_Id_C": "C4012",
+            "Lon": 110.66,
+            "Lat": 40.41,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "武家渠",
+            "Station_Id_C": "C3203",
+            "Lon": 110.03,
+            "Lat": 39.85,
+            "MAX_PRE_1h": 14.1
+        },
+        {
+            "Station_Name": "前口子",
+            "Station_Id_C": "C4004",
+            "Lon": 109.83,
+            "Lat": 40.72,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "胜利",
+            "Station_Id_C": "C3092",
+            "Lon": 108.96,
+            "Lat": 39.56,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼斯太河",
+            "Station_Id_C": "C3015",
+            "Lon": 110.78,
+            "Lat": 40.05,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "其和淖尔",
+            "Station_Id_C": "C3067",
+            "Lon": 109.37,
+            "Lat": 39.37,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "哈业胡同镇",
+            "Station_Id_C": "C4047",
+            "Lon": 109.48,
+            "Lat": 40.63,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "红庆河村",
+            "Station_Id_C": "C3055",
+            "Lon": 109.58,
+            "Lat": 39.35,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "飞机场",
+            "Station_Id_C": "C3285",
+            "Lon": 109.86,
+            "Lat": 39.46,
+            "MAX_PRE_1h": 0.6
+        },
+        {
+            "Station_Name": "卜尔汉图镇",
+            "Station_Id_C": "C4002",
+            "Lon": 109.67,
+            "Lat": 40.66,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": " 达拉特旗校准站",
+            "Station_Id_C": "C8457",
+            "Lon": 110.1,
+            "Lat": 40.4,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "万家寨",
+            "Station_Id_C": "C3061",
+            "Lon": 111.41,
+            "Lat": 39.58,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "昆都仑水库",
+            "Station_Id_C": "C4001",
+            "Lon": 109.81,
+            "Lat": 40.76,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "包头",
+            "Station_Id_C": "53446",
+            "Lon": 109.88,
+            "Lat": 40.53,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "四十里梁",
+            "Station_Id_C": "C3107",
+            "Lon": 108.81,
+            "Lat": 39.61,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "陶利",
+            "Station_Id_C": "C3075",
+            "Lon": 108.67,
+            "Lat": 38.36,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "希拉穆仁",
+            "Station_Id_C": "53367",
+            "Lon": 111.23,
+            "Lat": 41.32,
+            "MAX_PRE_1h": 32.7
+        },
+        {
+            "Station_Name": "鄂托克旗",
+            "Station_Id_C": "53529",
+            "Lon": 107.96,
+            "Lat": 39.09,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "固阳",
+            "Station_Id_C": "53357",
+            "Lon": 110.1,
+            "Lat": 41.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "白云鄂博",
+            "Station_Id_C": "53343",
+            "Lon": 109.97,
+            "Lat": 41.77,
+            "MAX_PRE_1h": 3.2
+        },
+        {
+            "Station_Name": "赵碾房村",
+            "Station_Id_C": "C4074",
+            "Lon": 109.78,
+            "Lat": 41.19,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特中旗呼勒斯太乌珠尔气象观测站",
+            "Station_Id_C": "C3615",
+            "Lon": 107.84,
+            "Lat": 41.48,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特后旗获各琦满都拉气象观测站",
+            "Station_Id_C": "C3630",
+            "Lon": 106.14,
+            "Lat": 41.39,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "开林河",
+            "Station_Id_C": "C4060",
+            "Lon": 109.6,
+            "Lat": 42.19,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "伊泰化工园",
+            "Station_Id_C": "C3180",
+            "Lon": 108.53,
+            "Lat": 40.22,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音镇团结村苗圃",
+            "Station_Id_C": "C3628",
+            "Lon": 106.97,
+            "Lat": 41.03,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "获各琦苏木矿区",
+            "Station_Id_C": "C3627",
+            "Lon": 106.65,
+            "Lat": 41.28,
+            "MAX_PRE_1h": 1.4
+        },
+        {
+            "Station_Name": "昆都仑召",
+            "Station_Id_C": "C4093",
+            "Lon": 109.79,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "后沙坝子",
+            "Station_Id_C": "C3234",
+            "Lon": 109.95,
+            "Lat": 40.16,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "莫林河",
+            "Station_Id_C": "C3626",
+            "Lon": 106.35,
+            "Lat": 41.14,
+            "MAX_PRE_1h": 3.9
+        },
+        {
+            "Station_Name": "油松王",
+            "Station_Id_C": "C3013",
+            "Lon": 110.64,
+            "Lat": 39.43,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "达茂旗",
+            "Station_Id_C": "53352",
+            "Lon": 110.43,
+            "Lat": 41.7,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "明路",
+            "Station_Id_C": "C3624",
+            "Lon": 106.78,
+            "Lat": 41.47,
+            "MAX_PRE_1h": 0.8
+        },
+        {
+            "Station_Name": "宝音图",
+            "Station_Id_C": "C3623",
+            "Lon": 107,
+            "Lat": 41.76,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "青山区",
+            "Station_Id_C": "C4008",
+            "Lon": 109.89,
+            "Lat": 40.65,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "赛乌素镇",
+            "Station_Id_C": "C3622",
+            "Lon": 106.98,
+            "Lat": 41.45,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼和镇",
+            "Station_Id_C": "C3620",
+            "Lon": 106.81,
+            "Lat": 40.95,
+            "MAX_PRE_1h": 0.6
+        },
+        {
+            "Station_Name": "乌拉特中旗甘其毛都图古日格漳泽气象观测站",
+            "Station_Id_C": "C3616",
+            "Lon": 107.76,
+            "Lat": 42.04,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "下湿壕",
+            "Station_Id_C": "C4024",
+            "Lon": 110.61,
+            "Lat": 40.9,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "德日素嘎查",
+            "Station_Id_C": "C3612",
+            "Lon": 108.17,
+            "Lat": 42.25,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "灶火壕",
+            "Station_Id_C": "C3205",
+            "Lon": 109.94,
+            "Lat": 39.69,
+            "MAX_PRE_1h": 14.4
+        },
+        {
+            "Station_Name": "新忽热苏木",
+            "Station_Id_C": "C3607",
+            "Lon": 109.2,
+            "Lat": 41.58,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "七星湖",
+            "Station_Id_C": "C3098",
+            "Lon": 108.34,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特中旗牧羊海气象观测站",
+            "Station_Id_C": "C3603",
+            "Lon": 108.36,
+            "Lat": 41.26,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "德岭山镇",
+            "Station_Id_C": "C3602",
+            "Lon": 108.62,
+            "Lat": 41.24,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌加河",
+            "Station_Id_C": "C3601",
+            "Lon": 108.01,
+            "Lat": 41.29,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "石哈河",
+            "Station_Id_C": "C3600",
+            "Lon": 109.41,
+            "Lat": 41.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "市政府",
+            "Station_Id_C": "C3302",
+            "Lon": 109.78,
+            "Lat": 39.61,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌梁素海",
+            "Station_Id_C": "C3591",
+            "Lon": 108.95,
+            "Lat": 40.93,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "哈德门",
+            "Station_Id_C": "C4080",
+            "Lon": 109.62,
+            "Lat": 40.68,
+            "MAX_PRE_1h": 0.8
+        },
+        {
+            "Station_Name": "沙德格",
+            "Station_Id_C": "C3589",
+            "Lon": 109.63,
+            "Lat": 40.81,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "西斗铺镇",
+            "Station_Id_C": "C4057",
+            "Lon": 109.79,
+            "Lat": 41.21,
+            "MAX_PRE_1h": 3.7
+        },
+        {
+            "Station_Name": "塔布陶勒盖",
+            "Station_Id_C": "C3139",
+            "Lon": 107.78,
+            "Lat": 38.19,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "康乐小区",
+            "Station_Id_C": "C4009",
+            "Lon": 109.85,
+            "Lat": 40.66,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "暖水",
+            "Station_Id_C": "C3006",
+            "Lon": 110.51,
+            "Lat": 39.73,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "白彦花",
+            "Station_Id_C": "C3587",
+            "Lon": 109.22,
+            "Lat": 40.66,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "合同庙",
+            "Station_Id_C": "C3281",
+            "Lon": 109.56,
+            "Lat": 39.6,
+            "MAX_PRE_1h": 0.6
+        },
+        {
+            "Station_Name": "乌兰木伦湖",
+            "Station_Id_C": "C3304",
+            "Lon": 109.78,
+            "Lat": 39.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克前旗上海庙镇哈沙图气象观测站",
+            "Station_Id_C": "C3401",
+            "Lon": 106.78,
+            "Lat": 38.38,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "白彦花镇",
+            "Station_Id_C": "C3581",
+            "Lon": 109.33,
+            "Lat": 40.6,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "小佘太",
+            "Station_Id_C": "C3580",
+            "Lon": 109.53,
+            "Lat": 41.17,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "五原丰裕气象观测站",
+            "Station_Id_C": "C3573",
+            "Lon": 107.78,
+            "Lat": 40.98,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌盖",
+            "Station_Id_C": "C3621",
+            "Lon": 107.2,
+            "Lat": 41.2,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "宿亥图乡",
+            "Station_Id_C": "C3039",
+            "Lon": 109.4,
+            "Lat": 40.21,
+            "MAX_PRE_1h": 0.6
+        },
+        {
+            "Station_Name": "隆兴昌镇美林村",
+            "Station_Id_C": "C3571",
+            "Lon": 108.19,
+            "Lat": 41.17,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "土合气",
+            "Station_Id_C": "C4083",
+            "Lon": 110.27,
+            "Lat": 40.54,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "宝日呼岱",
+            "Station_Id_C": "C3078",
+            "Lon": 108.35,
+            "Lat": 37.96,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "查干哈达",
+            "Station_Id_C": "C4033",
+            "Lon": 110.51,
+            "Lat": 42.26,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "和胜乡",
+            "Station_Id_C": "C3570",
+            "Lon": 108.54,
+            "Lat": 41.12,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "复兴镇",
+            "Station_Id_C": "C3569",
+            "Lon": 107.94,
+            "Lat": 40.95,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "五原隆兴昌蒙中气象观测站",
+            "Station_Id_C": "C3566",
+            "Lon": 108.27,
+            "Lat": 41.05,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌克东河村",
+            "Station_Id_C": "C4052",
+            "Lon": 110.64,
+            "Lat": 41.49,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "双龙2",
+            "Station_Id_C": "C4114",
+            "Lon": 110.96,
+            "Lat": 40.41,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "塔尔湖",
+            "Station_Id_C": "C3565",
+            "Lon": 107.89,
+            "Lat": 41.09,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "胜丰",
+            "Station_Id_C": "C3563",
+            "Lon": 108.38,
+            "Lat": 41.05,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克前旗",
+            "Station_Id_C": "53730",
+            "Lon": 107.48,
+            "Lat": 38.18,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "天吉泰镇",
+            "Station_Id_C": "C3562",
+            "Lon": 107.7,
+            "Lat": 40.9,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "新建",
+            "Station_Id_C": "C4026",
+            "Lon": 110.39,
+            "Lat": 40.92,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "塔拉沟",
+            "Station_Id_C": "C3380",
+            "Lon": 109.03,
+            "Lat": 40.08,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "套海镇",
+            "Station_Id_C": "C3561",
+            "Lon": 108.04,
+            "Lat": 40.9,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "杭锦后旗太阳庙气象观测站",
+            "Station_Id_C": "C3552",
+            "Lon": 106.66,
+            "Lat": 40.82,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "银定图镇",
+            "Station_Id_C": "C3568",
+            "Lon": 107.73,
+            "Lat": 41.16,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "后荒地",
+            "Station_Id_C": "C4112",
+            "Lon": 110.82,
+            "Lat": 40.38,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "蒙海镇",
+            "Station_Id_C": "C3551",
+            "Lon": 106.86,
+            "Lat": 40.85,
+            "MAX_PRE_1h": 0.6
+        },
+        {
+            "Station_Name": "三道桥镇",
+            "Station_Id_C": "C3546",
+            "Lon": 106.96,
+            "Lat": 40.85,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "二道桥镇",
+            "Station_Id_C": "C3545",
+            "Lon": 107.01,
+            "Lat": 40.75,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "哈林格尔镇",
+            "Station_Id_C": "C4046",
+            "Lon": 109.75,
+            "Lat": 40.56,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "头道桥新建",
+            "Station_Id_C": "C3541",
+            "Lon": 107.08,
+            "Lat": 40.72,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "东风煤矿",
+            "Station_Id_C": "C3088",
+            "Lon": 109.39,
+            "Lat": 38.74,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "张发地村",
+            "Station_Id_C": "C4072",
+            "Lon": 109.85,
+            "Lat": 41.26,
+            "MAX_PRE_1h": 1.3
+        },
+        {
+            "Station_Name": "西小召",
+            "Station_Id_C": "C3584",
+            "Lon": 108.36,
+            "Lat": 40.87,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "古城乡",
+            "Station_Id_C": "C3531",
+            "Lon": 107.52,
+            "Lat": 41.15,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "额尔登布拉格苏木",
+            "Station_Id_C": "C3588",
+            "Lon": 108.84,
+            "Lat": 40.85,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "曙光乡金泰园小区",
+            "Station_Id_C": "C3529",
+            "Lon": 107.42,
+            "Lat": 40.76,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "东胜区铜川镇韩家村车站气象观测站",
+            "Station_Id_C": "C3208",
+            "Lon": 109.91,
+            "Lat": 39.91,
+            "MAX_PRE_1h": 16.3
+        },
+        {
+            "Station_Name": "当铺村",
+            "Station_Id_C": "C4077",
+            "Lon": 109.91,
+            "Lat": 40.68,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "八一镇星光村",
+            "Station_Id_C": "C3528",
+            "Lon": 107.5,
+            "Lat": 40.86,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "图古日格嘎查",
+            "Station_Id_C": "C3611",
+            "Lon": 107.68,
+            "Lat": 42.22,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴拉庙",
+            "Station_Id_C": "C3131",
+            "Lon": 107.23,
+            "Lat": 38.15,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "南海湿地",
+            "Station_Id_C": "C4043",
+            "Lon": 110.01,
+            "Lat": 40.54,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "城关镇",
+            "Station_Id_C": "C3527",
+            "Lon": 107.26,
+            "Lat": 40.69,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "东胜",
+            "Station_Id_C": "53543",
+            "Lon": 110.01,
+            "Lat": 39.82,
+            "MAX_PRE_1h": 22.7
+        },
+        {
+            "Station_Name": "乌兰图克镇",
+            "Station_Id_C": "C3525",
+            "Lon": 107.58,
+            "Lat": 40.98,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏独仑",
+            "Station_Id_C": "C3590",
+            "Lon": 108.73,
+            "Lat": 41.13,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "新建南街",
+            "Station_Id_C": "C4028",
+            "Lon": 110.05,
+            "Lat": 41.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "黄羊",
+            "Station_Id_C": "C3524",
+            "Lon": 107.21,
+            "Lat": 40.68,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "滨河新区",
+            "Station_Id_C": "C4082",
+            "Lon": 109.93,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "将军尧",
+            "Station_Id_C": "C4049",
+            "Lon": 110.83,
+            "Lat": 40.41,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "狼山镇",
+            "Station_Id_C": "C3523",
+            "Lon": 107.45,
+            "Lat": 41.05,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "团结镇",
+            "Station_Id_C": "C3550",
+            "Lon": 107.31,
+            "Lat": 41.13,
+            "MAX_PRE_1h": 5.6
+        },
+        {
+            "Station_Name": "白脑包镇",
+            "Station_Id_C": "C3520",
+            "Lon": 107.32,
+            "Lat": 41.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "流动沙丘气象观测站",
+            "Station_Id_C": "C3511",
+            "Lon": 106.86,
+            "Lat": 40.33,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "上海庙",
+            "Station_Id_C": "C3132",
+            "Lon": 106.95,
+            "Lat": 38.23,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "磴口巴彦套海气象观测站",
+            "Station_Id_C": "C3508",
+            "Lon": 106.79,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 0.4
+        },
+        {
+            "Station_Name": "达拉特旗展旦召苏木郝成圪堵气象观测站",
+            "Station_Id_C": "C3244",
+            "Lon": 109.72,
+            "Lat": 39.95,
+            "MAX_PRE_1h": 0.7
+        },
+        {
+            "Station_Name": "伊克敖包",
+            "Station_Id_C": "C3032",
+            "Lon": 109.81,
+            "Lat": 39.63,
+            "MAX_PRE_1h": 1.8
+        },
+        {
+            "Station_Name": "石兰计",
+            "Station_Id_C": "C3609",
+            "Lon": 107.49,
+            "Lat": 41.26,
+            "MAX_PRE_1h": 0.5
+        },
+        {
+            "Station_Name": "沙金苏木圣牧高科草业基地",
+            "Station_Id_C": "C3507",
+            "Lon": 106.45,
+            "Lat": 40.46,
+            "MAX_PRE_1h": 3.1
+        },
+        {
+            "Station_Name": "展旦召苏木",
+            "Station_Id_C": "C3050",
+            "Lon": 109.88,
+            "Lat": 40.4,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "双庙镇五丰二社",
+            "Station_Id_C": "C3543",
+            "Lon": 106.81,
+            "Lat": 40.85,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "杨六圪卜",
+            "Station_Id_C": "C4069",
+            "Lon": 110.21,
+            "Lat": 41.38,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "渡口镇",
+            "Station_Id_C": "C3504",
+            "Lon": 107.11,
+            "Lat": 40.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "隆盛合镇",
+            "Station_Id_C": "C3501",
+            "Lon": 106.93,
+            "Lat": 40.68,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼鲁斯太苏木",
+            "Station_Id_C": "C3605",
+            "Lon": 107.79,
+            "Lat": 41.28,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "两眼井",
+            "Station_Id_C": "C3592",
+            "Lon": 108.99,
+            "Lat": 40.78,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "补隆镇",
+            "Station_Id_C": "C3500",
+            "Lon": 107.08,
+            "Lat": 40.55,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沙金套海苏木",
+            "Station_Id_C": "C3505",
+            "Lon": 106.75,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0.9
+        },
+        {
+            "Station_Name": "五大成",
+            "Station_Id_C": "C4110",
+            "Lon": 110.74,
+            "Lat": 40.32,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特前旗",
+            "Station_Id_C": "53433",
+            "Lon": 108.65,
+            "Lat": 40.73,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "五原",
+            "Station_Id_C": "53337",
+            "Lon": 108.47,
+            "Lat": 41.09,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音陶勒盖",
+            "Station_Id_C": "C3081",
+            "Lon": 109.12,
+            "Lat": 39.16,
+            "MAX_PRE_1h": 13.4
+        },
+        {
+            "Station_Name": "边防六连",
+            "Station_Id_C": "C3613",
+            "Lon": 108.79,
+            "Lat": 42.33,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沙金苏木",
+            "Station_Id_C": "C3503",
+            "Lon": 106.54,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 2.9
+        },
+        {
+            "Station_Name": "伊金霍洛旗纳林陶亥镇温家梁气象观测站",
+            "Station_Id_C": "C3298",
+            "Lon": 110.42,
+            "Lat": 39.41,
+            "MAX_PRE_1h": 18
+        },
+        {
+            "Station_Name": "桑根达来",
+            "Station_Id_C": "53248",
+            "Lon": 109.35,
+            "Lat": 42.23,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特中旗甘其毛都镇巴音杭盖气象观测站",
+            "Station_Id_C": "C3610",
+            "Lon": 107.98,
+            "Lat": 42.02,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "三垧梁",
+            "Station_Id_C": "C3231",
+            "Lon": 110.05,
+            "Lat": 40.32,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "石拐",
+            "Station_Id_C": "C4042",
+            "Lon": 110.27,
+            "Lat": 40.69,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "甘其毛道",
+            "Station_Id_C": "53225",
+            "Lon": 107.54,
+            "Lat": 42.4,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "梅力更",
+            "Station_Id_C": "C4089",
+            "Lon": 109.45,
+            "Lat": 40.66,
+            "MAX_PRE_1h": 0.8
+        },
+        {
+            "Station_Name": "壕赖",
+            "Station_Id_C": "C3283",
+            "Lon": 109.67,
+            "Lat": 39.46,
+            "MAX_PRE_1h": 6.8
+        },
+        {
+            "Station_Name": "先锋",
+            "Station_Id_C": "C3586",
+            "Lon": 109.21,
+            "Lat": 40.61,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "黑麻板",
+            "Station_Id_C": "C4123",
+            "Lon": 110.4,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏波盖乡",
+            "Station_Id_C": "C4051",
+            "Lon": 110.68,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "怀朔镇2",
+            "Station_Id_C": "C4020",
+            "Lon": 110.34,
+            "Lat": 41.29,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "董三尧子",
+            "Station_Id_C": "C3007",
+            "Lon": 110.71,
+            "Lat": 40.28,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "乌拉特后旗",
+            "Station_Id_C": "53324",
+            "Lon": 107.05,
+            "Lat": 41.07,
+            "MAX_PRE_1h": 0.5
+        },
+        {
+            "Station_Name": "巴音哈太",
+            "Station_Id_C": "C3705",
+            "Lon": 108.85,
+            "Lat": 41.5,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "兰桂",
+            "Station_Id_C": "C4088",
+            "Lon": 109.72,
+            "Lat": 40.51,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "格日敖包沟",
+            "Station_Id_C": "C3692",
+            "Lon": 106.42,
+            "Lat": 40.74,
+            "MAX_PRE_1h": 3.9
+        },
+        {
+            "Station_Name": "布日都梁",
+            "Station_Id_C": "C3025",
+            "Lon": 109.93,
+            "Lat": 39.75,
+            "MAX_PRE_1h": 29.6
+        },
+        {
+            "Station_Name": "土默特右旗九峰山管委会弓山湾气象观测站",
+            "Station_Id_C": "C4104",
+            "Lon": 110.76,
+            "Lat": 40.73,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "磴口",
+            "Station_Id_C": "53419",
+            "Lon": 107,
+            "Lat": 40.33,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌审旗无定河镇萨拉乌素气象观测站",
+            "Station_Id_C": "C3297",
+            "Lon": 108.54,
+            "Lat": 37.74,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "阿日勒",
+            "Station_Id_C": "C3145",
+            "Lon": 107.48,
+            "Lat": 38.53,
+            "MAX_PRE_1h": 1.3
+        },
+        {
+            "Station_Name": "巴彦高勒镇奈伦湖",
+            "Station_Id_C": "C3502",
+            "Lon": 106.88,
+            "Lat": 40.19,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "石宝镇",
+            "Station_Id_C": "C4036",
+            "Lon": 110.96,
+            "Lat": 41.35,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "西小召镇北圪堵村",
+            "Station_Id_C": "C3682",
+            "Lon": 108.51,
+            "Lat": 40.9,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "海子塔",
+            "Station_Id_C": "C3018",
+            "Lon": 111.1,
+            "Lat": 39.77,
+            "MAX_PRE_1h": 0.5
+        },
+        {
+            "Station_Name": "胜丰镇",
+            "Station_Id_C": "C3567",
+            "Lon": 108.38,
+            "Lat": 41.05,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "明安",
+            "Station_Id_C": "C3585",
+            "Lon": 109.61,
+            "Lat": 40.92,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "大佘太镇白彦花沟",
+            "Station_Id_C": "C3678",
+            "Lon": 109.26,
+            "Lat": 41.01,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "明沙淖乡",
+            "Station_Id_C": "C4019",
+            "Lon": 110.38,
+            "Lat": 40.51,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "明安镇营盘湾沟",
+            "Station_Id_C": "C3679",
+            "Lon": 109.68,
+            "Lat": 40.95,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "石拐瓷窑沟",
+            "Station_Id_C": "C4010",
+            "Lon": 110.24,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "早稍",
+            "Station_Id_C": "C3121",
+            "Lon": 108.27,
+            "Lat": 39.48,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "布敦毛道沟",
+            "Station_Id_C": "C3694",
+            "Lon": 106.34,
+            "Lat": 40.62,
+            "MAX_PRE_1h": 2.5
+        },
+        {
+            "Station_Name": "毛忽沟",
+            "Station_Id_C": "C4125",
+            "Lon": 110.32,
+            "Lat": 40.74,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏独仑镇召沟",
+            "Station_Id_C": "C3677",
+            "Lon": 108.92,
+            "Lat": 41.15,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "干召庙镇",
+            "Station_Id_C": "C3526",
+            "Lon": 107.29,
+            "Lat": 40.8,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "图克镇",
+            "Station_Id_C": "C3076",
+            "Lon": 109.39,
+            "Lat": 39.02,
+            "MAX_PRE_1h": 7.7
+        },
+        {
+            "Station_Name": "渡口镇城关队",
+            "Station_Id_C": "C3661",
+            "Lon": 107.13,
+            "Lat": 40.44,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "纳林陶亥镇",
+            "Station_Id_C": "C3064",
+            "Lon": 110.25,
+            "Lat": 39.47,
+            "MAX_PRE_1h": 0.6
+        },
+        {
+            "Station_Name": "乌兰强风站",
+            "Station_Id_C": "C3608",
+            "Lon": 108.8,
+            "Lat": 41.95,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "新安镇",
+            "Station_Id_C": "C3582",
+            "Lon": 108.64,
+            "Lat": 40.94,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "临河",
+            "Station_Id_C": "53513",
+            "Lon": 107.37,
+            "Lat": 40.73,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "河南",
+            "Station_Id_C": "53732",
+            "Lon": 108.72,
+            "Lat": 37.85,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "蛮会镇",
+            "Station_Id_C": "C3547",
+            "Lon": 107.19,
+            "Lat": 41.04,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "蓿亥图",
+            "Station_Id_C": "C3158",
+            "Lon": 110.87,
+            "Lat": 40.24,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "前达门",
+            "Station_Id_C": "53321",
+            "Lon": 107.52,
+            "Lat": 41.81,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音镇东升庙沟",
+            "Station_Id_C": "C3659",
+            "Lon": 107.07,
+            "Lat": 41.1,
+            "MAX_PRE_1h": 0.8
+        },
+        {
+            "Station_Name": "小号子",
+            "Station_Id_C": "C4068",
+            "Lon": 110.4,
+            "Lat": 41.23,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼和镇杨贵沟",
+            "Station_Id_C": "C3657",
+            "Lon": 106.76,
+            "Lat": 41.04,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "双河镇",
+            "Station_Id_C": "C3530",
+            "Lon": 107.33,
+            "Lat": 40.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "头道桥",
+            "Station_Id_C": "C3544",
+            "Lon": 107.08,
+            "Lat": 40.66,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "红庆河镇",
+            "Station_Id_C": "C3065",
+            "Lon": 109.3,
+            "Lat": 39.42,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "大佘太",
+            "Station_Id_C": "53348",
+            "Lon": 109.13,
+            "Lat": 41.02,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "风水梁村",
+            "Station_Id_C": "C3052",
+            "Lon": 110.25,
+            "Lat": 40.12,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼勒斯太巴润霍布",
+            "Station_Id_C": "C3653",
+            "Lon": 107.83,
+            "Lat": 41.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "温更罕舒本楚鲁",
+            "Station_Id_C": "C3651",
+            "Lon": 108.15,
+            "Lat": 41.45,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼勒斯太大水口沟口",
+            "Station_Id_C": "C3650",
+            "Lon": 107.69,
+            "Lat": 41.47,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "达茂旗气候校准站",
+            "Station_Id_C": "C8352",
+            "Lon": 110.34,
+            "Lat": 41.65,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "朝阳村",
+            "Station_Id_C": "C3583",
+            "Lon": 109.82,
+            "Lat": 40.87,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "吉尔格朗图",
+            "Station_Id_C": "C3101",
+            "Lon": 107.94,
+            "Lat": 40.8,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沙尔沁镇",
+            "Station_Id_C": "C4044",
+            "Lon": 110.23,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "铜官村",
+            "Station_Id_C": "C4120",
+            "Lon": 109.99,
+            "Lat": 40.56,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "呼勒斯太航盖戈壁",
+            "Station_Id_C": "C3654",
+            "Lon": 107.55,
+            "Lat": 41.5,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "海子堰",
+            "Station_Id_C": "C3560",
+            "Lon": 108.07,
+            "Lat": 40.93,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沙海镇新红",
+            "Station_Id_C": "C3540",
+            "Lon": 106.89,
+            "Lat": 40.97,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "川井苏木",
+            "Station_Id_C": "C3606",
+            "Lon": 108.22,
+            "Lat": 41.9,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音镇三贵口",
+            "Station_Id_C": "C3662",
+            "Lon": 107.1,
+            "Lat": 41.13,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "达拉特旗",
+            "Station_Id_C": "53457",
+            "Lon": 110.03,
+            "Lat": 40.4,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "布拉格",
+            "Station_Id_C": "C3135",
+            "Lon": 107.22,
+            "Lat": 38.49,
+            "MAX_PRE_1h": 11.1
+        },
+        {
+            "Station_Name": "楚鲁图",
+            "Station_Id_C": "C3706",
+            "Lon": 109.04,
+            "Lat": 41.47,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "母哈日沟",
+            "Station_Id_C": "C3045",
+            "Lon": 110.39,
+            "Lat": 39.97,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "小佘太镇淖尔图沟",
+            "Station_Id_C": "C3649",
+            "Lon": 109.4,
+            "Lat": 41.17,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "明安镇陶来沟",
+            "Station_Id_C": "C3647",
+            "Lon": 109.47,
+            "Lat": 40.92,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "袁家圪楞",
+            "Station_Id_C": "C3200",
+            "Lon": 109.18,
+            "Lat": 39.95,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "美岱水库",
+            "Station_Id_C": "C4105",
+            "Lon": 110.72,
+            "Lat": 40.61,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "昆河南桥",
+            "Station_Id_C": "C4098",
+            "Lon": 109.79,
+            "Lat": 40.65,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "阿门其日格",
+            "Station_Id_C": "C3094",
+            "Lon": 109.07,
+            "Lat": 39.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "白彦花镇乌兰布拉格沟",
+            "Station_Id_C": "C3644",
+            "Lon": 108.96,
+            "Lat": 40.62,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音镇毕力盖沟",
+            "Station_Id_C": "C3663",
+            "Lon": 106.96,
+            "Lat": 41.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "双河镇永丰村",
+            "Station_Id_C": "C3522",
+            "Lon": 107.47,
+            "Lat": 40.74,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏米图苏木",
+            "Station_Id_C": "C3128",
+            "Lon": 108.39,
+            "Lat": 38.62,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "杭锦后旗",
+            "Station_Id_C": "53420",
+            "Lon": 107.12,
+            "Lat": 40.85,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "罕台工业园区",
+            "Station_Id_C": "C3033",
+            "Lon": 109.83,
+            "Lat": 39.83,
+            "MAX_PRE_1h": 3.1
+        },
+        {
+            "Station_Name": "巴音花镇",
+            "Station_Id_C": "C4054",
+            "Lon": 109.89,
+            "Lat": 42.27,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "哈林格尔",
+            "Station_Id_C": "C4017",
+            "Lon": 109.72,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "校准站",
+            "Station_Id_C": "C8543",
+            "Lon": 109.82,
+            "Lat": 39.62,
+            "MAX_PRE_1h": 2.9
+        },
+        {
+            "Station_Name": "巴音镇达拉盖沟",
+            "Station_Id_C": "C3656",
+            "Lon": 107.06,
+            "Lat": 41.26,
+            "MAX_PRE_1h": 1.7
+        },
+        {
+            "Station_Name": "新华镇",
+            "Station_Id_C": "C3521",
+            "Lon": 107.62,
+            "Lat": 41.13,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "土右旗",
+            "Station_Id_C": "53455",
+            "Lon": 110.53,
+            "Lat": 40.55,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "苏独仑镇莫棱河",
+            "Station_Id_C": "C3645",
+            "Lon": 108.92,
+            "Lat": 41.25,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "双庙镇",
+            "Station_Id_C": "C3549",
+            "Lon": 106.87,
+            "Lat": 40.77,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "苏独仑镇圐圙补隆",
+            "Station_Id_C": "C3641",
+            "Lon": 108.81,
+            "Lat": 41.2,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "明安镇大努气",
+            "Station_Id_C": "C3648",
+            "Lon": 109.74,
+            "Lat": 40.95,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "四村",
+            "Station_Id_C": "C3054",
+            "Lon": 109.54,
+            "Lat": 42.49,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "朝阳石村",
+            "Station_Id_C": "C4063",
+            "Lon": 110.05,
+            "Lat": 41.53,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "明安镇",
+            "Station_Id_C": "C4053",
+            "Lon": 109.63,
+            "Lat": 41.74,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "纳林套海",
+            "Station_Id_C": "C3640",
+            "Lon": 106.65,
+            "Lat": 40.53,
+            "MAX_PRE_1h": 3.7
+        },
+        {
+            "Station_Name": "昂素",
+            "Station_Id_C": "C3134",
+            "Lon": 108.06,
+            "Lat": 38.23,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "新公中镇",
+            "Station_Id_C": "C3564",
+            "Lon": 108.06,
+            "Lat": 41.09,
+            "MAX_PRE_1h": 1.7
+        },
+        {
+            "Station_Name": "温更镇",
+            "Station_Id_C": "C3604",
+            "Lon": 108.24,
+            "Lat": 41.55,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "磴口哈腾套海气象观测站",
+            "Station_Id_C": "C3509",
+            "Lon": 107.03,
+            "Lat": 40.59,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特后旗潮格温都尔巴彦努如嘎查虎勒盖尔气象观测站",
+            "Station_Id_C": "C3637",
+            "Lon": 106.46,
+            "Lat": 41.76,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "巴音敖包",
+            "Station_Id_C": "C4031",
+            "Lon": 110.13,
+            "Lat": 41.86,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "大佘太镇苏海河",
+            "Station_Id_C": "C3646",
+            "Lon": 108.96,
+            "Lat": 41.09,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "万水泉镇",
+            "Station_Id_C": "C4003",
+            "Lon": 109.95,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音查干",
+            "Station_Id_C": "C3633",
+            "Lon": 107.13,
+            "Lat": 42.22,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "白彦花镇大坝沟",
+            "Station_Id_C": "C3643",
+            "Lon": 109.15,
+            "Lat": 40.65,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特中旗",
+            "Station_Id_C": "53336",
+            "Lon": 108.52,
+            "Lat": 41.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特中旗机场",
+            "Station_Id_C": "C3750",
+            "Lon": 108.38,
+            "Lat": 41.7,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "二里半",
+            "Station_Id_C": "C4078",
+            "Lon": 110.01,
+            "Lat": 40.57,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "敖包梁乡",
+            "Station_Id_C": "C3038",
+            "Lon": 110.29,
+            "Lat": 39.93,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "海力素",
+            "Station_Id_C": "53231",
+            "Lon": 106.4,
+            "Lat": 41.4,
+            "MAX_PRE_1h": 4.9
+        },
+        {
+            "Station_Name": "二旅社",
+            "Station_Id_C": "C4122",
+            "Lon": 109.8,
+            "Lat": 40.67,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "前达门嘎查",
+            "Station_Id_C": "C3636",
+            "Lon": 105.83,
+            "Lat": 41.27,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "纳林",
+            "Station_Id_C": "C3000",
+            "Lon": 110.79,
+            "Lat": 39.75,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "巴彦高勒镇葡萄基地",
+            "Station_Id_C": "C3506",
+            "Lon": 107.01,
+            "Lat": 40.4,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "成陵",
+            "Station_Id_C": "C3069",
+            "Lon": 109.8,
+            "Lat": 39.36,
+            "MAX_PRE_1h": 6.4
+        },
+        {
+            "Station_Name": "乌盖苏木西乌盖沟",
+            "Station_Id_C": "C3655",
+            "Lon": 107.17,
+            "Lat": 41.2,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "黄河乳牛场",
+            "Station_Id_C": "C4087",
+            "Lon": 109.83,
+            "Lat": 40.55,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "札萨克镇",
+            "Station_Id_C": "C3063",
+            "Lon": 109.77,
+            "Lat": 39.2,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "长胜",
+            "Station_Id_C": "C3681",
+            "Lon": 108.59,
+            "Lat": 41.02,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "杭锦旗",
+            "Station_Id_C": "53533",
+            "Lon": 108.71,
+            "Lat": 39.81,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "敖伦苏木",
+            "Station_Id_C": "C4064",
+            "Lon": 110.5,
+            "Lat": 41.97,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "白彦花镇东乌不浪沟",
+            "Station_Id_C": "C3642",
+            "Lon": 109.39,
+            "Lat": 40.63,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "纳太村",
+            "Station_Id_C": "C4106",
+            "Lon": 110.61,
+            "Lat": 40.6,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌兰乌素",
+            "Station_Id_C": "C3112",
+            "Lon": 107.59,
+            "Lat": 39.26,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "脑音乌拉",
+            "Station_Id_C": "C3634",
+            "Lon": 105.81,
+            "Lat": 41.58,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "梅令沟",
+            "Station_Id_C": "C4070",
+            "Lon": 110.38,
+            "Lat": 40.97,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "响沙湾",
+            "Station_Id_C": "C3035",
+            "Lon": 110,
+            "Lat": 40.24,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "西河乡",
+            "Station_Id_C": "C4034",
+            "Lon": 110.06,
+            "Lat": 41.53,
+            "MAX_PRE_1h": 2.7
+        },
+        {
+            "Station_Name": "本巴图",
+            "Station_Id_C": "C3635",
+            "Lon": 105.94,
+            "Lat": 41.01,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "东胜区泊江海镇燕三圪堵气象观测站",
+            "Station_Id_C": "C3210",
+            "Lon": 109.26,
+            "Lat": 39.89,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "达尔罕茂明安联合旗红旗牧场气象观测站",
+            "Station_Id_C": "53257",
+            "Lon": 110.01,
+            "Lat": 42.02,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌斯太沟",
+            "Station_Id_C": "C3693",
+            "Lon": 106.4,
+            "Lat": 40.67,
+            "MAX_PRE_1h": 6.3
+        },
+        {
+            "Station_Name": "哈塔布齐",
+            "Station_Id_C": "C3632",
+            "Lon": 105.48,
+            "Lat": 41.68,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "甘珠庙",
+            "Station_Id_C": "C3280",
+            "Lon": 109.64,
+            "Lat": 39.52,
+            "MAX_PRE_1h": 0.3
+        },
+        {
+            "Station_Name": "红泥井",
+            "Station_Id_C": "C4022",
+            "Lon": 109.83,
+            "Lat": 41.38,
+            "MAX_PRE_1h": 0.1
+        },
+        {
+            "Station_Name": "温更乌不浪口",
+            "Station_Id_C": "C3652",
+            "Lon": 108.36,
+            "Lat": 41.42,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克旗阿尔巴斯苏木阿如布拉格气象观测站",
+            "Station_Id_C": "C3172",
+            "Lon": 107.38,
+            "Lat": 38.71,
+            "MAX_PRE_1h": 2
+        },
+        {
+            "Station_Name": "罕台川",
+            "Station_Id_C": "C3023",
+            "Lon": 109.85,
+            "Lat": 39.88,
+            "MAX_PRE_1h": 9.8
+        },
+        {
+            "Station_Name": "团结民治",
+            "Station_Id_C": "C3542",
+            "Lon": 107.34,
+            "Lat": 41.15,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "玛瑙湖",
+            "Station_Id_C": "C3631",
+            "Lon": 105.22,
+            "Lat": 41.55,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "磴口包尔盖气象观测站",
+            "Station_Id_C": "C3510",
+            "Lon": 106.58,
+            "Lat": 40.54,
+            "MAX_PRE_1h": 2
+        },
+        {
+            "Station_Name": "麻池镇",
+            "Station_Id_C": "C4048",
+            "Lon": 109.86,
+            "Lat": 40.58,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌拉特后旗巴音前达门巴音忽热气象观测站",
+            "Station_Id_C": "C3638",
+            "Lon": 107.02,
+            "Lat": 42.03,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "乌兰陶勒盖",
+            "Station_Id_C": "C3077",
+            "Lon": 109.07,
+            "Lat": 38.72,
+            "MAX_PRE_1h": 2.3
+        },
+        {
+            "Station_Name": "白彦沟",
+            "Station_Id_C": "C4128",
+            "Lon": 109.82,
+            "Lat": 40.8,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "沙海镇",
+            "Station_Id_C": "C3548",
+            "Lon": 107,
+            "Lat": 40.96,
+            "MAX_PRE_1h": 0.2
+        },
+        {
+            "Station_Name": "大庙村",
+            "Station_Id_C": "C4071",
+            "Lon": 110.51,
+            "Lat": 41.09,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "巴音乌拉嘎查鸡鹿塞",
+            "Station_Id_C": "C3660",
+            "Lon": 106.5,
+            "Lat": 40.79,
+            "MAX_PRE_1h": 3.8
+        },
+        {
+            "Station_Name": "黄海则",
+            "Station_Id_C": "C3141",
+            "Lon": 108.1,
+            "Lat": 37.73,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "鄂托克旗乌兰镇沙日布日都气象观测站",
+            "Station_Id_C": "C3171",
+            "Lon": 108.34,
+            "Lat": 39.22,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "满都拉",
+            "Station_Id_C": "53149",
+            "Lon": 110.13,
+            "Lat": 42.53,
+            "MAX_PRE_1h": 0
+        },
+        {
+            "Station_Name": "毛盖图",
+            "Station_Id_C": "C3137",
+            "Lon": 107.65,
+            "Lat": 38.42,
+            "MAX_PRE_1h": 1.9
+        }
+    ],
+    "colCount": 5,
+    "fieldNames": [
+        "站名",
+        "区站号(字符)",
+        "经度",
+        "纬度",
+        "过去1小时降水量"
+    ],
+    "fieldUnits": [
+        "-",
+        "-",
+        "度",
+        "度",
+        "毫米"
+    ],
+    "fileCount": 0,
+    "requestParams": {},
+    "requestTime": "2021-09-26 15:28:14.2814",
+    "responseTime": "2021-09-26 15:28:14.2814",
+    "returnCode": -1,
+    "returnMessage": "Query success.",
+    "takeTime": "280 ms",
+    "rowCount": 0
+}

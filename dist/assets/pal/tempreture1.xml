@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<palette name="tempreture" valuedefined="true" entrystyle="Default">
+  <entry value="0.00" rgba="200,124,255,0" />
+  <entry value="12.00" rgba="200,124,255,255" />
+  <entry value="14.00" rgba="143,139,249,255" />
+  <entry value="16.00" rgba="151,196,244,255" />
+  <entry value="18.00" rgba="162,239,239,255" />
+  <entry value="20.00" rgba="173,234,203,255" />
+  <entry value="22.00" rgba="152,226,163,255" />
+  <entry value="24.00" rgba="118,214,111,255" />
+  <entry value="26.00" rgba="110,201,74,255" />
+  <entry value="28.00" rgba="112,188,41,255" />
+  <entry value="30.00" rgba="135,181,19,255" />
+  <entry value="32.00" rgba="196,198,35,255" />
+  <entry value="34.00" rgba="216,176,54,255" />
+  <entry value="36.00" rgba="232,147,74,255" />
+  <entry value="38.00" rgba="249,127,97,255" />
+  <entry value="40.00" rgba="226,255,96,255" />
+  <entry value="42.00" rgba="86,255,168,255" />
+  <entry value="44.00" rgba="76,115,255,255" />
+  <entry value="46.00" rgba="255,68,236,255" />
+  <entry value="48.00" rgba="255,56,82,255" />
+  <entry value="50.00" rgba="255,43,71,255" />
+  <entry value="52.00" rgba="255,28,62,255" />
+  <entry value="54.00" rgba="255,15,55,255" />
+  <entry value="56.00" rgba="255,0,40,255" />
+</palette>

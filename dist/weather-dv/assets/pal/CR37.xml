@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<palette name="REFcolortable" valuedefined="true" entrystyle="Default">
+  <entry value="-5.00" rgba="255,255,255,0" />
+  <entry value="0.00" rgba="0,172,164,255" />
+  <entry value="5.00" rgba="192,192,254,255" />
+  <entry value="10.00" rgba="122,114,238,255" />
+  <entry value="15.00" rgba="30,38,208,255" />
+  <entry value="20.00" rgba="166,252,168,255" />
+  <entry value="25.00" rgba="0,234,0,255" />
+  <entry value="30.00" rgba="16,146,26,255" />
+  <entry value="35.00" rgba="252,244,100,255" />
+  <entry value="40.00" rgba="200,200,2,255" />
+  <entry value="45.00" rgba="140,140,0,255" />
+  <entry value="50.00" rgba="254,172,172,255" />
+  <entry value="55.00" rgba="254,100,92,255" />
+  <entry value="60.00" rgba="238,2,48,255" />
+  <entry value="65.00" rgba="212,142,254,255" />
+  <entry value="75.00" rgba="170,36,250,255" />
+</palette>

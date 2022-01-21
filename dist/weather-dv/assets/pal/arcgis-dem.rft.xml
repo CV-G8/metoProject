@@ -1,0 +1,990 @@
+<XmlRasterFunctionTemplate xsi:type='typens:RasterFunctionTemplate'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:xs='http://www.w3.org/2001/XMLSchema'
+    xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'>
+    <Name>已分类</Name>
+    <Description>栅格函数模板。</Description>
+    <Function xsi:type='typens:RenderedRasterFunction'>
+        <Name>渲染的栅格函数</Name>
+        <Description>输出渲染的栅格。</Description>
+        <PixelType>UNKNOWN</PixelType>
+    </Function>
+    <Arguments xsi:type='typens:RenderedRasterFunctionArguments'>
+        <Names xsi:type='typens:ArrayOfString'>
+            <String>Raster</String>
+            <String>Renderer</String>
+        </Names>
+        <Values xsi:type='typens:ArrayOfAnyType'>
+            <AnyType xsi:type='typens:RasterFunctionVariable'>
+                <Name>Raster</Name>
+                <Description></Description>
+                <Value></Value>
+                <IsDataset>true</IsDataset>
+            </AnyType>
+            <AnyType xsi:type='typens:RasterFunctionVariable'>
+                <Name>Renderer</Name>
+                <Description></Description>
+                <Value xsi:type='typens:RasterClassifyRenderer'>
+                    <Indexed>false</Indexed>
+                    <Brightness>0</Brightness>
+                    <Contrast>0</Contrast>
+                    <ResamplingType>RSP_NearestNeighbor</ResamplingType>
+                    <NoDataColor xsi:type='typens:RgbColor'>
+                        <UseWindowsDithering>false</UseWindowsDithering>
+                        <AlphaValue>0</AlphaValue>
+                        <Red>255</Red>
+                        <Green>255</Green>
+                        <Blue>255</Blue>
+                    </NoDataColor>
+                    <NoDataValue xsi:type='typens:ArrayOfDouble'>
+                        <Double>2.2250738585072014e-308</Double>
+                        <Double>2.2250738585072014e-308</Double>
+                        <Double>2.2250738585072014e-308</Double>
+                    </NoDataValue>
+                    <AlphaBandIndex>-1</AlphaBandIndex>
+                    <UseAlphaBand>false</UseAlphaBand>
+                    <ClassField>&lt;值&gt;</ClassField>
+                    <NormField>&lt;无&gt;</NormField>
+                    <ClassificationComponent>false</ClassificationComponent>
+                    <ColorSchema>Elevation #2</ColorSchema>
+                    <LegendGroupsCount>1</LegendGroupsCount>
+                    <LegendGroups xsi:type='typens:ArrayOfLegendGroup'>
+                        <LegendGroup xsi:type='typens:LegendGroup'>
+                            <Visible>true</Visible>
+                            <Editable>true</Editable>
+                            <Heading>&lt;值&gt;</Heading>
+                            <LegendClasses xsi:type='typens:ArrayOfLegendClass'>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAADV3hisUuZUQHhk
+RUC2sD3AXbimDNylGcAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>-0.2 - 0</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAACPdILBEFdVQN5r
+pUOW+kDAkMN9ddpuJUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0 - 0.1</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAA5hX9AAOpVQC6t
+RKIUMEHAc+cGrAahN0AAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.1 -0.2</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAABbUq73qllXQHlq
+SeO4ITPAHgs4t0WONkAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.2 -0.3</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAACOe1ipkHxYQB4c
+dg2DpR7A8gtA5BBzNEAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.3 - 0.4</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAABH339ktqVYQIhN
+Lyt8piDA7qkzk2LKOUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.4 - 0.5</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAC00oU9wZFYQIK+
+JRymdyTAM+NyQgllQEAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.5 - 0.6</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAADblap2U39YQIIQ
+yCP0CSjAqPnURhbxQ0AAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.6 - 0.7</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAADs7PGqfG5YQDqh
+cgrAVyvAE4BFaIaER0AAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.7 - 0.8</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAABMSuvWPOJXQCoi
+MDX2OCjA5gyH5mlKR0AAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.8 - 0.9</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAABfxD4mEe1WQEQV
+6svNkiLAGp2xL8STRUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>0.9 - 1.0</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAAr0btxL+tVQLZQ
+vzewSRfAcSIDVhdEQ0AAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.0 - 1.1</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAADXIxxYJP9UQGy8
+gQ8mqgvAsq1BMU62QUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.1 - 1.2</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAAV9AU+hrdTQMAz
+ebellN6/jlLaefEcQUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.2 - 1.3</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAA7wWw5oM1RQDuY
+2NDsjgFAtBwvS5O+QUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.3 - 1.4</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAD0gjf9Q8ZPQJTp
+EwgI6hFAZCSBakeeQkAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.4 - 1.5</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAAYGsee39pLQDsg
+1mXMtxtAZi34mFgcQ0AAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.5 - 1.6</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAACAcyyo+pNKQLc5
+ft2sUB9AshvoL4kpQUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.6 - 1.7</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAB67yi/ZrdMQKtZ
+8XeBlx5Ai/VWJMP4NUAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.7 - 1.8</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAADU+CKHbgJPQCgx
+6TdE7xpAIKc/FO+KIkAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.8 - 1.9</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAAuDDte5p5QQPIc
+DgEtNxZA7mS6iaNQEMAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>1.9 - 2.0</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAACUBIoSYGNRQDrX
+Yd51MhdAgqShqCzwKcAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.0 - 2.1</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAABE+gCmLIlRQJG4
+/ft6/h9A3Tq7JbYQKMAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.1 - 2.2</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAABcNCKxnLJRQN9T
+LsKwsiRAuq5Z1LUDJsAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.2 - 2.3</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAADVzg4xHNpRQHWp
+EXpZESlAkW7feeIPJMAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.3 - 2.4</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAACVsLB26S5SQFyi
+v3+oWS1AbNYAWiVfIsAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.4 - 2.5</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAABgczn/l8ZTQCWI
+Q2wQiyVAVpucRXkkG8AAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.5 - 2.6</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAAAu5PJUmXRVQGLn
+Hh8d2x1AsVt8fhqPEsAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.6 - 2.7</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAACId9h9DAdXQEeb
+bIMKdBNA3nISisJGCMAAAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.7 - 2.8</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                                <LegendClass xsi:type='typens:LegendClass'>
+                                    <Symbol xsi:type='typens:XMLBinarySymbol'>
+                                        <Data xsi:type='typens:XMLPersistedObject'>
+                                            <Bytes>4JofuG4C0xGcHwDAT1qm7QAAAAABAJLE6X4j0dARg4MIAAm5lswBAAAAAQABAADJ3LNQEOJYQBKz
+tHbLUfA/UIbRRFPY5L8AAA0AAAAAAAAAAAAAAA==
+</Bytes>
+                                        </Data>
+                                    </Symbol>
+                                    <Label>2.8 - 2.9</Label>
+                                    <Description></Description>
+                                </LegendClass>
+                            </LegendClasses>
+                        </LegendGroup>
+                    </LegendGroups>
+                    <BreakSize>31</BreakSize>
+                    <ArrayOfBreak xsi:type='typens:ArrayOfDouble'>
+                        <Double>-152</Double>
+                        <Double>0</Double>
+                        <Double>100</Double>
+                        <Double>200</Double>
+                        <Double>300</Double>
+                        <Double>400</Double>
+                        <Double>500</Double>
+                        <Double>600</Double>
+                        <Double>700</Double>
+                        <Double>800</Double>
+                        <Double>900</Double>
+                        <Double>1000</Double>
+                        <Double>1100</Double>
+                        <Double>1200</Double>
+                        <Double>1300</Double>
+                        <Double>1400</Double>
+                        <Double>1500</Double>
+                        <Double>1600</Double>
+                        <Double>1700</Double>
+                        <Double>1800</Double>
+                        <Double>1900</Double>
+                        <Double>2000</Double>
+                        <Double>2100</Double>
+                        <Double>2200</Double>
+                        <Double>2300</Double>
+                        <Double>2400</Double>
+                        <Double>2500</Double>
+                        <Double>2600</Double>
+                        <Double>2700</Double>
+                        <Double>2800</Double>
+                        <Double>2900</Double>
+                    </ArrayOfBreak>
+                    <Ascending>true</Ascending>
+                    <NumberFormat xsi:type='typens:NumericFormat'>
+                        <RoundingOption>esriRoundNumberOfSignificantDigits</RoundingOption>
+                        <AlignmentOption>esriAlignLeft</AlignmentOption>
+                        <RoundingValue>10</RoundingValue>
+                        <AlignmentWidth>12</AlignmentWidth>
+                        <UseSeparator>true</UseSeparator>
+                        <ZeroPad>false</ZeroPad>
+                        <ShowPlus>false</ShowPlus>
+                    </NumberFormat>
+                    <ShowClassGaps>false</ShowClassGaps>
+                    <DeviationInterval>0</DeviationInterval>
+                    <ExclusionShowClass>false</ExclusionShowClass>
+                    <ExclusionLegendClass xsi:type='typens:LegendClass'>
+                        <Symbol xsi:type='typens:SimpleFillSymbol'>
+                            <Color xsi:type='typens:RgbColor'>
+                                <UseWindowsDithering>true</UseWindowsDithering>
+                                <AlphaValue>0</AlphaValue>
+                                <Red>0</Red>
+                                <Green>0</Green>
+                                <Blue>0</Blue>
+                            </Color>
+                            <Outline xsi:type='typens:SimpleLineSymbol'>
+                                <Color xsi:type='typens:RgbColor'>
+                                    <UseWindowsDithering>true</UseWindowsDithering>
+                                    <AlphaValue>255</AlphaValue>
+                                    <Red>110</Red>
+                                    <Green>110</Green>
+                                    <Blue>110</Blue>
+                                </Color>
+                                <Style>esriSLSSolid</Style>
+                                <Width>1</Width>
+                            </Outline>
+                            <Style>esriSFSSolid</Style>
+                        </Symbol>
+                        <Label></Label>
+                        <Description></Description>
+                    </ExclusionLegendClass>
+                    <UniqueValues xsi:type='typens:RasterUniqueValues'>
+                        <UniqueValuesSize>256</UniqueValuesSize>
+                        <Values xsi:type='typens:ArrayOfValue'>
+                            <Value xsi:type='xs:double'>-152</Value>
+                            <Value xsi:type='xs:double'>-140.2235294117647</Value>
+                            <Value xsi:type='xs:double'>-128.4470588235294</Value>
+                            <Value xsi:type='xs:double'>-116.6705882352941</Value>
+                            <Value xsi:type='xs:double'>-104.89411764705881</Value>
+                            <Value xsi:type='xs:double'>-93.117647058823508</Value>
+                            <Value xsi:type='xs:double'>-81.341176470588209</Value>
+                            <Value xsi:type='xs:double'>-69.564705882352911</Value>
+                            <Value xsi:type='xs:double'>-57.788235294117612</Value>
+                            <Value xsi:type='xs:double'>-46.011764705882314</Value>
+                            <Value xsi:type='xs:double'>-34.235294117647015</Value>
+                            <Value xsi:type='xs:double'>-22.45882352941172</Value>
+                            <Value xsi:type='xs:double'>-10.682352941176426</Value>
+                            <Value xsi:type='xs:double'>1.0941176470588694</Value>
+                            <Value xsi:type='xs:double'>12.870588235294164</Value>
+                            <Value xsi:type='xs:double'>24.647058823529459</Value>
+                            <Value xsi:type='xs:double'>36.423529411764754</Value>
+                            <Value xsi:type='xs:double'>48.200000000000045</Value>
+                            <Value xsi:type='xs:double'>59.976470588235344</Value>
+                            <Value xsi:type='xs:double'>71.752941176470642</Value>
+                            <Value xsi:type='xs:double'>83.529411764705941</Value>
+                            <Value xsi:type='xs:double'>95.305882352941239</Value>
+                            <Value xsi:type='xs:double'>107.08235294117654</Value>
+                            <Value xsi:type='xs:double'>118.85882352941184</Value>
+                            <Value xsi:type='xs:double'>130.63529411764713</Value>
+                            <Value xsi:type='xs:double'>142.41176470588243</Value>
+                            <Value xsi:type='xs:double'>154.18823529411773</Value>
+                            <Value xsi:type='xs:double'>165.96470588235303</Value>
+                            <Value xsi:type='xs:double'>177.74117647058833</Value>
+                            <Value xsi:type='xs:double'>189.51764705882363</Value>
+                            <Value xsi:type='xs:double'>201.29411764705893</Value>
+                            <Value xsi:type='xs:double'>213.07058823529422</Value>
+                            <Value xsi:type='xs:double'>224.84705882352952</Value>
+                            <Value xsi:type='xs:double'>236.62352941176482</Value>
+                            <Value xsi:type='xs:double'>248.40000000000012</Value>
+                            <Value xsi:type='xs:double'>260.17647058823542</Value>
+                            <Value xsi:type='xs:double'>271.95294117647069</Value>
+                            <Value xsi:type='xs:double'>283.72941176470596</Value>
+                            <Value xsi:type='xs:double'>295.50588235294123</Value>
+                            <Value xsi:type='xs:double'>307.2823529411765</Value>
+                            <Value xsi:type='xs:double'>319.05882352941177</Value>
+                            <Value xsi:type='xs:double'>330.83529411764704</Value>
+                            <Value xsi:type='xs:double'>342.61176470588231</Value>
+                            <Value xsi:type='xs:double'>354.38823529411758</Value>
+                            <Value xsi:type='xs:double'>366.16470588235285</Value>
+                            <Value xsi:type='xs:double'>377.94117647058812</Value>
+                            <Value xsi:type='xs:double'>389.71764705882339</Value>
+                            <Value xsi:type='xs:double'>401.49411764705866</Value>
+                            <Value xsi:type='xs:double'>413.27058823529393</Value>
+                            <Value xsi:type='xs:double'>425.0470588235292</Value>
+                            <Value xsi:type='xs:double'>436.82352941176447</Value>
+                            <Value xsi:type='xs:double'>448.59999999999974</Value>
+                            <Value xsi:type='xs:double'>460.37647058823501</Value>
+                            <Value xsi:type='xs:double'>472.15294117647028</Value>
+                            <Value xsi:type='xs:double'>483.92941176470555</Value>
+                            <Value xsi:type='xs:double'>495.70588235294082</Value>
+                            <Value xsi:type='xs:double'>507.48235294117609</Value>
+                            <Value xsi:type='xs:double'>519.25882352941142</Value>
+                            <Value xsi:type='xs:double'>531.03529411764669</Value>
+                            <Value xsi:type='xs:double'>542.81176470588196</Value>
+                            <Value xsi:type='xs:double'>554.58823529411723</Value>
+                            <Value xsi:type='xs:double'>566.3647058823525</Value>
+                            <Value xsi:type='xs:double'>578.14117647058777</Value>
+                            <Value xsi:type='xs:double'>589.91764705882304</Value>
+                            <Value xsi:type='xs:double'>601.69411764705831</Value>
+                            <Value xsi:type='xs:double'>613.47058823529358</Value>
+                            <Value xsi:type='xs:double'>625.24705882352885</Value>
+                            <Value xsi:type='xs:double'>637.02352941176412</Value>
+                            <Value xsi:type='xs:double'>648.79999999999939</Value>
+                            <Value xsi:type='xs:double'>660.57647058823466</Value>
+                            <Value xsi:type='xs:double'>672.35294117646993</Value>
+                            <Value xsi:type='xs:double'>684.1294117647052</Value>
+                            <Value xsi:type='xs:double'>695.90588235294047</Value>
+                            <Value xsi:type='xs:double'>707.68235294117574</Value>
+                            <Value xsi:type='xs:double'>719.45882352941101</Value>
+                            <Value xsi:type='xs:double'>731.23529411764628</Value>
+                            <Value xsi:type='xs:double'>743.01176470588155</Value>
+                            <Value xsi:type='xs:double'>754.78823529411682</Value>
+                            <Value xsi:type='xs:double'>766.56470588235209</Value>
+                            <Value xsi:type='xs:double'>778.34117647058736</Value>
+                            <Value xsi:type='xs:double'>790.11764705882263</Value>
+                            <Value xsi:type='xs:double'>801.8941176470579</Value>
+                            <Value xsi:type='xs:double'>813.67058823529317</Value>
+                            <Value xsi:type='xs:double'>825.44705882352844</Value>
+                            <Value xsi:type='xs:double'>837.22352941176371</Value>
+                            <Value xsi:type='xs:double'>848.99999999999898</Value>
+                            <Value xsi:type='xs:double'>860.77647058823425</Value>
+                            <Value xsi:type='xs:double'>872.55294117646952</Value>
+                            <Value xsi:type='xs:double'>884.32941176470479</Value>
+                            <Value xsi:type='xs:double'>896.10588235294006</Value>
+                            <Value xsi:type='xs:double'>907.88235294117533</Value>
+                            <Value xsi:type='xs:double'>919.6588235294106</Value>
+                            <Value xsi:type='xs:double'>931.43529411764587</Value>
+                            <Value xsi:type='xs:double'>943.21176470588114</Value>
+                            <Value xsi:type='xs:double'>954.98823529411641</Value>
+                            <Value xsi:type='xs:double'>966.76470588235168</Value>
+                            <Value xsi:type='xs:double'>978.54117647058695</Value>
+                            <Value xsi:type='xs:double'>990.31764705882222</Value>
+                            <Value xsi:type='xs:double'>1002.0941176470575</Value>
+                            <Value xsi:type='xs:double'>1013.8705882352928</Value>
+                            <Value xsi:type='xs:double'>1025.6470588235281</Value>
+                            <Value xsi:type='xs:double'>1037.4235294117634</Value>
+                            <Value xsi:type='xs:double'>1049.1999999999987</Value>
+                            <Value xsi:type='xs:double'>1060.976470588234</Value>
+                            <Value xsi:type='xs:double'>1072.7529411764692</Value>
+                            <Value xsi:type='xs:double'>1084.5294117647045</Value>
+                            <Value xsi:type='xs:double'>1096.3058823529398</Value>
+                            <Value xsi:type='xs:double'>1108.082352941175</Value>
+                            <Value xsi:type='xs:double'>1119.8588235294103</Value>
+                            <Value xsi:type='xs:double'>1131.6352941176456</Value>
+                            <Value xsi:type='xs:double'>1143.4117647058808</Value>
+                            <Value xsi:type='xs:double'>1155.1882352941161</Value>
+                            <Value xsi:type='xs:double'>1166.9647058823514</Value>
+                            <Value xsi:type='xs:double'>1178.7411764705867</Value>
+                            <Value xsi:type='xs:double'>1190.5176470588219</Value>
+                            <Value xsi:type='xs:double'>1202.2941176470572</Value>
+                            <Value xsi:type='xs:double'>1214.0705882352925</Value>
+                            <Value xsi:type='xs:double'>1225.8470588235277</Value>
+                            <Value xsi:type='xs:double'>1237.623529411763</Value>
+                            <Value xsi:type='xs:double'>1249.3999999999983</Value>
+                            <Value xsi:type='xs:double'>1261.1764705882335</Value>
+                            <Value xsi:type='xs:double'>1272.9529411764688</Value>
+                            <Value xsi:type='xs:double'>1284.7294117647041</Value>
+                            <Value xsi:type='xs:double'>1296.5058823529394</Value>
+                            <Value xsi:type='xs:double'>1308.2823529411746</Value>
+                            <Value xsi:type='xs:double'>1320.0588235294099</Value>
+                            <Value xsi:type='xs:double'>1331.8352941176452</Value>
+                            <Value xsi:type='xs:double'>1343.6117647058804</Value>
+                            <Value xsi:type='xs:double'>1355.3882352941157</Value>
+                            <Value xsi:type='xs:double'>1367.164705882351</Value>
+                            <Value xsi:type='xs:double'>1378.9411764705862</Value>
+                            <Value xsi:type='xs:double'>1390.7176470588215</Value>
+                            <Value xsi:type='xs:double'>1402.4941176470568</Value>
+                            <Value xsi:type='xs:double'>1414.2705882352921</Value>
+                            <Value xsi:type='xs:double'>1426.0470588235273</Value>
+                            <Value xsi:type='xs:double'>1437.8235294117626</Value>
+                            <Value xsi:type='xs:double'>1449.5999999999979</Value>
+                            <Value xsi:type='xs:double'>1461.3764705882331</Value>
+                            <Value xsi:type='xs:double'>1473.1529411764684</Value>
+                            <Value xsi:type='xs:double'>1484.9294117647037</Value>
+                            <Value xsi:type='xs:double'>1496.7058823529389</Value>
+                            <Value xsi:type='xs:double'>1508.4823529411742</Value>
+                            <Value xsi:type='xs:double'>1520.2588235294095</Value>
+                            <Value xsi:type='xs:double'>1532.0352941176448</Value>
+                            <Value xsi:type='xs:double'>1543.81176470588</Value>
+                            <Value xsi:type='xs:double'>1555.5882352941153</Value>
+                            <Value xsi:type='xs:double'>1567.3647058823506</Value>
+                            <Value xsi:type='xs:double'>1579.1411764705858</Value>
+                            <Value xsi:type='xs:double'>1590.9176470588211</Value>
+                            <Value xsi:type='xs:double'>1602.6941176470564</Value>
+                            <Value xsi:type='xs:double'>1614.4705882352916</Value>
+                            <Value xsi:type='xs:double'>1626.2470588235269</Value>
+                            <Value xsi:type='xs:double'>1638.0235294117622</Value>
+                            <Value xsi:type='xs:double'>1649.7999999999975</Value>
+                            <Value xsi:type='xs:double'>1661.5764705882327</Value>
+                            <Value xsi:type='xs:double'>1673.352941176468</Value>
+                            <Value xsi:type='xs:double'>1685.1294117647033</Value>
+                            <Value xsi:type='xs:double'>1696.9058823529385</Value>
+                            <Value xsi:type='xs:double'>1708.6823529411738</Value>
+                            <Value xsi:type='xs:double'>1720.4588235294091</Value>
+                            <Value xsi:type='xs:double'>1732.2352941176443</Value>
+                            <Value xsi:type='xs:double'>1744.0117647058796</Value>
+                            <Value xsi:type='xs:double'>1755.7882352941149</Value>
+                            <Value xsi:type='xs:double'>1767.5647058823502</Value>
+                            <Value xsi:type='xs:double'>1779.3411764705854</Value>
+                            <Value xsi:type='xs:double'>1791.1176470588207</Value>
+                            <Value xsi:type='xs:double'>1802.894117647056</Value>
+                            <Value xsi:type='xs:double'>1814.6705882352912</Value>
+                            <Value xsi:type='xs:double'>1826.4470588235265</Value>
+                            <Value xsi:type='xs:double'>1838.2235294117618</Value>
+                            <Value xsi:type='xs:double'>1849.999999999997</Value>
+                            <Value xsi:type='xs:double'>1861.7764705882323</Value>
+                            <Value xsi:type='xs:double'>1873.5529411764676</Value>
+                            <Value xsi:type='xs:double'>1885.3294117647029</Value>
+                            <Value xsi:type='xs:double'>1897.1058823529381</Value>
+                            <Value xsi:type='xs:double'>1908.8823529411734</Value>
+                            <Value xsi:type='xs:double'>1920.6588235294087</Value>
+                            <Value xsi:type='xs:double'>1932.4352941176439</Value>
+                            <Value xsi:type='xs:double'>1944.2117647058792</Value>
+                            <Value xsi:type='xs:double'>1955.9882352941145</Value>
+                            <Value xsi:type='xs:double'>1967.7647058823497</Value>
+                            <Value xsi:type='xs:double'>1979.541176470585</Value>
+                            <Value xsi:type='xs:double'>1991.3176470588203</Value>
+                            <Value xsi:type='xs:double'>2003.0941176470556</Value>
+                            <Value xsi:type='xs:double'>2014.8705882352908</Value>
+                            <Value xsi:type='xs:double'>2026.6470588235261</Value>
+                            <Value xsi:type='xs:double'>2038.4235294117614</Value>
+                            <Value xsi:type='xs:double'>2050.1999999999966</Value>
+                            <Value xsi:type='xs:double'>2061.9764705882321</Value>
+                            <Value xsi:type='xs:double'>2073.7529411764676</Value>
+                            <Value xsi:type='xs:double'>2085.5294117647031</Value>
+                            <Value xsi:type='xs:double'>2097.3058823529386</Value>
+                            <Value xsi:type='xs:double'>2109.0823529411741</Value>
+                            <Value xsi:type='xs:double'>2120.8588235294096</Value>
+                            <Value xsi:type='xs:double'>2132.6352941176451</Value>
+                            <Value xsi:type='xs:double'>2144.4117647058806</Value>
+                            <Value xsi:type='xs:double'>2156.1882352941161</Value>
+                            <Value xsi:type='xs:double'>2167.9647058823516</Value>
+                            <Value xsi:type='xs:double'>2179.7411764705871</Value>
+                            <Value xsi:type='xs:double'>2191.5176470588226</Value>
+                            <Value xsi:type='xs:double'>2203.2941176470581</Value>
+                            <Value xsi:type='xs:double'>2215.0705882352936</Value>
+                            <Value xsi:type='xs:double'>2226.8470588235291</Value>
+                            <Value xsi:type='xs:double'>2238.6235294117646</Value>
+                            <Value xsi:type='xs:double'>2250.4000000000001</Value>
+                            <Value xsi:type='xs:double'>2262.1764705882356</Value>
+                            <Value xsi:type='xs:double'>2273.9529411764711</Value>
+                            <Value xsi:type='xs:double'>2285.7294117647066</Value>
+                            <Value xsi:type='xs:double'>2297.5058823529421</Value>
+                            <Value xsi:type='xs:double'>2309.2823529411776</Value>
+                            <Value xsi:type='xs:double'>2321.0588235294131</Value>
+                            <Value xsi:type='xs:double'>2332.8352941176486</Value>
+                            <Value xsi:type='xs:double'>2344.6117647058841</Value>
+                            <Value xsi:type='xs:double'>2356.3882352941196</Value>
+                            <Value xsi:type='xs:double'>2368.1647058823551</Value>
+                            <Value xsi:type='xs:double'>2379.9411764705906</Value>
+                            <Value xsi:type='xs:double'>2391.7176470588261</Value>
+                            <Value xsi:type='xs:double'>2403.4941176470616</Value>
+                            <Value xsi:type='xs:double'>2415.2705882352971</Value>
+                            <Value xsi:type='xs:double'>2427.0470588235326</Value>
+                            <Value xsi:type='xs:double'>2438.823529411768</Value>
+                            <Value xsi:type='xs:double'>2450.6000000000035</Value>
+                            <Value xsi:type='xs:double'>2462.376470588239</Value>
+                            <Value xsi:type='xs:double'>2474.1529411764745</Value>
+                            <Value xsi:type='xs:double'>2485.92941176471</Value>
+                            <Value xsi:type='xs:double'>2497.7058823529455</Value>
+                            <Value xsi:type='xs:double'>2509.482352941181</Value>
+                            <Value xsi:type='xs:double'>2521.2588235294165</Value>
+                            <Value xsi:type='xs:double'>2533.035294117652</Value>
+                            <Value xsi:type='xs:double'>2544.8117647058875</Value>
+                            <Value xsi:type='xs:double'>2556.588235294123</Value>
+                            <Value xsi:type='xs:double'>2568.3647058823585</Value>
+                            <Value xsi:type='xs:double'>2580.141176470594</Value>
+                            <Value xsi:type='xs:double'>2591.9176470588295</Value>
+                            <Value xsi:type='xs:double'>2603.694117647065</Value>
+                            <Value xsi:type='xs:double'>2615.4705882353005</Value>
+                            <Value xsi:type='xs:double'>2627.247058823536</Value>
+                            <Value xsi:type='xs:double'>2639.0235294117715</Value>
+                            <Value xsi:type='xs:double'>2650.800000000007</Value>
+                            <Value xsi:type='xs:double'>2662.5764705882425</Value>
+                            <Value xsi:type='xs:double'>2674.352941176478</Value>
+                            <Value xsi:type='xs:double'>2686.1294117647135</Value>
+                            <Value xsi:type='xs:double'>2697.905882352949</Value>
+                            <Value xsi:type='xs:double'>2709.6823529411845</Value>
+                            <Value xsi:type='xs:double'>2721.45882352942</Value>
+                            <Value xsi:type='xs:double'>2733.2352941176555</Value>
+                            <Value xsi:type='xs:double'>2745.011764705891</Value>
+                            <Value xsi:type='xs:double'>2756.7882352941265</Value>
+                            <Value xsi:type='xs:double'>2768.564705882362</Value>
+                            <Value xsi:type='xs:double'>2780.3411764705975</Value>
+                            <Value xsi:type='xs:double'>2792.117647058833</Value>
+                            <Value xsi:type='xs:double'>2803.8941176470685</Value>
+                            <Value xsi:type='xs:double'>2815.670588235304</Value>
+                            <Value xsi:type='xs:double'>2827.4470588235395</Value>
+                            <Value xsi:type='xs:double'>2839.223529411775</Value>
+                            <Value xsi:type='xs:double'>2851</Value>
+                        </Values>
+                        <Counts xsi:type='typens:ArrayOfInt'>
+                            <Int>16</Int>
+                            <Int>25</Int>
+                            <Int>56</Int>
+                            <Int>155</Int>
+                            <Int>305</Int>
+                            <Int>673</Int>
+                            <Int>1502</Int>
+                            <Int>3678</Int>
+                            <Int>7671</Int>
+                            <Int>20459</Int>
+                            <Int>63415</Int>
+                            <Int>243077</Int>
+                            <Int>2023917</Int>
+                            <Int>35029444</Int>
+                            <Int>24040408</Int>
+                            <Int>18722360</Int>
+                            <Int>12150802</Int>
+                            <Int>6677940</Int>
+                            <Int>4518108</Int>
+                            <Int>2811518</Int>
+                            <Int>1950732</Int>
+                            <Int>1637258</Int>
+                            <Int>1337890</Int>
+                            <Int>1464771</Int>
+                            <Int>1314038</Int>
+                            <Int>1196441</Int>
+                            <Int>1066695</Int>
+                            <Int>1182075</Int>
+                            <Int>1151326</Int>
+                            <Int>1112628</Int>
+                            <Int>1055522</Int>
+                            <Int>929193</Int>
+                            <Int>981514</Int>
+                            <Int>958992</Int>
+                            <Int>952102</Int>
+                            <Int>870555</Int>
+                            <Int>952266</Int>
+                            <Int>953753</Int>
+                            <Int>942813</Int>
+                            <Int>938006</Int>
+                            <Int>846865</Int>
+                            <Int>914859</Int>
+                            <Int>916739</Int>
+                            <Int>917972</Int>
+                            <Int>837668</Int>
+                            <Int>911306</Int>
+                            <Int>922061</Int>
+                            <Int>936408</Int>
+                            <Int>943779</Int>
+                            <Int>875009</Int>
+                            <Int>962878</Int>
+                            <Int>982684</Int>
+                            <Int>1099097</Int>
+                            <Int>1095360</Int>
+                            <Int>1220858</Int>
+                            <Int>1282088</Int>
+                            <Int>1262669</Int>
+                            <Int>1222764</Int>
+                            <Int>1094137</Int>
+                            <Int>1184665</Int>
+                            <Int>1181071</Int>
+                            <Int>1179037</Int>
+                            <Int>1086282</Int>
+                            <Int>1196163</Int>
+                            <Int>1217706</Int>
+                            <Int>1224389</Int>
+                            <Int>1205902</Int>
+                            <Int>1104091</Int>
+                            <Int>1213198</Int>
+                            <Int>1212291</Int>
+                            <Int>1207215</Int>
+                            <Int>1108308</Int>
+                            <Int>1213206</Int>
+                            <Int>1190443</Int>
+                            <Int>1162841</Int>
+                            <Int>1147591</Int>
+                            <Int>1039303</Int>
+                            <Int>1125026</Int>
+                            <Int>1119228</Int>
+                            <Int>1104734</Int>
+                            <Int>997982</Int>
+                            <Int>1086463</Int>
+                            <Int>1074958</Int>
+                            <Int>1069609</Int>
+                            <Int>994057</Int>
+                            <Int>1135963</Int>
+                            <Int>1189163</Int>
+                            <Int>1175023</Int>
+                            <Int>1179009</Int>
+                            <Int>1070747</Int>
+                            <Int>1172066</Int>
+                            <Int>1141174</Int>
+                            <Int>1114246</Int>
+                            <Int>997951</Int>
+                            <Int>1068836</Int>
+                            <Int>1062458</Int>
+                            <Int>1066834</Int>
+                            <Int>1044730</Int>
+                            <Int>936664</Int>
+                            <Int>1004845</Int>
+                            <Int>997274</Int>
+                            <Int>995108</Int>
+                            <Int>907497</Int>
+                            <Int>986292</Int>
+                            <Int>981496</Int>
+                            <Int>976845</Int>
+                            <Int>979336</Int>
+                            <Int>913064</Int>
+                            <Int>962647</Int>
+                            <Int>947413</Int>
+                            <Int>942939</Int>
+                            <Int>849926</Int>
+                            <Int>916203</Int>
+                            <Int>899211</Int>
+                            <Int>891085</Int>
+                            <Int>874290</Int>
+                            <Int>788186</Int>
+                            <Int>851715</Int>
+                            <Int>836800</Int>
+                            <Int>828252</Int>
+                            <Int>794477</Int>
+                            <Int>964335</Int>
+                            <Int>942657</Int>
+                            <Int>931250</Int>
+                            <Int>931996</Int>
+                            <Int>892503</Int>
+                            <Int>1136302</Int>
+                            <Int>1325803</Int>
+                            <Int>1520538</Int>
+                            <Int>1510115</Int>
+                            <Int>1841571</Int>
+                            <Int>1845073</Int>
+                            <Int>1718283</Int>
+                            <Int>1566591</Int>
+                            <Int>1335381</Int>
+                            <Int>1395599</Int>
+                            <Int>1334024</Int>
+                            <Int>1249920</Int>
+                            <Int>1059211</Int>
+                            <Int>1073062</Int>
+                            <Int>978194</Int>
+                            <Int>898112</Int>
+                            <Int>836966</Int>
+                            <Int>705098</Int>
+                            <Int>711373</Int>
+                            <Int>662604</Int>
+                            <Int>607248</Int>
+                            <Int>503445</Int>
+                            <Int>502363</Int>
+                            <Int>465398</Int>
+                            <Int>423975</Int>
+                            <Int>392481</Int>
+                            <Int>339058</Int>
+                            <Int>350504</Int>
+                            <Int>326403</Int>
+                            <Int>297423</Int>
+                            <Int>250955</Int>
+                            <Int>252743</Int>
+                            <Int>234527</Int>
+                            <Int>220106</Int>
+                            <Int>208350</Int>
+                            <Int>185644</Int>
+                            <Int>194868</Int>
+                            <Int>182528</Int>
+                            <Int>168354</Int>
+                            <Int>144919</Int>
+                            <Int>146978</Int>
+                            <Int>131352</Int>
+                            <Int>115423</Int>
+                            <Int>96256</Int>
+                            <Int>94289</Int>
+                            <Int>85480</Int>
+                            <Int>79011</Int>
+                            <Int>73531</Int>
+                            <Int>60597</Int>
+                            <Int>60724</Int>
+                            <Int>56793</Int>
+                            <Int>52682</Int>
+                            <Int>44458</Int>
+                            <Int>45266</Int>
+                            <Int>42231</Int>
+                            <Int>39585</Int>
+                            <Int>36768</Int>
+                            <Int>30674</Int>
+                            <Int>30449</Int>
+                            <Int>27325</Int>
+                            <Int>25127</Int>
+                            <Int>21363</Int>
+                            <Int>21303</Int>
+                            <Int>20027</Int>
+                            <Int>18153</Int>
+                            <Int>15959</Int>
+                            <Int>12581</Int>
+                            <Int>12370</Int>
+                            <Int>10637</Int>
+                            <Int>8670</Int>
+                            <Int>6417</Int>
+                            <Int>5907</Int>
+                            <Int>5396</Int>
+                            <Int>4899</Int>
+                            <Int>4366</Int>
+                            <Int>3790</Int>
+                            <Int>3939</Int>
+                            <Int>3821</Int>
+                            <Int>3702</Int>
+                            <Int>3155</Int>
+                            <Int>3335</Int>
+                            <Int>3235</Int>
+                            <Int>3080</Int>
+                            <Int>2872</Int>
+                            <Int>2602</Int>
+                            <Int>2739</Int>
+                            <Int>2742</Int>
+                            <Int>2647</Int>
+                            <Int>2378</Int>
+                            <Int>2531</Int>
+                            <Int>2407</Int>
+                            <Int>2337</Int>
+                            <Int>2154</Int>
+                            <Int>1893</Int>
+                            <Int>1870</Int>
+                            <Int>1844</Int>
+                            <Int>1770</Int>
+                            <Int>1544</Int>
+                            <Int>1669</Int>
+                            <Int>1624</Int>
+                            <Int>1565</Int>
+                            <Int>1465</Int>
+                            <Int>1307</Int>
+                            <Int>1420</Int>
+                            <Int>1392</Int>
+                            <Int>1212</Int>
+                            <Int>1082</Int>
+                            <Int>1135</Int>
+                            <Int>1021</Int>
+                            <Int>912</Int>
+                            <Int>853</Int>
+                            <Int>757</Int>
+                            <Int>714</Int>
+                            <Int>716</Int>
+                            <Int>639</Int>
+                            <Int>574</Int>
+                            <Int>491</Int>
+                            <Int>396</Int>
+                            <Int>368</Int>
+                            <Int>269</Int>
+                            <Int>197</Int>
+                            <Int>161</Int>
+                            <Int>107</Int>
+                            <Int>83</Int>
+                            <Int>44</Int>
+                            <Int>40</Int>
+                            <Int>41</Int>
+                            <Int>36</Int>
+                            <Int>21</Int>
+                            <Int>2</Int>
+                        </Counts>
+                    </UniqueValues>
+                    <UseHillShader>true</UseHillShader>
+                    <ZScale>1</ZScale>
+                    <SymbolFlipped>false</SymbolFlipped>
+                </Value>
+                <IsDataset>false</IsDataset>
+            </AnyType>
+        </Values>
+    </Arguments>
+    <Help></Help>
+</XmlRasterFunctionTemplate>

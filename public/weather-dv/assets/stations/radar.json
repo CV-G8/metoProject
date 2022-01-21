@@ -1,0 +1,1874 @@
+{
+    "Z9552": {
+      "Name": "蚌埠",
+      "Province": "安徽",
+      "Code": "Z9552",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 32.91778,
+      "Longitude": 117.4478
+    },
+    "Z9558": {
+      "Name": "阜阳",
+      "Province": "安徽",
+      "Code": "Z9558",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 32.87889,
+      "Longitude": 115.7408
+    },
+    "Z9551": {
+      "Name": "合肥",
+      "Province": "安徽",
+      "Code": "Z9551",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 31.86695,
+      "Longitude": 117.2578
+    },
+    "Z9559": {
+      "Name": "黄山",
+      "Province": "安徽",
+      "Code": "Z9559",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.13778,
+      "Longitude": 118.165
+    },
+    "Z9555": {
+      "Name": "马鞍山",
+      "Province": "安徽",
+      "Code": "Z9555",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 31.70083,
+      "Longitude": 118.5158
+    },
+    "Z9562": {
+      "Name": "铜陵",
+      "Province": "安徽",
+      "Code": "Z9562",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.57195,
+      "Longitude": 118.0139
+    },
+    "Z9563": {
+      "Name": "宣城",
+      "Province": "安徽",
+      "Code": "Z9563",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.94056,
+      "Longitude": 118.7589
+    },
+    "Z9010": {
+      "Name": "北京SA",
+      "Province": "北京",
+      "Code": "Z9010",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 39.80889,
+      "Longitude": 116.4719
+    },
+    "Z9591": {
+      "Name": "福州",
+      "Province": "福建",
+      "Code": "Z9591",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 25.98195,
+      "Longitude": 119.5319
+    },
+    "Z9599": {
+      "Name": "建阳",
+      "Province": "福建",
+      "Code": "Z9599",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 27.35,
+      "Longitude": 118.1008
+    },
+    "Z9597": {
+      "Name": "龙岩",
+      "Province": "福建",
+      "Code": "Z9597",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 25.05778,
+      "Longitude": 117.1819
+    },
+    "Z9593": {
+      "Name": "宁德",
+      "Province": "福建",
+      "Code": "Z9593",
+      "Type": "CCJ",
+      "Height": 0.0,
+      "Latitude": 26.56389,
+      "Longitude": 119.6778
+    },
+    "Z9592": {
+      "Name": "厦门",
+      "Province": "福建",
+      "Code": "Z9592",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 24.48195,
+      "Longitude": 118.0789
+    },
+    "Z9596": {
+      "Name": "东山",
+      "Province": "福建",
+      "Code": "Z9596",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 23.59945,
+      "Longitude": 117.4
+    },
+    "Z9595": {
+      "Name": "泉州",
+      "Province": "福建",
+      "Code": "Z9595",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 24.90722,
+      "Longitude": 118.5869
+    },
+    "Z9598": {
+      "Name": "三明",
+      "Province": "福建",
+      "Code": "Z9598",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 26.26306,
+      "Longitude": 117.6378
+    },
+    "Z9937": {
+      "Name": "酒泉",
+      "Province": "甘肃",
+      "Code": "Z9937",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 39.76389,
+      "Longitude": 98.29778
+    },
+    "Z9931": {
+      "Name": "兰州",
+      "Province": "甘肃",
+      "Code": "Z9931",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 36.00972,
+      "Longitude": 103.8508
+    },
+    "Z9938": {
+      "Name": "天水",
+      "Province": "甘肃",
+      "Code": "Z9938",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 34.60389,
+      "Longitude": 105.6389
+    },
+    "Z9934": {
+      "Name": "西峰",
+      "Province": "甘肃",
+      "Code": "Z9934",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 35.71583,
+      "Longitude": 107.6269
+    },
+    "Z9936": {
+      "Name": "张掖",
+      "Province": "甘肃",
+      "Code": "Z9936",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 39.08778,
+      "Longitude": 100.2769
+    },
+    "Z9941": {
+      "Name": "甘南",
+      "Province": "甘肃",
+      "Code": "Z9941",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 34.90805,
+      "Longitude": 102.8897
+    },
+    "Z9200": {
+      "Name": "广州",
+      "Province": "广东",
+      "Code": "Z9200",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 23.00389,
+      "Longitude": 113.355
+    },
+    "Z9762": {
+      "Name": "河源",
+      "Province": "广东",
+      "Code": "Z9762",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 23.69,
+      "Longitude": 114.6069
+    },
+    "Z9753": {
+      "Name": "梅州",
+      "Province": "广东",
+      "Code": "Z9753",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 24.25778,
+      "Longitude": 115.9928
+    },
+    "Z9754": {
+      "Name": "汕头",
+      "Province": "广东",
+      "Code": "Z9754",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 23.29389,
+      "Longitude": 116.6997
+    },
+    "Z9660": {
+      "Name": "汕尾",
+      "Province": "广东",
+      "Code": "Z9660",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 22.81778,
+      "Longitude": 115.3558
+    },
+    "Z9751": {
+      "Name": "韶关",
+      "Province": "广东",
+      "Code": "Z9751",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 24.79083,
+      "Longitude": 113.5658
+    },
+    "Z9755": {
+      "Name": "深圳",
+      "Province": "广东",
+      "Code": "Z9755",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 22.54194,
+      "Longitude": 114.0047
+    },
+    "Z9662": {
+      "Name": "阳江",
+      "Province": "广东",
+      "Code": "Z9662",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 21.84472,
+      "Longitude": 111.9789
+    },
+    "Z9759": {
+      "Name": "湛江",
+      "Province": "广东",
+      "Code": "Z9759",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 21.01194,
+      "Longitude": 110.5258
+    },
+    "Z9758": {
+      "Name": "肇庆",
+      "Province": "广东",
+      "Code": "Z9758",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 22.92778,
+      "Longitude": 112.5628
+    },
+    "Z9763": {
+      "Name": "连州",
+      "Province": "广东",
+      "Code": "Z9763",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 24.73195,
+      "Longitude": 112.4019
+    },
+    "Z9776": {
+      "Name": "百色",
+      "Province": "广西",
+      "Code": "Z9776",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 23.90278,
+      "Longitude": 106.6028
+    },
+    "Z9779": {
+      "Name": "北海",
+      "Province": "广西",
+      "Code": "Z9779",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 21.44695,
+      "Longitude": 109.0419
+    },
+    "Z9773": {
+      "Name": "桂林",
+      "Province": "广西",
+      "Code": "Z9773",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 25.31694,
+      "Longitude": 110.3
+    },
+    "Z9778": {
+      "Name": "河池",
+      "Province": "广西",
+      "Code": "Z9778",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 24.98889,
+      "Longitude": 107.5078
+    },
+    "Z9772": {
+      "Name": "柳州",
+      "Province": "广西",
+      "Code": "Z9772",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 24.35695,
+      "Longitude": 109.4558
+    },
+    "Z9771": {
+      "Name": "南宁",
+      "Province": "广西",
+      "Code": "Z9771",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 22.80972,
+      "Longitude": 108.4
+    },
+    "Z9774": {
+      "Name": "梧州",
+      "Province": "广西",
+      "Code": "Z9774",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 23.46972,
+      "Longitude": 111.3039
+    },
+    "Z9075": {
+      "Name": "崇左",
+      "Province": "广西",
+      "Code": "Z9075",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 22.37722,
+      "Longitude": 107.3647
+    },
+    "Z9770": {
+      "Name": "防城港",
+      "Province": "广西",
+      "Code": "Z9770",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 21.61528,
+      "Longitude": 108.3469
+    },
+    "Z9775": {
+      "Name": "玉林",
+      "Province": "广西",
+      "Code": "Z9775",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 22.63639,
+      "Longitude": 110.165
+    },
+    "Z9857": {
+      "Name": "毕节",
+      "Province": "贵州",
+      "Code": "Z9857",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 27.30389,
+      "Longitude": 105.3008
+    },
+    "Z9854": {
+      "Name": "都匀",
+      "Province": "贵州",
+      "Code": "Z9854",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 26.32278,
+      "Longitude": 107.5147
+    },
+    "Z9851": {
+      "Name": "贵阳",
+      "Province": "贵州",
+      "Code": "Z9851",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 26.59,
+      "Longitude": 106.7258
+    },
+    "Z9859": {
+      "Name": "兴义",
+      "Province": "贵州",
+      "Code": "Z9859",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 25.08778,
+      "Longitude": 104.8958
+    },
+    "Z9852": {
+      "Name": "遵义",
+      "Province": "贵州",
+      "Code": "Z9852",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 27.68278,
+      "Longitude": 106.9128
+    },
+    "Z9858": {
+      "Name": "六盘水",
+      "Province": "贵州",
+      "Code": "Z9858",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 26.59278,
+      "Longitude": 104.8297
+    },
+    "Z9856": {
+      "Name": "铜仁",
+      "Province": "贵州",
+      "Code": "Z9856",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 27.73139,
+      "Longitude": 109.1978
+    },
+    "Z9898": {
+      "Name": "海口",
+      "Province": "海南",
+      "Code": "Z9898",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 19.99778,
+      "Longitude": 110.2469
+    },
+    "Z9070": {
+      "Name": "三亚",
+      "Province": "海南",
+      "Code": "Z9070",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 18.22778,
+      "Longitude": 109.4969
+    },
+    "Z9071": {
+      "Name": "西沙",
+      "Province": "海南",
+      "Code": "Z9071",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 16.83389,
+      "Longitude": 112.3328
+    },
+    "Z9073": {
+      "Name": "万宁",
+      "Province": "海南",
+      "Code": "Z9073",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 18.795,
+      "Longitude": 110.3908
+    },
+    "Z9072": {
+      "Name": "东方",
+      "Province": "海南",
+      "Code": "Z9072",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 19.09528,
+      "Longitude": 108.6519
+    },
+    "Z9556": {
+      "Name": "安庆",
+      "Province": "合肥",
+      "Code": "Z9556",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.61695,
+      "Longitude": 116.4739
+    },
+    "Z9317": {
+      "Name": "沧州",
+      "Province": "河北",
+      "Code": "Z9317",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 38.30583,
+      "Longitude": 116.8058
+    },
+    "Z9314": {
+      "Name": "承德",
+      "Province": "河北",
+      "Code": "Z9314",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 40.97583,
+      "Longitude": 117.9178
+    },
+    "Z9335": {
+      "Name": "秦皇岛",
+      "Province": "河北",
+      "Code": "Z9335",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 39.88083,
+      "Longitude": 118.8808
+    },
+    "Z9311": {
+      "Name": "石家庄",
+      "Province": "河北",
+      "Code": "Z9311",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 38.35194,
+      "Longitude": 114.7119
+    },
+    "Z9313": {
+      "Name": "张家口",
+      "Province": "河北",
+      "Code": "Z9313",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 41.15472,
+      "Longitude": 114.6939
+    },
+    "Z9379": {
+      "Name": "洛阳",
+      "Province": "河南",
+      "Code": "Z9379",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 34.64278,
+      "Longitude": 112.4519
+    },
+    "Z9377": {
+      "Name": "南阳",
+      "Province": "河南",
+      "Code": "Z9377",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 33.02083,
+      "Longitude": 112.4928
+    },
+    "Z9393": {
+      "Name": "濮阳",
+      "Province": "河南",
+      "Code": "Z9393",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 35.79694,
+      "Longitude": 114.9578
+    },
+    "Z9398": {
+      "Name": "三门峡",
+      "Province": "河南",
+      "Code": "Z9398",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 34.67889,
+      "Longitude": 111.1289
+    },
+    "Z9370": {
+      "Name": "商丘",
+      "Province": "河南",
+      "Code": "Z9370",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 34.40694,
+      "Longitude": 115.6297
+    },
+    "Z9371": {
+      "Name": "郑州",
+      "Province": "河南",
+      "Code": "Z9371",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 34.70389,
+      "Longitude": 113.6969
+    },
+    "Z9396": {
+      "Name": "驻马店",
+      "Province": "河南",
+      "Code": "Z9396",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 33.00972,
+      "Longitude": 114.0197
+    },
+    "Z9376": {
+      "Name": "信阳",
+      "Province": "河南",
+      "Code": "Z9376",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 32.12305,
+      "Longitude": 114.0697
+    },
+    "Z9375": {
+      "Name": "平顶山",
+      "Province": "河南",
+      "Code": "Z9375",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 33.77056,
+      "Longitude": 113.1158
+    },
+    "Z9451": {
+      "Name": "哈尔滨",
+      "Province": "黑龙江",
+      "Code": "Z9451",
+      "Type": "CA",
+      "Height": 0.0,
+      "Latitude": 45.72389,
+      "Longitude": 126.7278
+    },
+    "Z9457": {
+      "Name": "加格达奇",
+      "Province": "黑龙江",
+      "Code": "Z9457",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 50.40778,
+      "Longitude": 124.1178
+    },
+    "Z9454": {
+      "Name": "佳木斯",
+      "Province": "黑龙江",
+      "Code": "Z9454",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 46.79583,
+      "Longitude": 130.3178
+    },
+    "Z9085": {
+      "Name": "建三江",
+      "Province": "黑龙江",
+      "Code": "Z9085",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 47.23278,
+      "Longitude": 132.625
+    },
+    "Z9084": {
+      "Name": "九三分局",
+      "Province": "黑龙江",
+      "Code": "Z9084",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 48.86778,
+      "Longitude": 125.2919
+    },
+    "Z9453": {
+      "Name": "牡丹江",
+      "Province": "黑龙江",
+      "Code": "Z9453",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 44.59083,
+      "Longitude": 129.6
+    },
+    "Z9452": {
+      "Name": "齐齐哈尔",
+      "Province": "黑龙江",
+      "Code": "Z9452",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 47.36694,
+      "Longitude": 123.9339
+    },
+    "Z9458": {
+      "Name": "伊春",
+      "Province": "黑龙江",
+      "Code": "Z9458",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 47.70083,
+      "Longitude": 128.9139
+    },
+    "Z9718": {
+      "Name": "恩施",
+      "Province": "湖北",
+      "Code": "Z9718",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 30.28695,
+      "Longitude": 109.2569
+    },
+    "Z9716": {
+      "Name": "荆州",
+      "Province": "湖北",
+      "Code": "Z9716",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.35194,
+      "Longitude": 112.1478
+    },
+    "Z9719": {
+      "Name": "十堰",
+      "Province": "湖北",
+      "Code": "Z9719",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 32.59889,
+      "Longitude": 110.7439
+    },
+    "Z9722": {
+      "Name": "随州",
+      "Province": "湖北",
+      "Code": "Z9722",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 31.72583,
+      "Longitude": 113.3889
+    },
+    "Z9270": {
+      "Name": "武汉",
+      "Province": "湖北",
+      "Code": "Z9270",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.51694,
+      "Longitude": 114.3778
+    },
+    "Z9717": {
+      "Name": "宜昌",
+      "Province": "湖北",
+      "Code": "Z9717",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.70194,
+      "Longitude": 111.2958
+    },
+    "Z9713": {
+      "Name": "麻城",
+      "Province": "湖北",
+      "Code": "Z9713",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 31.17167,
+      "Longitude": 115.01
+    },
+    "Z9710": {
+      "Name": "襄阳",
+      "Province": "湖北",
+      "Code": "Z9710",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 32.00834,
+      "Longitude": 112.1219
+    },
+    "Z9736": {
+      "Name": "常德",
+      "Province": "湖南",
+      "Code": "Z9736",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 29.18083,
+      "Longitude": 111.7069
+    },
+    "Z9745": {
+      "Name": "怀化",
+      "Province": "湖南",
+      "Code": "Z9745",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 27.56583,
+      "Longitude": 110.0028
+    },
+    "Z9739": {
+      "Name": "邵阳",
+      "Province": "湖南",
+      "Code": "Z9739",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 27.20694,
+      "Longitude": 111.4469
+    },
+    "Z9746": {
+      "Name": "永州",
+      "Province": "湖南",
+      "Code": "Z9746",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 26.22583,
+      "Longitude": 111.6158
+    },
+    "Z9730": {
+      "Name": "岳阳",
+      "Province": "湖南",
+      "Code": "Z9730",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 29.29889,
+      "Longitude": 113.1028
+    },
+    "Z9731": {
+      "Name": "长沙",
+      "Province": "湖南",
+      "Code": "Z9731",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 28.45972,
+      "Longitude": 113.0119
+    },
+    "Z9735": {
+      "Name": "郴州",
+      "Province": "湖南",
+      "Code": "Z9735",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 25.73389,
+      "Longitude": 112.975
+    },
+    "Z9737": {
+      "Name": "安化",
+      "Province": "湖南",
+      "Code": "Z9737",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 28.37917,
+      "Longitude": 111.2119
+    },
+    "Z9734": {
+      "Name": "衡阳",
+      "Province": "湖南",
+      "Code": "Z9734",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 26.89389,
+      "Longitude": 112.5719
+    },
+    "Z9744": {
+      "Name": "张家界",
+      "Province": "湖南",
+      "Code": "Z9744",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 29.11639,
+      "Longitude": 110.4789
+    },
+    "Z9436": {
+      "Name": "白城",
+      "Province": "吉林",
+      "Code": "Z9436",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 45.81472,
+      "Longitude": 122.8139
+    },
+    "Z9439": {
+      "Name": "白山",
+      "Province": "吉林",
+      "Code": "Z9439",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 41.96889,
+      "Longitude": 126.1989
+    },
+    "Z9433": {
+      "Name": "延吉",
+      "Province": "吉林",
+      "Code": "Z9433",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 42.83889,
+      "Longitude": 129.46
+    },
+    "Z9431": {
+      "Name": "长春",
+      "Province": "吉林",
+      "Code": "Z9431",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 43.89889,
+      "Longitude": 125.2458
+    },
+    "Z9432": {
+      "Name": "吉林市",
+      "Province": "吉林",
+      "Code": "Z9432",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 43.86278,
+      "Longitude": 126.5419
+    },
+    "Z9438": {
+      "Name": "松原",
+      "Province": "吉林",
+      "Code": "Z9438",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 45.13472,
+      "Longitude": 124.8178
+    },
+    "Z9519": {
+      "Name": "常州",
+      "Province": "江苏",
+      "Code": "Z9519",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 31.90083,
+      "Longitude": 119.7797
+    },
+    "Z9518": {
+      "Name": "连云港",
+      "Province": "江苏",
+      "Code": "Z9518",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 34.65083,
+      "Longitude": 119.2939
+    },
+    "Z9250": {
+      "Name": "南京",
+      "Province": "江苏",
+      "Code": "Z9250",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 32.19083,
+      "Longitude": 118.6978
+    },
+    "Z9513": {
+      "Name": "南通",
+      "Province": "江苏",
+      "Code": "Z9513",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 32.07583,
+      "Longitude": 120.9758
+    },
+    "Z9516": {
+      "Name": "徐州",
+      "Province": "江苏",
+      "Code": "Z9516",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 34.29278,
+      "Longitude": 117.1519
+    },
+    "Z9515": {
+      "Name": "盐城",
+      "Province": "江苏",
+      "Code": "Z9515",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 33.43083,
+      "Longitude": 120.2008
+    },
+    "Z9523": {
+      "Name": "泰州",
+      "Province": "江苏",
+      "Code": "Z9523",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 32.55695,
+      "Longitude": 119.9939
+    },
+    "Z9517": {
+      "Name": "淮安",
+      "Province": "江苏",
+      "Code": "Z9517",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 33.61028,
+      "Longitude": 119.015
+    },
+    "Z9797": {
+      "Name": "赣州",
+      "Province": "江西",
+      "Code": "Z9797",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 25.87972,
+      "Longitude": 114.9689
+    },
+    "Z9796": {
+      "Name": "吉安",
+      "Province": "江西",
+      "Code": "Z9796",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 27.04278,
+      "Longitude": 114.9139
+    },
+    "Z9792": {
+      "Name": "九江",
+      "Province": "江西",
+      "Code": "Z9792",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 29.53472,
+      "Longitude": 115.9539
+    },
+    "Z9791": {
+      "Name": "南昌",
+      "Province": "江西",
+      "Code": "Z9791",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 28.59083,
+      "Longitude": 115.8989
+    },
+    "Z9793": {
+      "Name": "上饶",
+      "Province": "江西",
+      "Code": "Z9793",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 28.44278,
+      "Longitude": 117.9769
+    },
+    "Z9798": {
+      "Name": "景德镇",
+      "Province": "江西",
+      "Code": "Z9798",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 29.30667,
+      "Longitude": 117.1808
+    },
+    "Z9794": {
+      "Name": "抚州",
+      "Province": "江西",
+      "Code": "Z9794",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 27.94917,
+      "Longitude": 116.3578
+    },
+    "Z9795": {
+      "Name": "宜春",
+      "Province": "江西",
+      "Code": "Z9795",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 27.79639,
+      "Longitude": 114.3947
+    },
+    "Z9411": {
+      "Name": "大连",
+      "Province": "辽宁",
+      "Code": "Z9411",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 38.90972,
+      "Longitude": 121.6489
+    },
+    "Z9415": {
+      "Name": "丹东",
+      "Province": "辽宁",
+      "Code": "Z9415",
+      "Type": "RD784250",
+      "Height": 0.0,
+      "Latitude": 39.87583,
+      "Longitude": 124.1569
+    },
+    "Z9240": {
+      "Name": "沈阳",
+      "Province": "辽宁",
+      "Code": "Z9240",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 41.92472,
+      "Longitude": 123.6469
+    },
+    "Z9417": {
+      "Name": "营口",
+      "Province": "辽宁",
+      "Code": "Z9417",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 40.67278,
+      "Longitude": 122.2719
+    },
+    "Z9476": {
+      "Name": "赤峰",
+      "Province": "内蒙古",
+      "Code": "Z9476",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 42.23278,
+      "Longitude": 118.9658
+    },
+    "Z9477": {
+      "Name": "鄂尔多斯",
+      "Province": "内蒙古",
+      "Code": "Z9477",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 39.81694,
+      "Longitude": 110.05
+    },
+    "Z9470": {
+      "Name": "海拉尔",
+      "Province": "内蒙古",
+      "Code": "Z9470",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 49.20389,
+      "Longitude": 119.7528
+    },
+    "Z9471": {
+      "Name": "呼和浩特",
+      "Province": "内蒙古",
+      "Code": "Z9471",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 40.98195,
+      "Longitude": 111.6997
+    },
+    "Z9478": {
+      "Name": "临河",
+      "Province": "内蒙古",
+      "Code": "Z9478",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 40.735,
+      "Longitude": 107.3689
+    },
+    "Z9475": {
+      "Name": "通辽",
+      "Province": "内蒙古",
+      "Code": "Z9475",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 43.61972,
+      "Longitude": 122.2608
+    },
+    "Z9479": {
+      "Name": "锡林浩特",
+      "Province": "内蒙古",
+      "Code": "Z9479",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 43.93528,
+      "Longitude": 116.0478
+    },
+    "Z9021": {
+      "Name": "满洲里",
+      "Province": "内蒙古",
+      "Code": "Z9021",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 49.58778,
+      "Longitude": 117.48
+    },
+    "Z9020": {
+      "Name": "霍林郭勒",
+      "Province": "内蒙古",
+      "Code": "Z9020",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 45.53139,
+      "Longitude": 119.6639
+    },
+    "Z9023": {
+      "Name": "邯郸",
+      "Province": "河北",
+      "Code": "Z9023",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 36.61195,
+      "Longitude": 114.4928
+    },
+    "Z9954": {
+      "Name": "固原",
+      "Province": "宁夏",
+      "Code": "Z9954",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 35.68,
+      "Longitude": 106.2019
+    },
+    "Z9951": {
+      "Name": "银川",
+      "Province": "宁夏",
+      "Code": "Z9951",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 38.47972,
+      "Longitude": 106.2147
+    },
+    "Z9953": {
+      "Name": "吴忠",
+      "Province": "宁夏",
+      "Code": "Z9953",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 37.95917,
+      "Longitude": 106.2047
+    },
+    "Z9970": {
+      "Name": "海北",
+      "Province": "青海",
+      "Code": "Z9970",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 36.95195,
+      "Longitude": 100.9047
+    },
+    "Z9971": {
+      "Name": "西宁",
+      "Province": "青海",
+      "Code": "Z9971",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 36.60583,
+      "Longitude": 101.7697
+    },
+    "Z9543": {
+      "Name": "滨州",
+      "Province": "山东",
+      "Code": "Z9543",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 37.36972,
+      "Longitude": 118.0
+    },
+    "Z9531": {
+      "Name": "济南",
+      "Province": "山东",
+      "Code": "Z9531",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 36.80278,
+      "Longitude": 116.7808
+    },
+    "Z9539": {
+      "Name": "临沂",
+      "Province": "山东",
+      "Code": "Z9539",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 35.05083,
+      "Longitude": 118.3478
+    },
+    "Z9532": {
+      "Name": "青岛",
+      "Province": "山东",
+      "Code": "Z9532",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 35.98889,
+      "Longitude": 120.23
+    },
+    "Z9538": {
+      "Name": "泰安",
+      "Province": "山东",
+      "Code": "Z9538",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 36.25583,
+      "Longitude": 117.1058
+    },
+    "Z9535": {
+      "Name": "烟台",
+      "Province": "山东",
+      "Code": "Z9535",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 37.49889,
+      "Longitude": 121.3878
+    },
+    "Z9631": {
+      "Name": "荣成",
+      "Province": "山东",
+      "Code": "Z9631",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 37.16472,
+      "Longitude": 122.4858
+    },
+    "Z9536": {
+      "Name": "潍坊",
+      "Province": "山东",
+      "Code": "Z9536",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 36.66917,
+      "Longitude": 118.9189
+    },
+    "Z9352": {
+      "Name": "大同",
+      "Province": "山西",
+      "Code": "Z9352",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 40.07195,
+      "Longitude": 113.3897
+    },
+    "Z9357": {
+      "Name": "临汾",
+      "Province": "山西",
+      "Code": "Z9357",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 36.06194,
+      "Longitude": 111.4939
+    },
+    "Z9351": {
+      "Name": "太原",
+      "Province": "山西",
+      "Code": "Z9351",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 37.735,
+      "Longitude": 112.5789
+    },
+    "Z9355": {
+      "Name": "长治",
+      "Province": "山西",
+      "Code": "Z9355",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 36.22389,
+      "Longitude": 113.055
+    },
+    "Z9358": {
+      "Name": "吕梁",
+      "Province": "山西",
+      "Code": "Z9358",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 37.51833,
+      "Longitude": 111.1439
+    },
+    "Z9350": {
+      "Name": "五寨",
+      "Province": "山西",
+      "Code": "Z9350",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 38.91056,
+      "Longitude": 111.8469
+    },
+    "Z9915": {
+      "Name": "安康",
+      "Province": "陕西",
+      "Code": "Z9915",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 32.72472,
+      "Longitude": 109.0369
+    },
+    "Z9917": {
+      "Name": "宝鸡",
+      "Province": "陕西",
+      "Code": "Z9917",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 34.53278,
+      "Longitude": 107.2328
+    },
+    "Z9916": {
+      "Name": "汉中",
+      "Province": "陕西",
+      "Code": "Z9916",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 33.13,
+      "Longitude": 107.4739
+    },
+    "Z9290": {
+      "Name": "西安",
+      "Province": "陕西",
+      "Code": "Z9290",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 34.44472,
+      "Longitude": 108.9728
+    },
+    "Z9911": {
+      "Name": "延安",
+      "Province": "陕西",
+      "Code": "Z9911",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 36.60889,
+      "Longitude": 109.4878
+    },
+    "Z9912": {
+      "Name": "榆林",
+      "Province": "陕西",
+      "Code": "Z9912",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 38.27195,
+      "Longitude": 109.7808
+    },
+    "Z9914": {
+      "Name": "商州",
+      "Province": "陕西",
+      "Code": "Z9914",
+      "Type": "CB",
+      "Height": 0.0,
+      "Latitude": 33.87028,
+      "Longitude": 109.9397
+    },
+    "Z9210": {
+      "Name": "南汇",
+      "Province": "上海",
+      "Code": "Z9210",
+      "Type": "UNKNOWN",
+      "Height": 0.0,
+      "Latitude": 31.00083,
+      "Longitude": 121.885
+    },
+    "Z9002": {
+      "Name": "青浦",
+      "Province": "上海",
+      "Code": "Z9002",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 31.075,
+      "Longitude": 120.9589
+    },
+    "Z9280": {
+      "Name": "成都",
+      "Province": "四川",
+      "Code": "Z9280",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 30.66278,
+      "Longitude": 104.0158
+    },
+    "Z9818": {
+      "Name": "达州",
+      "Province": "四川",
+      "Code": "Z9818",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 31.17,
+      "Longitude": 107.5297
+    },
+    "Z9839": {
+      "Name": "广元",
+      "Province": "四川",
+      "Code": "Z9839",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 32.40583,
+      "Longitude": 105.8228
+    },
+    "Z9816": {
+      "Name": "绵阳",
+      "Province": "四川",
+      "Code": "Z9816",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 31.45194,
+      "Longitude": 104.7647
+    },
+    "Z9817": {
+      "Name": "南充",
+      "Province": "四川",
+      "Code": "Z9817",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 30.82195,
+      "Longitude": 106.0778
+    },
+    "Z9834": {
+      "Name": "西昌",
+      "Province": "四川",
+      "Code": "Z9834",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 27.87972,
+      "Longitude": 102.4108
+    },
+    "Z9831": {
+      "Name": "宜宾",
+      "Province": "四川",
+      "Code": "Z9831",
+      "Type": "SC",
+      "Height": 0.0,
+      "Latitude": 28.81972,
+      "Longitude": 104.5778
+    },
+    "Z9837": {
+      "Name": "阿坝",
+      "Province": "四川",
+      "Code": "Z9837",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 31.89944,
+      "Longitude": 102.2239
+    },
+    "Z9836": {
+      "Name": "甘孜",
+      "Province": "四川",
+      "Code": "Z9836",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 30.04944,
+      "Longitude": 101.9619
+    },
+    "Z9220": {
+      "Name": "塘沽",
+      "Province": "天津",
+      "Code": "Z9220",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 39.04389,
+      "Longitude": 117.7169
+    },
+    "Z9891": {
+      "Name": "拉萨",
+      "Province": "西藏",
+      "Code": "Z9891",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 29.66583,
+      "Longitude": 91.135
+    },
+    "Z9894": {
+      "Name": "林芝",
+      "Province": "西藏",
+      "Code": "Z9894",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 29.63278,
+      "Longitude": 94.39584
+    },
+    "Z9896": {
+      "Name": "那曲",
+      "Province": "西藏",
+      "Code": "Z9896",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 31.48083,
+      "Longitude": 92.06084
+    },
+    "Z9892": {
+      "Name": "日喀则",
+      "Province": "西藏",
+      "Code": "Z9892",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 29.25694,
+      "Longitude": 88.89278
+    },
+    "Z9997": {
+      "Name": "阿克苏",
+      "Province": "新疆",
+      "Code": "Z9997",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 41.16278,
+      "Longitude": 80.235
+    },
+    "Z9998": {
+      "Name": "喀什",
+      "Province": "新疆",
+      "Code": "Z9998",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 39.45972,
+      "Longitude": 76.02695
+    },
+    "Z9990": {
+      "Name": "克拉玛依",
+      "Province": "新疆",
+      "Code": "Z9990",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 45.47,
+      "Longitude": 84.96389
+    },
+    "Z9996": {
+      "Name": "库尔勒",
+      "Province": "新疆",
+      "Code": "Z9996",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 41.75972,
+      "Longitude": 86.20389
+    },
+    "Z9992": {
+      "Name": "奎屯",
+      "Province": "新疆",
+      "Code": "Z9992",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 44.38194,
+      "Longitude": 84.10194
+    },
+    "Z9993": {
+      "Name": "石河子",
+      "Province": "新疆",
+      "Code": "Z9993",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 44.28583,
+      "Longitude": 85.97583
+    },
+    "Z9080": {
+      "Name": "塔斯尔海",
+      "Province": "新疆",
+      "Code": "Z9080",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 44.82695,
+      "Longitude": 82.34972
+    },
+    "Z9082": {
+      "Name": "图木舒克",
+      "Province": "新疆",
+      "Code": "Z9082",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 39.86972,
+      "Longitude": 79.08389
+    },
+    "Z9991": {
+      "Name": "乌鲁木齐",
+      "Province": "新疆",
+      "Code": "Z9991",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 43.91583,
+      "Longitude": 87.39278
+    },
+    "Z9081": {
+      "Name": "五家渠",
+      "Province": "新疆",
+      "Code": "Z9081",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 44.14778,
+      "Longitude": 87.555
+    },
+    "Z9999": {
+      "Name": "伊宁",
+      "Province": "新疆",
+      "Code": "Z9999",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 43.94194,
+      "Longitude": 81.32472
+    },
+    "Z9903": {
+      "Name": "和田",
+      "Province": "新疆",
+      "Code": "Z9903",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 37.02694,
+      "Longitude": 79.83195
+    },
+    "Z9086": {
+      "Name": "阿拉尔",
+      "Province": "新疆",
+      "Code": "Z9086",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 40.55917,
+      "Longitude": 81.2675
+    },
+    "Z9692": {
+      "Name": "德宏",
+      "Province": "云南",
+      "Code": "Z9692",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 24.48889,
+      "Longitude": 98.34389
+    },
+    "Z9871": {
+      "Name": "昆明",
+      "Province": "云南",
+      "Code": "Z9871",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 25.05194,
+      "Longitude": 102.5778
+    },
+    "Z9888": {
+      "Name": "丽江",
+      "Province": "云南",
+      "Code": "Z9888",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 26.72778,
+      "Longitude": 100.0419
+    },
+    "Z9879": {
+      "Name": "思茅",
+      "Province": "云南",
+      "Code": "Z9879",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 22.825,
+      "Longitude": 101.0197
+    },
+    "Z9876": {
+      "Name": "文山",
+      "Province": "云南",
+      "Code": "Z9876",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 23.46694,
+      "Longitude": 104.25
+    },
+    "Z9870": {
+      "Name": "昭通",
+      "Province": "云南",
+      "Code": "Z9870",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 27.35278,
+      "Longitude": 103.72
+    },
+    "Z9872": {
+      "Name": "大理",
+      "Province": "云南",
+      "Code": "Z9872",
+      "Type": "CC",
+      "Height": 0.0,
+      "Latitude": 25.60806,
+      "Longitude": 100.3981
+    },
+    "Z9571": {
+      "Name": "杭州",
+      "Province": "浙江",
+      "Code": "Z9571",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.27389,
+      "Longitude": 120.3378
+    },
+    "Z9579": {
+      "Name": "金华",
+      "Province": "浙江",
+      "Code": "Z9579",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 29.20694,
+      "Longitude": 119.6439
+    },
+    "Z9574": {
+      "Name": "宁波",
+      "Province": "浙江",
+      "Code": "Z9574",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.07583,
+      "Longitude": 121.5089
+    },
+    "Z9570": {
+      "Name": "衢州",
+      "Province": "浙江",
+      "Code": "Z9570",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 29.08583,
+      "Longitude": 118.7019
+    },
+    "Z9577": {
+      "Name": "温州",
+      "Province": "浙江",
+      "Code": "Z9577",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 27.895,
+      "Longitude": 120.7428
+    },
+    "Z9580": {
+      "Name": "舟山",
+      "Province": "浙江",
+      "Code": "Z9580",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 30.06889,
+      "Longitude": 122.1089
+    },
+    "Z9576": {
+      "Name": "台州",
+      "Province": "浙江",
+      "Code": "Z9576",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 28.61806,
+      "Longitude": 121.5239
+    },
+    "Z9578": {
+      "Name": "丽水",
+      "Province": "浙江",
+      "Code": "Z9578",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 28.46361,
+      "Longitude": 119.9228
+    },
+    "Z9572": {
+      "Name": "湖州",
+      "Province": "浙江",
+      "Code": "Z9572",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 30.89417,
+      "Longitude": 120.0869
+    },
+    "Z9018": {
+      "Name": "测试",
+      "Province": "中国",
+      "Code": "Z9018",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 44.04778,
+      "Longitude": 112.8758
+    },
+    "Z9091": {
+      "Name": "黔江",
+      "Province": "重庆",
+      "Code": "Z9091",
+      "Type": "CD",
+      "Height": 0.0,
+      "Latitude": 29.59194,
+      "Longitude": 108.7278
+    },
+    "Z9090": {
+      "Name": "万州",
+      "Province": "重庆",
+      "Code": "Z9090",
+      "Type": "SB",
+      "Height": 0.0,
+      "Latitude": 30.80278,
+      "Longitude": 108.6828
+    },
+    "Z9230": {
+      "Name": "重庆",
+      "Province": "重庆",
+      "Code": "Z9230",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 29.52194,
+      "Longitude": 106.4889
+    },
+    "Z9092": {
+      "Name": "永川",
+      "Province": "重庆",
+      "Code": "Z9092",
+      "Type": "SA",
+      "Height": 0.0,
+      "Latitude": 29.23806,
+      "Longitude": 105.83
+    }
+  }

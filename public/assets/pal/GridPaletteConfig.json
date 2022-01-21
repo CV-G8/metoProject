@@ -1,0 +1,51 @@
+﻿//EC格点预报数据调色板配置文件
+[
+  {
+    "name": "温度",
+    "children": [
+      {
+        name: 'TMP',
+        dataName: '850Hpa温度',
+        palattePath: 'Assets/pal/TMP.xml',
+        selectColorByIndex: false,
+        palatteReverse: false
+      }
+    ]
+  },
+  {
+    "name": "湿度",
+    "children": [
+      {
+        name: 'RH',
+        dataName: '850Hpa湿度',
+        palattePath: 'Assets/pal/rain1.xml',
+        selectColorByIndex: false,
+        palatteReverse: true
+      }
+    ]
+  },
+  {
+    "name": "位势高度",
+    "children": [
+      {
+        name: 'HGT',
+        dataName: '500Hpa高度',
+        palattePath: 'Assets/pal/rain1.xml',
+        selectColorByIndex: false,
+        palatteReverse: true
+      }
+    ]
+  },
+  {
+    "name": "风场",
+    "children": [
+      {
+        name: 'WIND',
+        dataName: '500Hpa风场',
+        palattePath: 'Assets/pal/tempreture1.xml',
+        selectColorByIndex: false,
+        palatteReverse: true
+      }
+    ]
+  }
+]
